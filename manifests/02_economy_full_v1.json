@@ -286,10 +286,41 @@
         "path": "data/processed/02_economy/02_economy_socio2_00_00_fcfafe030f874881.parquet",
         "sha256": "fcfafe030f87488167c35e59bd83b60825d008bf14b784fa77806d98c4e799a4"
       }
+    },
+    "socio3::00::00": {
+      "source": "D05",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_03_socio_economic_102_v20260313.zip",
+      "raw_sha256": "1a5c13ad97a10cf4e210776f2f97772e6f298504a82be9cb4c58a4e71ae0a99e",
+      "member": "data_03_socio_economic_102_v20260313",
+      "variant": "socio3_00.csv",
+      "sheet": null,
+      "rows": 132336,
+      "columns": [
+        "section",
+        "indicator_code",
+        "indicator_name",
+        "subsection",
+        "object_name",
+        "object_level",
+        "object_oktmo",
+        "object_okato",
+        "year",
+        "indicator_value",
+        "indicator_unit",
+        "comment",
+        "source",
+        "version_date"
+      ],
+      "bytes": 412736,
+      "remote": {
+        "type": "git",
+        "path": "data/processed/02_economy/02_economy_socio3_00_00_cafcd2322f6a9b8b.parquet",
+        "sha256": "cafcd2322f6a9b8bbc039a4bc49fcdcd33ce17920eb6bbb36ed41a387d93cdb8"
+      }
     }
   },
   "failures": [],
-  "updated_at": "2026-10-20T19:47:37+00:00",
+  "updated_at": "2026-10-20T19:47:52+00:00",
   "completed_sources": {
     "budget": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section13_112_v20260928_section_file.zip",
     "education": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section34_112_v20260928_section_file.zip",
