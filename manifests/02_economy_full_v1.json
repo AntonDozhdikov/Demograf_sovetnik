@@ -193,10 +193,41 @@
         "path": "data/processed/02_economy/02_economy_construction_00_00_f88e7cab0c050072.parquet",
         "sha256": "f88e7cab0c050072684ab48dff9ceacdaf16d508c631185ac402841fb4bef4df"
       }
+    },
+    "labor::00::00": {
+      "source": "D05",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_labor_102_v20260313.zip",
+      "raw_sha256": "1737ea4e78e28a06ff79796a64f3e930d2cd53d963b34874eb5dad64b4f71b36",
+      "member": "data_labor_102_v20260313",
+      "variant": "labor_00.csv",
+      "sheet": null,
+      "rows": 53180,
+      "columns": [
+        "section",
+        "indicator_code",
+        "indicator_name",
+        "subsection",
+        "object_name",
+        "object_level",
+        "object_oktmo",
+        "object_okato",
+        "year",
+        "indicator_value",
+        "indicator_unit",
+        "comment",
+        "source",
+        "version_date"
+      ],
+      "bytes": 376191,
+      "remote": {
+        "type": "git",
+        "path": "data/processed/02_economy/02_economy_labor_00_00_4e3e3176c7ceb1a1.parquet",
+        "sha256": "4e3e3176c7ceb1a175f7e38aee946f056c553a3f105aa43a9ad7e4b0fbfc8bad"
+      }
     }
   },
   "failures": [],
-  "updated_at": "2026-10-20T19:46:28+00:00",
+  "updated_at": "2026-10-20T19:46:43+00:00",
   "completed_sources": {
     "budget": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section13_112_v20260928_section_file.zip",
     "education": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section34_112_v20260928_section_file.zip",
