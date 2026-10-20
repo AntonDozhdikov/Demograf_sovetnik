@@ -207,6 +207,20 @@
         "status": "WARN",
         "reason": "LICENSE_REVIEW_REQUIRED: публикация не разрешена автоматически"
       }
+    },
+    {
+      "source": "BDMO",
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section37_112_v20260928_section_file.zip",
+      "table": 0,
+      "rows": 2247863,
+      "source_rows": 2604372,
+      "columns": 23,
+      "output_bytes": 6342694,
+      "sha256": "37376aec2278e33ec7010186dd573136f91e395c061683f7420f17f763ae3251",
+      "publication": {
+        "status": "WARN",
+        "reason": "LICENSE_REVIEW_REQUIRED: публикация не разрешена автоматически"
+      }
     }
   ],
   "issues": [
@@ -217,8 +231,8 @@
     }
   ],
   "raw_downloaded_bytes": 212547538,
-  "rows": 7185471,
+  "rows": 9433334,
   "output_bytes": 0,
   "publication_verified_files": 0,
-  "updated": "2026-10-20T19:07:51.580211+00:00"
+  "updated": "2026-10-20T19:08:12.015947+00:00"
 }
