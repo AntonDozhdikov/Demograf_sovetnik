@@ -131,10 +131,41 @@
         "name": "02_economy_housing_00_00_d934b1d455452147.parquet",
         "sha256": "d934b1d4554521473277f8e9b533887db49c98f45f10798b5e31fae27e30ebc9"
       }
+    },
+    "social::00::00": {
+      "source": "D05",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_social_status_102_v20260313.zip",
+      "raw_sha256": "fb26dd3f657def7bc060008f5046f06b9c1e3c3e681664aedb86cf0a2ed01455",
+      "member": "data_social_status_102_v20260313",
+      "variant": "social_00.csv",
+      "sheet": null,
+      "rows": 103340,
+      "columns": [
+        "section",
+        "indicator_code",
+        "indicator_name",
+        "subsection",
+        "object_name",
+        "object_level",
+        "object_oktmo",
+        "object_okato",
+        "year",
+        "indicator_value",
+        "indicator_unit",
+        "comment",
+        "source",
+        "version_date"
+      ],
+      "bytes": 443965,
+      "remote": {
+        "type": "git",
+        "path": "data/processed/02_economy/02_economy_social_00_00_32347fb007a1d05f.parquet",
+        "sha256": "32347fb007a1d05f6ebeaebaf1e5ca3e03accbcba39fceb41edf4fff720bb971"
+      }
     }
   },
   "failures": [],
-  "updated_at": "2026-10-20T19:45:58+00:00",
+  "updated_at": "2026-10-20T19:46:13+00:00",
   "completed_sources": {
     "budget": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section13_112_v20260928_section_file.zip",
     "education": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section34_112_v20260928_section_file.zip",
