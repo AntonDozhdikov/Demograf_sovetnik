@@ -1,0 +1,49 @@
+{
+  "segment": "02_economy",
+  "tag": "data-economy-full-v1",
+  "files": {
+    "budget::00::00": {
+      "source": "BDMO",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section13_112_v20260928_section_file.zip",
+      "raw_sha256": "d1f6be45b1e2fc351b3a29d38a8b386ef0e80b2aae6f3727ab8a4288924af33b",
+      "member": "data_section13_112_v20260928",
+      "variant": "budget_01.parquet",
+      "sheet": null,
+      "rows": 8073620,
+      "columns": [
+        "indicator_section_code",
+        "indicator_section",
+        "indicator_code",
+        "indicator_name",
+        "strashod",
+        "stdohod",
+        "region_id",
+        "region_name",
+        "mun_level",
+        "mun_district",
+        "municipality",
+        "oktmo",
+        "mun_type",
+        "mun_type_oktmo",
+        "oktmo_stable",
+        "oktmo_history",
+        "oktmo_year_from",
+        "oktmo_year_to",
+        "year",
+        "indicator_value",
+        "indicator_unit",
+        "indicator_period",
+        "comment"
+      ],
+      "bytes": 31725008,
+      "remote": {
+        "type": "release",
+        "asset_id": 660302459,
+        "name": "02_economy_budget_00_00_70baff304c07d298.parquet",
+        "sha256": "70baff304c07d2988849cf5b89c8f765373801711d331454da534a3dad2a8938"
+      }
+    }
+  },
+  "failures": [],
+  "updated_at": "2026-10-20T19:44:14+00:00"
+}
