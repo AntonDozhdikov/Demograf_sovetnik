@@ -221,6 +221,22 @@
         "status": "WARN",
         "reason": "LICENSE_REVIEW_REQUIRED: публикация не разрешена автоматически"
       }
+    },
+    {
+      "source": "D05",
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_paid_service_102_v20260313.zip",
+      "table": 0,
+      "rows": 62400,
+      "source_rows": 62400,
+      "columns": 14,
+      "output_bytes": 259119,
+      "sha256": "5ed9d388840194abed1a091d2fe650847b2a6d530fbf08298ea7743f60fc5c1d",
+      "publication": {
+        "status": "PASS",
+        "sha256": "5ed9d388840194abed1a091d2fe650847b2a6d530fbf08298ea7743f60fc5c1d",
+        "url": "https://raw.githubusercontent.com/AntonDozhdikov/Demograf_sovetnik/main/data/processed/02_economy/d05_00_00.parquet",
+        "verified": "DOWNLOAD_SHA256"
+      }
     }
   ],
   "issues": [
@@ -231,8 +247,8 @@
     }
   ],
   "raw_downloaded_bytes": 212547538,
-  "rows": 9433334,
+  "rows": 9495734,
   "output_bytes": 0,
   "publication_verified_files": 0,
-  "updated": "2026-10-20T19:08:12.015947+00:00"
+  "updated": "2026-10-20T19:08:24.782419+00:00"
 }
