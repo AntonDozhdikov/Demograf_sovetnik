@@ -406,7 +406,7 @@
     }
   },
   "failures": [],
-  "updated_at": "2026-10-20T19:49:31+00:00",
+  "updated_at": "2026-10-20T19:49:34+00:00",
   "completed_sources": {
     "budget": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section13_112_v20260928_section_file.zip",
     "education": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section34_112_v20260928_section_file.zip",
@@ -417,6 +417,7 @@
     "socio1": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_01_socio_economic_102_v20260313.zip",
     "socio2": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_02_socio_economic_102_v20260313.zip",
     "socio3": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_03_socio_economic_102_v20260313.zip",
-    "5ndfl": "https://storage.yandexcloud.net/tochno-st-catalog/FNS/data_ndfl_155_v20260722/data_5ndfl_155_v20260722.parquet"
+    "5ndfl": "https://storage.yandexcloud.net/tochno-st-catalog/FNS/data_ndfl_155_v20260722/data_5ndfl_155_v20260722.parquet",
+    "7ndfl": "https://storage.yandexcloud.net/tochno-st-catalog/FNS/data_ndfl_155_v20260722/data_7ndfl_155_v20260722.parquet"
   }
 }
