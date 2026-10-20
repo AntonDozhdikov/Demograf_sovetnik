@@ -1,0 +1,51 @@
+{
+  "segment": "01_demography",
+  "mode": "FULL",
+  "as_of": "2026-10-20T12:32:03+00:00",
+  "elapsed_sec": 7.2,
+  "files": [
+    {
+      "source": "D01",
+      "source_page": "https://tochno.st/datasets/mun_demography",
+      "original_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_mun_demography_123_v20240612/data_mun_demography_123_v20240612_csv.zip",
+      "discovered_by": "HTML_SCRIPT",
+      "source_label": "",
+      "status": "PASS",
+      "extracted_at": "2026-10-20T12:31:58+00:00",
+      "source_bytes": 997196,
+      "source_sha256": "bcb60ab18fede2006ff2ff54fe1ae705486a693f440db9ee32a8e501f2a2eb3b",
+      "member": "D01_0_data_mun_demography_123_v20240612_csv_0_data_mun_demography_123_v20240612.csv",
+      "processed_file": "/content/drive/MyDrive/Demograf_sovetnik_v3/processed/01_demography/d01_00_00.parquet",
+      "output_bytes": 665008,
+      "output_sha256": "7564bcb6af322758369069273f15462ba42404e7e2aa6c1c89886e467477ed5f",
+      "rows": 31445,
+      "columns": [
+        "oktmo",
+        "not_zato",
+        "region",
+        "mun_type",
+        "municipality",
+        "year",
+        "population",
+        "average_population",
+        "deaths",
+        "births",
+        "migration",
+        "mortality_rate",
+        "birth_rate",
+        "migration_rate"
+      ],
+      "publication": {
+        "status": "PASS",
+        "destination": "github_git",
+        "url": "https://raw.githubusercontent.com/AntonDozhdikov/Demograf_sovetnik/main/data/processed/01_demography/d01_00_00.parquet",
+        "verification": "DOWNLOAD_SHA256"
+      }
+    }
+  ],
+  "issues": [],
+  "raw_downloaded_bytes": 997196,
+  "rows": 31445,
+  "output_bytes": 665008,
+  "publication_verified_files": 1
+}
