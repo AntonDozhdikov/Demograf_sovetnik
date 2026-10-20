@@ -179,6 +179,20 @@
       "member": "D05_5_data_03_socio_economic_102_v20260313_1_data_03_socio_economic_102_v20260313.xlsx",
       "rows": 0,
       "note": "Отбор не нашёл строк"
+    },
+    {
+      "source": "BDMO",
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section13_112_v20260928_section_file.zip",
+      "table": 0,
+      "rows": 6010941,
+      "source_rows": 8073620,
+      "columns": 23,
+      "output_bytes": 23997721,
+      "sha256": "bd3ee0d867aee0c8e14b12bf84c5c6d563b507971b7b5911fc0636ea25a0266b",
+      "publication": {
+        "status": "WARN",
+        "reason": "LICENSE_REVIEW_REQUIRED: публикация не разрешена автоматически"
+      }
     }
   ],
   "issues": [
@@ -189,7 +203,8 @@
     }
   ],
   "raw_downloaded_bytes": 212547538,
-  "rows": 0,
+  "rows": 6010941,
   "output_bytes": 0,
-  "publication_verified_files": 0
+  "publication_verified_files": 0,
+  "updated": "2026-10-20T19:07:37.516245+00:00"
 }
