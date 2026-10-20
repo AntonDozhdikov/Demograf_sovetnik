@@ -1,8 +1,8 @@
 {
   "segment": "01_demography",
   "mode": "FULL",
-  "as_of": "2026-10-20T12:32:03+00:00",
-  "elapsed_sec": 7.2,
+  "as_of": "2026-10-20T18:32:09+00:00",
+  "elapsed_sec": 12.8,
   "files": [
     {
       "source": "D01",
@@ -44,7 +44,7 @@
     }
   ],
   "issues": [],
-  "raw_downloaded_bytes": 997196,
+  "raw_downloaded_bytes": 0,
   "rows": 31445,
   "output_bytes": 665008,
   "publication_verified_files": 1
