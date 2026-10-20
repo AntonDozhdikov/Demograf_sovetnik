@@ -405,21 +405,26 @@
       }
     }
   },
-  "failures": [
-    "D05/socio1: GitHub file verification mismatch"
-  ],
-  "updated_at": "2026-10-20T19:49:36+00:00",
+  "failures": [],
+  "updated_at": "2026-10-20T20:43:40.648166+00:00",
   "completed_sources": {
     "budget": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section13_112_v20260928_section_file.zip",
-    "education": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section34_112_v20260928_section_file.zip",
-    "housing": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section37_112_v20260928_section_file.zip",
-    "social": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_social_status_102_v20260313.zip",
-    "construction": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_construction_102_v20260313.zip",
-    "labor": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_labor_102_v20260313.zip",
     "socio1": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_01_socio_economic_102_v20260313.zip",
-    "socio2": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_02_socio_economic_102_v20260313.zip",
+    "labor": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_labor_102_v20260313.zip",
+    "construction": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_construction_102_v20260313.zip",
+    "social": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_social_status_102_v20260313.zip",
+    "housing": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section37_112_v20260928_section_file.zip",
     "socio3": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_03_socio_economic_102_v20260313.zip",
+    "7ndfl": "https://storage.yandexcloud.net/tochno-st-catalog/FNS/data_ndfl_155_v20260722/data_7ndfl_155_v20260722.parquet",
+    "education": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section34_112_v20260928_section_file.zip",
     "5ndfl": "https://storage.yandexcloud.net/tochno-st-catalog/FNS/data_ndfl_155_v20260722/data_5ndfl_155_v20260722.parquet",
-    "7ndfl": "https://storage.yandexcloud.net/tochno-st-catalog/FNS/data_ndfl_155_v20260722/data_7ndfl_155_v20260722.parquet"
+    "socio2": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_02_socio_economic_102_v20260313.zip"
+  },
+  "audit": {
+    "status": "PASS",
+    "verified_files": 11,
+    "verified_rows": 50538014,
+    "verified_sources": 11,
+    "method": "authenticated_remote_sha256"
   }
 }
