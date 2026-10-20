@@ -165,10 +165,11 @@
     }
   },
   "failures": [],
-  "updated_at": "2026-10-20T19:46:13+00:00",
+  "updated_at": "2026-10-20T19:46:15+00:00",
   "completed_sources": {
     "budget": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section13_112_v20260928_section_file.zip",
     "education": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section34_112_v20260928_section_file.zip",
-    "housing": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section37_112_v20260928_section_file.zip"
+    "housing": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section37_112_v20260928_section_file.zip",
+    "social": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_regions_collection_102_v20260313/data_social_status_102_v20260313.zip"
   }
 }
