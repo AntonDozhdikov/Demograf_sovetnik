@@ -42,10 +42,58 @@
         "name": "02_economy_budget_00_00_70baff304c07d298.parquet",
         "sha256": "70baff304c07d2988849cf5b89c8f765373801711d331454da534a3dad2a8938"
       }
+    },
+    "education::00::00": {
+      "source": "BDMO",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section34_112_v20260928_section_file.zip",
+      "raw_sha256": "b032e73c5841552582ce3169de8ae6441a26aac03faff89ed22ae85886992041",
+      "member": "data_section34_112_v20260928",
+      "variant": "education_01.parquet",
+      "sheet": null,
+      "rows": 1570945,
+      "columns": [
+        "indicator_section_code",
+        "indicator_section",
+        "indicator_code",
+        "indicator_name",
+        "mater",
+        "dol",
+        "obras",
+        "grup_2",
+        "scorper",
+        "progobr",
+        "tipushr",
+        "vozr",
+        "udob",
+        "region_id",
+        "region_name",
+        "mun_level",
+        "mun_district",
+        "municipality",
+        "oktmo",
+        "mun_type",
+        "mun_type_oktmo",
+        "oktmo_stable",
+        "oktmo_history",
+        "oktmo_year_from",
+        "oktmo_year_to",
+        "year",
+        "indicator_value",
+        "indicator_unit",
+        "indicator_period",
+        "comment"
+      ],
+      "bytes": 6568831,
+      "remote": {
+        "type": "release",
+        "asset_id": 660303435,
+        "name": "02_economy_education_00_00_7b9ca9c33637ddb0.parquet",
+        "sha256": "7b9ca9c33637ddb05d10841e8fa66d73a445d6e5245553f5b418a026b2954465"
+      }
     }
   },
   "failures": [],
-  "updated_at": "2026-10-20T19:44:16+00:00",
+  "updated_at": "2026-10-20T19:44:41+00:00",
   "completed_sources": {
     "budget": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section13_112_v20260928_section_file.zip"
   }
