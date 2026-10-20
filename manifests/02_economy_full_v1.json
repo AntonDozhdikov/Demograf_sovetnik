@@ -90,10 +90,51 @@
         "name": "02_economy_education_00_00_7b9ca9c33637ddb0.parquet",
         "sha256": "7b9ca9c33637ddb05d10841e8fa66d73a445d6e5245553f5b418a026b2954465"
       }
+    },
+    "housing::00::00": {
+      "source": "BDMO",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section37_112_v20260928_section_file.zip",
+      "raw_sha256": "36127b6cbcb546306fa1e0d5197da4617ea903028345f7a2aa985639df8fc5a6",
+      "member": "data_section37_112_v20260928",
+      "variant": "housing_01.parquet",
+      "sheet": null,
+      "rows": 2604372,
+      "columns": [
+        "indicator_section_code",
+        "indicator_section",
+        "indicator_code",
+        "indicator_name",
+        "mosh",
+        "gilsem",
+        "region_id",
+        "region_name",
+        "mun_level",
+        "mun_district",
+        "municipality",
+        "oktmo",
+        "mun_type",
+        "mun_type_oktmo",
+        "oktmo_stable",
+        "oktmo_history",
+        "oktmo_year_from",
+        "oktmo_year_to",
+        "year",
+        "indicator_value",
+        "indicator_unit",
+        "indicator_period",
+        "comment"
+      ],
+      "bytes": 7458994,
+      "remote": {
+        "type": "release",
+        "asset_id": 660305874,
+        "name": "02_economy_housing_00_00_d934b1d455452147.parquet",
+        "sha256": "d934b1d4554521473277f8e9b533887db49c98f45f10798b5e31fae27e30ebc9"
+      }
     }
   },
   "failures": [],
-  "updated_at": "2026-10-20T19:44:43+00:00",
+  "updated_at": "2026-10-20T19:45:55+00:00",
   "completed_sources": {
     "budget": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section13_112_v20260928_section_file.zip",
     "education": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section34_112_v20260928_section_file.zip"
