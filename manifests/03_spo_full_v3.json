@@ -125,10 +125,40 @@
         "sha256": "1d0c0236bb0faa5ffd4785e25116f985384ccb8191699a2e56b470d87c03ca35",
         "bytes": 1086243
       }
+    },
+    "94ce78c88f57647e::000": {
+      "source": "E01",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Minpros/data_spo_monitoring_spo_163_v20260424/data_spo_monitoring_spo_163_v20260424_csv.zip",
+      "source_sha256": "cf0b517ab0c1580237788ad1b726203680da1bdb4cf03fc105e16f6c357c1d3c",
+      "member": "data_spo_monitoring_spo_163_v20260424_csv/╨ƒ╨╛╨║╨░╨╖╨░╤é╨╡╨╗╨╕ ╨╛╤Ç╨│╨░╨╜╨╕╨╖╨░╤å╨╕╨╕╠å ╨╕ ╤Ç╨╡╨│╨╕╨╛╨╜╨╛╨▓/╨ƒ╨╛ ╨│╨╛╨┤╨░╨╝/data_monitoring_spo_163_orgs_indicators_2016_v20260424.csv",
+      "kind": "organization_indicators",
+      "rows": 345752,
+      "columns": [
+        "year",
+        "region_name",
+        "region_oktmo",
+        "name",
+        "property",
+        "indicator_section",
+        "indicator_name",
+        "indicator_unit",
+        "org_value",
+        "region_value",
+        "rf_value",
+        "comment"
+      ],
+      "od_rows": 0,
+      "bytes": 653197,
+      "publication": {
+        "kind": "git",
+        "path": "data/processed/03_spo/v3/94ce78c88f57647e_000_f07dc3dbc573.parquet",
+        "sha256": "f07dc3dbc5736eaa7d73290063126ec000bc4a488bbfdbc1f2100b790e83cb46",
+        "bytes": 653197
+      }
     }
   },
   "completed": false,
-  "updated_at": "2026-10-21T06:29:22+00:00",
+  "updated_at": "2026-10-21T06:29:30+00:00",
   "finished": {
     "42f47d3cf2159992": 1,
     "a032c08f0d85b6a2": 1,
