@@ -216,10 +216,41 @@
         "sha256": "1bab453b8b3012aa68b00e983d1f885c647538c0c28f7b6386e6c4937ca32a96",
         "bytes": 821848
       }
+    },
+    "7fc3a850dd2f2c25::000": {
+      "source": "E01",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Minpros/data_spo_monitoring_spo_163_v20260424/data_spo_monitoring_spo_163_v20260424_csv.zip",
+      "source_sha256": "cf0b517ab0c1580237788ad1b726203680da1bdb4cf03fc105e16f6c357c1d3c",
+      "member": "data_spo_monitoring_spo_163_v20260424_csv/╨ƒ╨╛╨║╨░╨╖╨░╤é╨╡╨╗╨╕ ╨╛╤Ç╨│╨░╨╜╨╕╨╖╨░╤å╨╕╨╕╠å ╨╕ ╤Ç╨╡╨│╨╕╨╛╨╜╨╛╨▓/╨ƒ╨╛ ╨│╨╛╨┤╨░╨╝/data_monitoring_spo_163_orgs_indicators_2019_v20260424.csv",
+      "kind": "organization_indicators",
+      "rows": 423700,
+      "columns": [
+        "year",
+        "region_name",
+        "region_oktmo",
+        "name",
+        "property",
+        "indicator_section",
+        "indicator_name",
+        "indicator_unit",
+        "org_value",
+        "region_value",
+        "rf_value",
+        "comment"
+      ],
+      "od_rows": 0,
+      "bytes": 844804,
+      "publication": {
+        "kind": "release",
+        "asset_id": 661584130,
+        "name": "7fc3a850dd2f2c25_000_4c9b1d8b927e381c.parquet",
+        "sha256": "4c9b1d8b927e381cc2ba537013d9f00ecc5a8f2f5d4aed305f641d6b00072ca9",
+        "bytes": 844804
+      }
     }
   },
   "completed": false,
-  "updated_at": "2026-10-21T06:30:03+00:00",
+  "updated_at": "2026-10-21T06:30:19+00:00",
   "finished": {
     "42f47d3cf2159992": 1,
     "a032c08f0d85b6a2": 1,
