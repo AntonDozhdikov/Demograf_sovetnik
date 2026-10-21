@@ -429,10 +429,31 @@
         "sha256": "e744912af9b357c3e21f9af4162343e3f6dce3b17af7016c6a60827caefa6629",
         "bytes": 308662
       }
+    },
+    "5b3797117fe25268::000": {
+      "source": "E01",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Minpros/data_spo_monitoring_spo_163_v20260424/data_spo_monitoring_spo_163_v20260424_csv.zip",
+      "source_sha256": "cf0b517ab0c1580237788ad1b726203680da1bdb4cf03fc105e16f6c357c1d3c",
+      "member": "data_spo_monitoring_spo_163_v20260424_csv/╨£╨╕╨│╤Ç╨░╤å╨╕╤Å/data_monitoring_spo_163_migration_matrix_v20250424.xlsx",
+      "sheet": "2021",
+      "sheet_index": 0,
+      "kind": "education_od_matrix_raw_cells",
+      "rows": 0,
+      "worksheet_rows": 86,
+      "worksheet_columns": 86,
+      "cells": 3678,
+      "od_rows": 0,
+      "publication": {
+        "kind": "release",
+        "asset_id": 661646275,
+        "name": "spo_matrix_sheet_000_12a7d7d42580971a.parquet",
+        "sha256": "12a7d7d42580971ab30a7766fb524ec9c8369aa673ec84307ebbaad57848e65f",
+        "bytes": 10262
+      }
     }
   },
   "completed": false,
-  "updated_at": "2026-10-21T06:47:19.007328+00:00",
+  "updated_at": "2026-10-21T06:58:55+00:00",
   "finished": {
     "42f47d3cf2159992": 1,
     "a032c08f0d85b6a2": 1,
@@ -460,5 +481,12 @@
   "missing_kinds": [
     "education_organizations"
   ],
-  "verified_files": 14
+  "verified_files": 14,
+  "matrix_original": {
+    "kind": "release",
+    "asset_id": 661646198,
+    "name": "spo_migration_matrix_original_8851b89535037ae9.xlsx",
+    "sha256": "8851b89535037ae994420fd241232393fe3449df664f8163ea08bc9349836226",
+    "bytes": 132135
+  }
 }
