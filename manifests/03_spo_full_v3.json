@@ -432,7 +432,7 @@
     }
   },
   "completed": false,
-  "updated_at": "2026-10-21T06:31:52+00:00",
+  "updated_at": "2026-10-21T06:47:19.007328+00:00",
   "finished": {
     "42f47d3cf2159992": 1,
     "a032c08f0d85b6a2": 1,
@@ -448,5 +448,17 @@
     "a10bb379ea733bae": 1,
     "d3b8f470397e2eca": 1,
     "158145691ba48e91": 1
-  }
+  },
+  "zip_sha256": "cf0b517ab0c1580237788ad1b726203680da1bdb4cf03fc105e16f6c357c1d3c",
+  "seen_tables": 15,
+  "rows": 7524273,
+  "od_rows": 30390,
+  "issues": [
+    "data_spo_monitoring_spo_163_v20260424_csv/╨£╨╕╨│╤ç╨░╤å╨╕╤å/data_monitoring_spo_163_migration_matrix_v20250424 | .xlsx: XLSX содержит несколько листов — требуется отдельная обработка",
+    "Не завершена: data_spo_monitoring_spo_163_v20260424_csv/╨£╨╕╨│╤ç╨░╤å╨╕╤å/data_monitoring_spo_163_migration_matrix_v20250424"
+  ],
+  "missing_kinds": [
+    "education_organizations"
+  ],
+  "verified_files": 14
 }
