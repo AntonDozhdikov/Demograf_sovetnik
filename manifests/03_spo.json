@@ -1,0 +1,41 @@
+{
+  "segment": "03_spo",
+  "mode": "FULL",
+  "as_of": "2026-10-21T06:02:29+00:00",
+  "files": [
+    {
+      "source": "E01",
+      "source_page": "https://tochno.st/datasets/monitoring_spo",
+      "original_url": "https://storage.yandexcloud.net/tochno-st-catalog/Minpros/data_spo_monitoring_spo_163_v20260424/data_spo_monitoring_spo_163_v20260424_csv.zip",
+      "discovered_by": "HTML_SCRIPT",
+      "source_label": "",
+      "status": "PASS",
+      "extracted_at": "2026-10-21T06:01:34+00:00",
+      "source_bytes": 206525104,
+      "source_sha256": "cf0b517ab0c1580237788ad1b726203680da1bdb4cf03fc105e16f6c357c1d3c",
+      "member": "E01_0_data_spo_monitoring_spo_163_v20260424_csv_11_data_monitoring_spo_163_migration_v20250424.parquet",
+      "processed_file": "/content/Demograf_sovetnik_v31/processed/03_spo/e01_00_00.parquet",
+      "output_bytes": 64635,
+      "output_sha256": "c829090e75a7577ec4593bbe3e30070c46d9ab15df2fdc40e6b6338c0d77b9e5",
+      "rows": 30390,
+      "columns": [
+        "year",
+        "origin_region_code",
+        "origin_region_name",
+        "destination_region_code",
+        "destination_region_name",
+        "indicator_value"
+      ],
+      "local_removed_after_publication": true,
+      "publication": {
+        "status": "PASS",
+        "destination": "github_git",
+        "url": "https://raw.githubusercontent.com/AntonDozhdikov/Demograf_sovetnik/main/data/processed/03_spo/e01_00_00.parquet?token=A57FW4YAA6NESUIFI4VKSGDK3BK3C",
+        "verification": "DOWNLOAD_SHA256",
+        "sha256": "c829090e75a7577ec4593bbe3e30070c46d9ab15df2fdc40e6b6338c0d77b9e5"
+      }
+    }
+  ],
+  "rows": 30390,
+  "publication_verified_files": 1
+}
