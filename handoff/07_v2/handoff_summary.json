@@ -1,0 +1,18 @@
+{
+  "version": "7.2",
+  "audit_status": "PASS_STORAGE_AND_CONTENT",
+  "as_of": "2026-10-21T10:33:48.135686+00:00",
+  "segments": 6,
+  "assets": 52,
+  "verified_and_profiled": 52,
+  "fields": 912,
+  "temporal_records": 446,
+  "geographical_records": 2626,
+  "top_indicator_records": 796,
+  "issues": 0,
+  "errors": 0,
+  "raw_rows_manifest_sum_WITH_OVERLAPS": 102325351,
+  "scientific_readiness": "NOT_CERTIFIED: требуется согласование территориальных уровней, ключей, показателей и перекрывающихся наборов",
+  "next_stage_entrypoint": "handoff/07_v2/dataset_index.json",
+  "next_stage_secret": "GITHUB_TOKEN"
+}
