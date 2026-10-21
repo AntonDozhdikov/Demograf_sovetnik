@@ -424,7 +424,7 @@
     }
   },
   "issues": [],
-  "updated_at": "2026-10-21T08:46:09+00:00",
+  "updated_at": "2026-10-21T08:46:11+00:00",
   "source_finished": {
     "D04": {
       "keys": [
@@ -442,6 +442,13 @@
       ],
       "url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section6_112_v20260928_section_file.zip",
       "source_sha256": "a1bd104b22b9d691055edbb485e074cb9b96218d148ce45461c4163c46aabb5f"
+    },
+    "TRANSPORT": {
+      "keys": [
+        "TRANSPORT::TRANSPORT_member00::full"
+      ],
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Geo/data_intercity_connectivity_162_v20260629/data_intercity_connectivity_162_v20260629_csv.zip",
+      "source_sha256": "4728d93b8d29925b433a84a7c91fedbe4665bc78e672a23dc185d01c1e41dbea"
     }
   }
 }
