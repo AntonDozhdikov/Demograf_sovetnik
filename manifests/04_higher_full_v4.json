@@ -36,6 +36,35 @@
         "sha256": "d69075fb815b17d85c63a0126995f560ff0fd9072a5d2772802aec3871d25f6c",
         "bytes": 19865285
       }
+    },
+    "VPO_2_1_1::VPO_2_1_1::000::f9f714878501": {
+      "source": "VPO_2_1_1",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Minobr/data_vpo_158_v20260714/by_table/data_vpo_158_table_2_1_1_v20260714.parquet",
+      "source_sha256": "f9f71487850164e47926ab1c88c234eb5e3880263e6442a8ad52e79c61552730",
+      "member": "VPO_2_1_1_0.parquet",
+      "rows": 7534596,
+      "columns": [
+        "year",
+        "object_level",
+        "object_name",
+        "object_oktmo",
+        "university_type",
+        "education_form",
+        "education_level",
+        "specialty_name",
+        "specialty_code",
+        "indicator_name",
+        "indicator_value",
+        "admission_type"
+      ],
+      "bytes": 16211955,
+      "remote": {
+        "kind": "release",
+        "asset_id": 661682202,
+        "name": "04_VPO_2_1_1_000_298678c85a6e5a6a.parquet",
+        "sha256": "298678c85a6e5a6aa846de1934524d9e4527b6d2c1719326d50d89ef8650e741",
+        "bytes": 16211955
+      }
     }
   },
   "complete": {
@@ -48,5 +77,5 @@
     }
   },
   "issues": [],
-  "updated_at": "2026-10-21T07:15:32+00:00"
+  "updated_at": "2026-10-21T07:16:00+00:00"
 }
