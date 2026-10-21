@@ -423,8 +423,10 @@
       }
     }
   },
-  "issues": [],
-  "updated_at": "2026-10-21T08:46:11+00:00",
+  "issues": [
+    "D04: 176,215 строк, паспорт 176,131; проверьте версию"
+  ],
+  "updated_at": "2026-10-21T08:46:15+00:00",
   "source_finished": {
     "D04": {
       "keys": [
@@ -450,5 +452,16 @@
       "url": "https://storage.yandexcloud.net/tochno-st-catalog/Geo/data_intercity_connectivity_162_v20260629/data_intercity_connectivity_162_v20260629_csv.zip",
       "source_sha256": "4728d93b8d29925b433a84a7c91fedbe4665bc78e672a23dc185d01c1e41dbea"
     }
+  },
+  "audit": {
+    "status": "WARN",
+    "sources": 3,
+    "verified_files": 6,
+    "full_rows": 2170805,
+    "derived_rows": 1036812,
+    "issues": [
+      "D04: 176,215 строк, паспорт 176,131; проверьте версию"
+    ],
+    "as_of": "2026-10-21T08:46:14.772459+00:00"
   }
 }
