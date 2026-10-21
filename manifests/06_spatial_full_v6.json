@@ -257,8 +257,37 @@
         "sha256": "49da6033ca9b25cddd80a62ad4db57e7c63813cfd255aa6c9c59a21aa323d3f9",
         "bytes": 23958788
       }
+    },
+    "D04::D04_member00::spatial_reference::derived": {
+      "source": "D04",
+      "representation": "derived",
+      "source_page": "https://tochno.st/datasets/allsettlements",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_settlements_156_v20260925/data_allsettlements_anon_156_v20260925_csv.zip",
+      "source_sha256": "33488f0ea405aeee055d454236238297540d042e473c88156da94416b6ea5562",
+      "rows": 176215,
+      "columns": [
+        "source_oktmo",
+        "object_level",
+        "region_name",
+        "municipality_name",
+        "settlement_name",
+        "population_original",
+        "latitude",
+        "longitude",
+        "coordinates_valid",
+        "census_year"
+      ],
+      "bytes": 3643415,
+      "sha256": "40445cf86e447bc5a5f2d817230f4fd4c483005c29f0b647ef3a7290e166830a",
+      "remote": {
+        "kind": "release",
+        "asset_id": 661889708,
+        "name": "D04::D04_member00::spatial_reference::derived_40445cf86e447bc5.parquet",
+        "sha256": "40445cf86e447bc5a5f2d817230f4fd4c483005c29f0b647ef3a7290e166830a",
+        "bytes": 3643415
+      }
     }
   },
   "issues": [],
-  "updated_at": "2026-10-21T08:45:23+00:00"
+  "updated_at": "2026-10-21T08:45:28+00:00"
 }
