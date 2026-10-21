@@ -1,0 +1,45 @@
+{
+  "segment": "05_graduates",
+  "version": "5.1",
+  "files": {
+    "E04::organization_total": {
+      "source": "E04",
+      "role": "organization_total",
+      "source_page": "https://tochno.st/datasets/graduates_university",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rostrud/data_graduates_university_124_20250709/data_graduates_university_124_v20250709_csv.zip",
+      "raw_sha256": "cd2ec076a69c4b79ff980e7a9953513f077bf2b2f9f084e161e6fedca6c85ec4",
+      "member": "data_graduates_university_124_v20250709",
+      "rows": 184501,
+      "columns": [
+        "object_level",
+        "object_name",
+        "okato",
+        "oktmo",
+        "gender",
+        "education_level",
+        "year",
+        "university",
+        "count_graduate",
+        "percent_employed",
+        "average_salary_fact_avg",
+        "average_salary_fact_med",
+        "average_salary_norm_avg",
+        "average_salary_norm_med",
+        "average_age",
+        "percent_combine_work_and_study"
+      ],
+      "output_bytes": 4453997,
+      "remote": {
+        "kind": "release",
+        "asset_id": 661847515,
+        "name": "E04_organization_total_9f4bda5ce3011aff.parquet",
+        "sha256": "9f4bda5ce3011aff5c37ecd4ef9a2b746be9eb0eacf97c4115897fcf8844ab29",
+        "bytes": 4453997
+      },
+      "employment_reference": "2024-12-31",
+      "salary_reference_year": 2024
+    }
+  },
+  "issues": [],
+  "updated_at": "2026-10-21T08:28:54+00:00"
+}
