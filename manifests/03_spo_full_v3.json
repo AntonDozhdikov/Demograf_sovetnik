@@ -63,7 +63,7 @@
       "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Minpros/data_spo_monitoring_spo_163_v20260424/data_spo_monitoring_spo_163_v20260424_csv.zip",
       "source_sha256": "cf0b517ab0c1580237788ad1b726203680da1bdb4cf03fc105e16f6c357c1d3c",
       "member": "data_spo_monitoring_spo_163_v20260424_csv/╨ƒ╨╛╨║╨░╨╖╨░╤é╨╡╨╗╨╕ ╨╛╤Ç╨│╨░╨╜╨╕╨╖╨░╤å╨╕╨╕╠å ╨╕ ╤Ç╨╡╨│╨╕╨╛╨╜╨╛╨▓/data_monitoring_spo_163_orgs_info_v20260424.parquet",
-      "kind": "regional_spo",
+      "kind": "education_organizations",
       "rows": 45519,
       "columns": [
         "year",
@@ -536,8 +536,8 @@
       }
     }
   },
-  "completed": false,
-  "updated_at": "2026-10-21T06:59:09+00:00",
+  "completed": true,
+  "updated_at": "2026-10-21T06:59:15+00:00",
   "finished": {
     "42f47d3cf2159992": 1,
     "a032c08f0d85b6a2": 1,
@@ -552,19 +552,15 @@
     "8b6540e17a79eb74": 1,
     "a10bb379ea733bae": 1,
     "d3b8f470397e2eca": 1,
-    "158145691ba48e91": 1
+    "158145691ba48e91": 1,
+    "5b3797117fe25268": 5
   },
   "zip_sha256": "cf0b517ab0c1580237788ad1b726203680da1bdb4cf03fc105e16f6c357c1d3c",
   "seen_tables": 15,
   "rows": 7524273,
   "od_rows": 30390,
-  "issues": [
-    "data_spo_monitoring_spo_163_v20260424_csv/╨£╨╕╨│╤ç╨░╤å╨╕╤å/data_monitoring_spo_163_migration_matrix_v20250424 | .xlsx: XLSX содержит несколько листов — требуется отдельная обработка",
-    "Не завершена: data_spo_monitoring_spo_163_v20260424_csv/╨£╨╕╨│╤ç╨░╤å╨╕╤å/data_monitoring_spo_163_migration_matrix_v20250424"
-  ],
-  "missing_kinds": [
-    "education_organizations"
-  ],
+  "issues": [],
+  "missing_kinds": [],
   "verified_files": 14,
   "matrix_original": {
     "kind": "release",
@@ -572,5 +568,12 @@
     "name": "spo_migration_matrix_original_8851b89535037ae9.xlsx",
     "sha256": "8851b89535037ae994420fd241232393fe3449df664f8163ea08bc9349836226",
     "bytes": 132135
-  }
+  },
+  "migration_matrix_sheets": 5,
+  "migration_matrix_cells": 31267,
+  "source_tables_complete": 15,
+  "rows_with_overlaps": 7524273,
+  "matrix_semantics": "Original XLSX and raw cells preserved; OD not inferred from layout",
+  "scientific_readiness": "WARN: matrix sheets require semantic interpretation",
+  "yearly_all_years_overlap": "Not yet checked by row content; avoid summing both representations"
 }
