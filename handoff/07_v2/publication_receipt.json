@@ -1,0 +1,109 @@
+{
+  "at": "2026-10-21T10:33:48.135686+00:00",
+  "files": [
+    {
+      "path": "handoff/07_v2/dataset_index.json",
+      "sha256": "547ebacb9ed28c1d8d5cbcae597fd21f16e7a356f547c205d9951b30019586cb",
+      "bytes": 95053
+    },
+    {
+      "path": "handoff/07_v2/data_catalog.parquet",
+      "sha256": "4c44bb65d7f4f16a914f7092ca78ec050b85e40e12c14588c3acba8ca168b722",
+      "bytes": 22960
+    },
+    {
+      "path": "handoff/07_v2/field_dictionary.parquet",
+      "sha256": "3e4f2897b0b724d456c45be7dd749ae48219723db614466b3eee86eaa9981797",
+      "bytes": 9929
+    },
+    {
+      "path": "handoff/07_v2/temporal_profile.parquet",
+      "sha256": "7f1415e9b0d7c310db0c0eb3482bb98bc0a6c55b1e92cfb8b3d4dfceb19c07fd",
+      "bytes": 5996
+    },
+    {
+      "path": "handoff/07_v2/territorial_profile.parquet",
+      "sha256": "f39643ddea6b7d79884445783f8594dba873403260a5703e2fadc914d9932374",
+      "bytes": 16708
+    },
+    {
+      "path": "handoff/07_v2/indicator_profile.parquet",
+      "sha256": "f9c75119a40bb0e61447902e8c835d7cd033f4480ce012dff226004f0173c249",
+      "bytes": 24556
+    },
+    {
+      "path": "handoff/07_v2/quality_profile.parquet",
+      "sha256": "849c73538c4c86b13779de64ce97e525e0dc53d877e42fb16e6579b8b4915e77",
+      "bytes": 5439
+    },
+    {
+      "path": "handoff/07_v2/join_candidates.parquet",
+      "sha256": "d4967b504402bc4e9d0545f0b79d196fe75dc87c98da6d7332ff438b3fa2e371",
+      "bytes": 5152
+    },
+    {
+      "path": "handoff/07_v2/methodological_constraints.parquet",
+      "sha256": "c835f288c539592aa92d7b184a52740f1d70cfa9d0edc3fb6883dbb3bf42c891",
+      "bytes": 4131
+    },
+    {
+      "path": "handoff/07_v2/issues.parquet",
+      "sha256": "1487b597914c580cc43a2c5d7a3dbff52fb9ff4336ab4246d94976400098e342",
+      "bytes": 2268
+    },
+    {
+      "path": "handoff/07_v2/handoff_summary.json",
+      "sha256": "b558e3e2f6b3bb0f5551b7cc14a1df817aa94c3c254b1d7a791fe26ddb550218",
+      "bytes": 692
+    },
+    {
+      "path": "handoff/07_v2/stage2_loader.py",
+      "sha256": "1fa0071e3f6ed6aa82e074ca64744b3e89ff513c9ad46313a1298133d2738f49",
+      "bytes": 2361
+    },
+    {
+      "path": "handoff/07_v2/README_STAGE2.md",
+      "sha256": "a9ebecf620fbd23f114f654dc0668fc9d4fbe3fdbf0bcdbe50e966274fec2727",
+      "bytes": 2209
+    },
+    {
+      "path": "handoff/07_v2/07_handoff_bundle.zip",
+      "sha256": "3449b95a5c904b4cc5d716d129fcbb0497f4c4bd6a74f192335b02b310538cca",
+      "bytes": 86273
+    }
+  ],
+  "audit": {
+    "version": "7.2",
+    "audit_status": "PASS_STORAGE_AND_CONTENT",
+    "as_of": "2026-10-21T10:33:48.135686+00:00",
+    "segments": 6,
+    "assets": 52,
+    "verified_and_profiled": 52,
+    "fields": 912,
+    "temporal_records": 446,
+    "geographical_records": 2626,
+    "top_indicator_records": 796,
+    "issues": 0,
+    "errors": 0,
+    "raw_rows_manifest_sum_WITH_OVERLAPS": 102325351,
+    "scientific_readiness": "NOT_CERTIFIED: требуется согласование территориальных уровней, ключей, показателей и перекрывающихся наборов",
+    "next_stage_entrypoint": "handoff/07_v2/dataset_index.json",
+    "next_stage_secret": "GITHUB_TOKEN",
+    "published_artifacts": {
+      "handoff/07_v2/dataset_index.json": "547ebacb9ed28c1d8d5cbcae597fd21f16e7a356f547c205d9951b30019586cb",
+      "handoff/07_v2/data_catalog.parquet": "4c44bb65d7f4f16a914f7092ca78ec050b85e40e12c14588c3acba8ca168b722",
+      "handoff/07_v2/field_dictionary.parquet": "3e4f2897b0b724d456c45be7dd749ae48219723db614466b3eee86eaa9981797",
+      "handoff/07_v2/temporal_profile.parquet": "7f1415e9b0d7c310db0c0eb3482bb98bc0a6c55b1e92cfb8b3d4dfceb19c07fd",
+      "handoff/07_v2/territorial_profile.parquet": "f39643ddea6b7d79884445783f8594dba873403260a5703e2fadc914d9932374",
+      "handoff/07_v2/indicator_profile.parquet": "f9c75119a40bb0e61447902e8c835d7cd033f4480ce012dff226004f0173c249",
+      "handoff/07_v2/quality_profile.parquet": "849c73538c4c86b13779de64ce97e525e0dc53d877e42fb16e6579b8b4915e77",
+      "handoff/07_v2/join_candidates.parquet": "d4967b504402bc4e9d0545f0b79d196fe75dc87c98da6d7332ff438b3fa2e371",
+      "handoff/07_v2/methodological_constraints.parquet": "c835f288c539592aa92d7b184a52740f1d70cfa9d0edc3fb6883dbb3bf42c891",
+      "handoff/07_v2/issues.parquet": "1487b597914c580cc43a2c5d7a3dbff52fb9ff4336ab4246d94976400098e342",
+      "handoff/07_v2/handoff_summary.json": "b558e3e2f6b3bb0f5551b7cc14a1df817aa94c3c254b1d7a791fe26ddb550218",
+      "handoff/07_v2/stage2_loader.py": "1fa0071e3f6ed6aa82e074ca64744b3e89ff513c9ad46313a1298133d2738f49",
+      "handoff/07_v2/README_STAGE2.md": "a9ebecf620fbd23f114f654dc0668fc9d4fbe3fdbf0bcdbe50e966274fec2727",
+      "handoff/07_v2/07_handoff_bundle.zip": "3449b95a5c904b4cc5d716d129fcbb0497f4c4bd6a74f192335b02b310538cca"
+    }
+  }
+}
