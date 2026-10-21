@@ -286,10 +286,52 @@
         "sha256": "40445cf86e447bc5a5f2d817230f4fd4c483005c29f0b647ef3a7290e166830a",
         "bytes": 3643415
       }
+    },
+    "BDMO6::BDMO6_member00::full": {
+      "source": "BDMO6",
+      "representation": "full",
+      "source_page": "https://tochno.st/datasets/bdmo",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section6_112_v20260928_section_file.zip",
+      "source_sha256": "a1bd104b22b9d691055edbb485e074cb9b96218d148ce45461c4163c46aabb5f",
+      "rows": 1897930,
+      "columns": [
+        "indicator_section_code",
+        "indicator_section",
+        "indicator_code",
+        "indicator_name",
+        "pokdor",
+        "vidazc",
+        "region_id",
+        "region_name",
+        "mun_level",
+        "mun_district",
+        "municipality",
+        "oktmo",
+        "mun_type",
+        "mun_type_oktmo",
+        "oktmo_stable",
+        "oktmo_history",
+        "oktmo_year_from",
+        "oktmo_year_to",
+        "year",
+        "indicator_value",
+        "indicator_unit",
+        "indicator_period",
+        "comment"
+      ],
+      "bytes": 6577585,
+      "sha256": "0e9cda0a09781d4f2c8dce761e2ab2853ff99cefe792ccc97b7ef368a534433d",
+      "remote": {
+        "kind": "release",
+        "asset_id": 661890744,
+        "name": "BDMO6::BDMO6_member00::full_0e9cda0a09781d4f.parquet",
+        "sha256": "0e9cda0a09781d4f2c8dce761e2ab2853ff99cefe792ccc97b7ef368a534433d",
+        "bytes": 6577585
+      }
     }
   },
   "issues": [],
-  "updated_at": "2026-10-21T08:45:30+00:00",
+  "updated_at": "2026-10-21T08:45:48+00:00",
   "source_finished": {
     "D04": {
       "keys": [
