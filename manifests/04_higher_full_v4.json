@@ -1,0 +1,44 @@
+{
+  "version": 4,
+  "segment": "04_higher",
+  "files": {
+    "E02::E02::000::e45a15e7567e": {
+      "source": "E02",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Minobr/data_performance_137_v20260223/data_performance_137_v202602023.parquet",
+      "source_sha256": "e45a15e7567e9886d1fb85d9dd5be10909e89d1059993951405b4efeae85e6f4",
+      "member": "E02_0.parquet",
+      "rows": 2251127,
+      "columns": [
+        "id",
+        "name",
+        "inn",
+        "ogrn",
+        "region",
+        "oktmo",
+        "okato",
+        "web_site",
+        "institution",
+        "parent_id",
+        "parent_name",
+        "year",
+        "indicator_name",
+        "area",
+        "specialty_code",
+        "specialty_section",
+        "indicator_unit",
+        "indicator_value"
+      ],
+      "bytes": 19865285,
+      "remote": {
+        "kind": "release",
+        "asset_id": 661681205,
+        "name": "04_E02_000_d69075fb815b17d8.parquet",
+        "sha256": "d69075fb815b17d85c63a0126995f560ff0fd9072a5d2772802aec3871d25f6c",
+        "bytes": 19865285
+      }
+    }
+  },
+  "complete": {},
+  "issues": [],
+  "updated_at": "2026-10-21T07:15:30+00:00"
+}
