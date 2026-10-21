@@ -1,0 +1,33 @@
+{
+  "segment": "03_spo",
+  "version": 3,
+  "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Minpros/data_spo_monitoring_spo_163_v20260424/data_spo_monitoring_spo_163_v20260424_csv.zip",
+  "tables": {
+    "42f47d3cf2159992::000": {
+      "source": "E01",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Minpros/data_spo_monitoring_spo_163_v20260424/data_spo_monitoring_spo_163_v20260424_csv.zip",
+      "source_sha256": "cf0b517ab0c1580237788ad1b726203680da1bdb4cf03fc105e16f6c357c1d3c",
+      "member": "data_spo_monitoring_spo_163_v20260424_csv/╨£╨╕╨│╤Ç╨░╤å╨╕╤Å/data_monitoring_spo_163_migration_v20250424.parquet",
+      "kind": "education_od_flows",
+      "rows": 30390,
+      "columns": [
+        "year",
+        "origin_region_code",
+        "origin_region_name",
+        "destination_region_code",
+        "destination_region_name",
+        "indicator_value"
+      ],
+      "od_rows": 30390,
+      "bytes": 64635,
+      "publication": {
+        "kind": "git",
+        "path": "data/processed/03_spo/v3/42f47d3cf2159992_000_c829090e75a7.parquet",
+        "sha256": "c829090e75a7577ec4593bbe3e30070c46d9ab15df2fdc40e6b6338c0d77b9e5",
+        "bytes": 64635
+      }
+    }
+  },
+  "completed": false,
+  "updated_at": "2026-10-21T06:28:51+00:00"
+}
