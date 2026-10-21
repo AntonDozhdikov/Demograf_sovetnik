@@ -1,7 +1,8 @@
 {
   "segment": "03_spo",
   "mode": "FULL",
-  "as_of": "2026-10-21T06:03:08+00:00",
+  "as_of": "2026-10-21T06:03:11+00:00",
+  "elapsed_sec": 104.4,
   "files": [
     {
       "source": "E01",
@@ -78,8 +79,23 @@
         "verification": "DOWNLOAD_SHA256",
         "sha256": "c829090e75a7577ec4593bbe3e30070c46d9ab15df2fdc40e6b6338c0d77b9e5"
       }
+    },
+    {
+      "source": "E01",
+      "source_page": "https://tochno.st/datasets/monitoring_spo",
+      "original_url": "https://storage.yandexcloud.net/tochno-st-catalog/Minpros/data_spo_monitoring_spo_163_v20260424/data_spo_monitoring_spo_163_v20260424_xlsx.zip",
+      "discovered_by": "HTML_SCRIPT",
+      "source_label": "",
+      "status": "FAIL",
+      "extracted_at": "2026-10-21T06:02:40+00:00",
+      "source_bytes": 173958555,
+      "source_sha256": "06cc0436bc4848c4dd31868d588d302ccccae02716cffcc3e659d6ad891374ef",
+      "error": "Invalid Input Error: No magic bytes found at end of file '/content/Demograf_sovetnik_v31/cache/03_spo/E01_1_data_spo_monitoring_spo_163_v20260424_xlsx_12_._data_monitoring_spo_163_migration_v20250424.parquet'"
     }
   ],
+  "issues": [],
+  "raw_downloaded_bytes": 380483659,
   "rows": 60780,
+  "output_bytes": 129270,
   "publication_verified_files": 2
 }
