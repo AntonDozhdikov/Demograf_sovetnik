@@ -179,8 +179,15 @@
         "VPO_2_1_3::VPO_2_1_3::000::d5c03abeb283"
       ],
       "sha256": "d5c03abeb28365ad85a07d6656396615a17b1154f4b6b0b3f450731b5098151d"
+    },
+    "VPO_2_2": {
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Minobr/data_vpo_158_v20260714/by_table/data_vpo_158_table_2_2_v20260714.parquet",
+      "keys": [
+        "VPO_2_2::VPO_2_2::000::500a6d934613"
+      ],
+      "sha256": "500a6d934613c52a5a379827310b9be588ecbf19a81f18247afa43942628b35e"
     }
   },
   "issues": [],
-  "updated_at": "2026-10-21T07:17:05+00:00"
+  "updated_at": "2026-10-21T07:17:07+00:00"
 }
