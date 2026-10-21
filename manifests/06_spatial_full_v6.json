@@ -289,5 +289,15 @@
     }
   },
   "issues": [],
-  "updated_at": "2026-10-21T08:45:28+00:00"
+  "updated_at": "2026-10-21T08:45:30+00:00",
+  "source_finished": {
+    "D04": {
+      "keys": [
+        "D04::D04_member00::full",
+        "D04::D04_member00::spatial_reference::derived"
+      ],
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_settlements_156_v20260925/data_allsettlements_anon_156_v20260925_csv.zip",
+      "source_sha256": "33488f0ea405aeee055d454236238297540d042e473c88156da94416b6ea5562"
+    }
+  }
 }
