@@ -328,10 +328,34 @@
         "sha256": "0e9cda0a09781d4f2c8dce761e2ab2853ff99cefe792ccc97b7ef368a534433d",
         "bytes": 6577585
       }
+    },
+    "BDMO6::BDMO6_member00::municipality_registry_observed::derived": {
+      "source": "BDMO6",
+      "representation": "derived",
+      "source_page": "https://tochno.st/datasets/bdmo",
+      "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/by_section/data_section6_112_v20260928_section_file.zip",
+      "source_sha256": "a1bd104b22b9d691055edbb485e074cb9b96218d148ce45461c4163c46aabb5f",
+      "rows": 431279,
+      "columns": [
+        "source_oktmo",
+        "municipality_name",
+        "observation_year",
+        "municipality_type",
+        "region_name"
+      ],
+      "bytes": 1789280,
+      "sha256": "f92ffeb9563ff8724bd939edba058d1a1a51b9a0a30b44bab10016191a46da74",
+      "remote": {
+        "kind": "release",
+        "asset_id": 661891003,
+        "name": "BDMO6::BDMO6_member00::municipality_registry_observed::derived_f92ffeb9563ff872.parquet",
+        "sha256": "f92ffeb9563ff8724bd939edba058d1a1a51b9a0a30b44bab10016191a46da74",
+        "bytes": 1789280
+      }
     }
   },
   "issues": [],
-  "updated_at": "2026-10-21T08:45:48+00:00",
+  "updated_at": "2026-10-21T08:45:54+00:00",
   "source_finished": {
     "D04": {
       "keys": [
