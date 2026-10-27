@@ -1,0 +1,57 @@
+{
+  "experiment": "ML1_V4_PREDICTIONS_INDEPENDENT_AUDIT",
+  "date_utc": "2026-10-27",
+  "status": "PASS_REPLAYED_AND_VERIFIED",
+  "source": {
+    "repository": "AntonDozhdikov/Demograf_sovetnik",
+    "branch": "stage2-ml1-v4",
+    "commit": "462a92a0f3ae4d52c2a023a3f76af611adda6062",
+    "tag": "stage2-ml1-v4.0.0-20261026T130048Z-58bd8971",
+    "prediction_sha256": "fe877e5fa0d65ffda2acd3f6d9cb40e3af7c1b1242d20d43b92f46710a713350",
+    "results_sha256": "26e13ba5c40d0efb0565fd8be3f92d2d6bbcf770f62fb77b043365a1d78b3e78"
+  },
+  "inputs": {
+    "main_predictions": 870660,
+    "model_metrics": 486
+  },
+  "checks": {
+    "metric_parity": "486/486",
+    "flows": "72/72",
+    "classification": 48,
+    "intervals": 4,
+    "same_algorithm_ablations": 288,
+    "baseline_pairs": 60,
+    "figures": 10,
+    "critical": 0,
+    "warnings": 1
+  },
+  "artifacts": [
+    {
+      "name": "ML1_V4_PREDICTIONS_INDEPENDENT_AUDIT_COLAB_done.ipynb",
+      "size": 222417,
+      "sha256": "3ffe99ca1df980192164ff2ce90ded51cd532048eb6b7ee2174c44a36854aadc"
+    },
+    {
+      "name": "ML1_V4_PREDICTIONS_PUBLICATION.xlsx",
+      "size": 2149759,
+      "sha256": "a9b22fb1cae5a0f33e2d86e4930e65faedb17fde6067ade4c76f02057cb68c94"
+    },
+    {
+      "name": "ML1_V4_PREDICTIONS_QA.xlsx",
+      "size": 73792,
+      "sha256": "1f0b0722c899e846db5fe6d5b65bbb3b2257a84cf185c8721ceb33aa972cc538"
+    },
+    {
+      "name": "ML1_V4_PREDICTIONS_AUDIT_FIGURES.zip",
+      "size": 866935,
+      "sha256": "8d310c1a124f822ffd862d4fce7e22bd13c8979cddcc856beb478091895b22f0"
+    }
+  ],
+  "scientific_caveats": [
+    "exploratory BH-FDR ablations do not replace confirmatory H1-H2",
+    "8 unstable recursive_ridge flows",
+    "H3 not testable",
+    "no historical data vintages",
+    "50 seeds only 3 contexts"
+  ]
+}
