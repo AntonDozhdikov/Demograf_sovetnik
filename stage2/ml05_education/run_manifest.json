@@ -1,8 +1,8 @@
 {
   "version": "stage2-ml5-v2.0.1",
   "mode": "FULL",
-  "run_status": "PUBLISHING",
-  "git_publication": "PENDING_RELEASE_VERIFICATION",
+  "run_status": "FULL_PASS_WITH_DOCUMENTED_LIMITATIONS",
+  "git_publication": "PASS_GITHUB",
   "repo": "AntonDozhdikov/Demograf_sovetnik",
   "segment": "stage2/ml05_education",
   "supersedes_version": "stage2-ml5-v2.0.0",
@@ -219,5 +219,9 @@
   "generated_utc": "2026-11-02T16:45:45.603065+00:00",
   "previous_segment_head_sha": "7b810cc88d72806e091a3855af379967548e213b",
   "publication_branch": "ml05-education-20261102T160726Z",
-  "release_tag": "stage2-ml5-v2.0.1-20261102T164546Z"
+  "release_tag": "stage2-ml5-v2.0.1-20261102T164546Z",
+  "artifact_commit_sha": "7fb4fc2f0a29b17009a8e21072030d12317530b5",
+  "release_asset_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/releases/download/stage2-ml5-v2.0.1-20261102T164546Z/ML5_EVIDENCE.zip",
+  "notebook_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/blob/ml05-education-20261102T160726Z/stage2/ml05_education/ML5_EDUCATION_MIGRATION.ipynb",
+  "excel_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/blob/ml05-education-20261102T160726Z/stage2/ml05_education/ML5_EDUCATION_MIGRATION_RESULTS.xlsx"
 }
