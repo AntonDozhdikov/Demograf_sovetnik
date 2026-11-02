@@ -1,0 +1,194 @@
+{
+  "package_versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "catboost": "1.2.10",
+    "pyarrow": "23.0.1",
+    "duckdb": "1.3.2",
+    "networkx": "3.7",
+    "XlsxWriter": "3.3.1",
+    "nbformat": "5.11.1"
+  },
+  "version": "stage2-ml5-v2.0.0",
+  "run_status": "FULL_PASS",
+  "mode": "FULL",
+  "repo": "AntonDozhdikov/Demograf_sovetnik",
+  "segment": "stage2/ml05_education",
+  "stage1_index_version": "7.2",
+  "index_content_canonical_sha256": "c5d933723e74bde1c9ed392cd01be271acdc32eb89e928a81f110c32a099c8da",
+  "plan_hash": "e66ca29fc7dcabaeaf127a12c0b012afdb712dbee20d573d4f8a4af0e707d884",
+  "input_sha256": {
+    "01::0": "7564bcb6af322758369069273f15462ba42404e7e2aa6c1c89886e467477ed5f",
+    "03::42f47d3cf2159992::000": "c829090e75a7577ec4593bbe3e30070c46d9ab15df2fdc40e6b6338c0d77b9e5",
+    "03::a032c08f0d85b6a2::000": "7bb01b9f39f953619f7d5b4c38917c8abc13b4341abc72633e249eb0f0686b3d",
+    "03::89505d5993e6f4ad::000": "32874c42321f777f44668ed121ba87f8217425a72f0937c1937b4062f89572c3",
+    "03::84695c056f13b0c3::000": "1d0c0236bb0faa5ffd4785e25116f985384ccb8191699a2e56b470d87c03ca35",
+    "04::E02::E02::000::e45a15e7567e": "d69075fb815b17d85c63a0126995f560ff0fd9072a5d2772802aec3871d25f6c",
+    "05::E04::organization_total": "9f4bda5ce3011aff5c37ecd4ef9a2b746be9eb0eacf97c4115897fcf8844ab29"
+  },
+  "outputs_sha256": {
+    "ML5_EDUCATION_MIGRATION_RESULTS.xlsx": "8b8d0de54d3cfb7f567a93904d1d1eeaf641c0321328709fc10546e207eb9f72",
+    "ML5_EVIDENCE.zip": "4f65e9755a1862e2e3d6e544ed2856948f41cd8a5d866bb6816133e173fcd878",
+    "ML5_EDUCATION_MIGRATION.ipynb": "3d72b7af27461bd0c5eafca8d9e4b0d6cb8a351df076673e5021899af7a55adc"
+  },
+  "parquet_zip": {
+    "panels/edu_od_year.parquet": {
+      "rows": 30390,
+      "columns": 8
+    },
+    "panels/municipal_demography.parquet": {
+      "rows": 31445,
+      "columns": 8
+    },
+    "panels/edu_org_registry.parquet": {
+      "rows": 60796,
+      "columns": 21
+    },
+    "panels/spo_indicator_dictionary.parquet": {
+      "rows": 223,
+      "columns": 3
+    },
+    "panels/e02_indicator_dictionary.parquet": {
+      "rows": 141,
+      "columns": 2
+    },
+    "panels/edu_program_year.parquet": {
+      "rows": 185295,
+      "columns": 10
+    },
+    "panels/graduate_outcomes.parquet": {
+      "rows": 184501,
+      "columns": 12
+    },
+    "panels/outflow_observed.parquet": {
+      "rows": 436,
+      "columns": 4
+    },
+    "panels/municipality_education_context.parquet": {
+      "rows": 14,
+      "columns": 16
+    },
+    "panels/edu_network_year.parquet": {
+      "rows": 435,
+      "columns": 8
+    },
+    "panels/edu_network_edges.parquet": {
+      "rows": 18345,
+      "columns": 4
+    },
+    "panels/network_stability.parquet": {
+      "rows": 4,
+      "columns": 4
+    },
+    "panels/group_protocols.parquet": {
+      "rows": 2,
+      "columns": 11
+    },
+    "panels/metrics.parquet": {
+      "rows": 108,
+      "columns": 17
+    },
+    "panels/interpretation.parquet": {
+      "rows": 7,
+      "columns": 3
+    },
+    "predictions/education_predictions.parquet": {
+      "rows": 389012,
+      "columns": 15
+    }
+  },
+  "module_status": {
+    "ML-5.1": {
+      "status": "TESTED_FULL",
+      "reason": "Реальный test year 2025; победитель DEV: catboost; тест вне настройки"
+    },
+    "ML-5.2": {
+      "status": "NOT_FEASIBLE",
+      "reason": "Нет утверждённых точных показателей зачисления или недостаточная годовая панель"
+    },
+    "ML-5.3": {
+      "status": "TESTED_FULL",
+      "reason": "Реальный test year 2025; победитель DEV: catboost; тест вне настройки"
+    },
+    "ML-5.4": {
+      "status": "NOT_FEASIBLE",
+      "reason": "Не определено по исходному показателю, какие строки программ являются поступлением"
+    },
+    "ML-5.5": {
+      "status": "NOT_FEASIBLE",
+      "reason": "E04 фиксирует измерение занятости по состоянию на 2024-12-31; ряд независимых дат измерения пока не подтверждён. География работы отсутствует"
+    },
+    "ML-5.6": {
+      "status": "DESCRIPTIVE_PASS",
+      "reason": "Наблюдаемые сети: 5 лет; центральности, сообщества, устойчивость между годами"
+    },
+    "ML-5.7": {
+      "status": "NOT_FEASIBLE",
+      "reason": "Мало точных ОКТМО совпадений или вариации инфраструктуры: n=2, years=7"
+    }
+  },
+  "qa": [
+    {
+      "table": "edu_od_year",
+      "status": "PASS",
+      "rows": 30390,
+      "duplicates": 0,
+      "years": 5
+    },
+    {
+      "table": "municipal_demography",
+      "status": "PASS",
+      "rows": 31445,
+      "duplicates": 0,
+      "years": 14
+    },
+    {
+      "table": "vo_registry",
+      "status": "PASS",
+      "rows": 15277,
+      "duplicates": 0,
+      "years": 11
+    },
+    {
+      "table": "spo_registry",
+      "status": "PASS",
+      "rows": 45519,
+      "duplicates": 0,
+      "years": 10
+    },
+    {
+      "table": "edu_org_year",
+      "status": "EMPTY",
+      "rows": 0
+    },
+    {
+      "table": "municipality_education_context",
+      "status": "PASS",
+      "rows": 14,
+      "duplicates": 0,
+      "years": null
+    },
+    {
+      "table": "edu_network_year",
+      "status": "PASS",
+      "rows": 435,
+      "duplicates": 0,
+      "years": 5
+    }
+  ],
+  "models_metrics_count": 108,
+  "real_predictions_rows": 389012,
+  "start_observation_year": 2021,
+  "end_observation_year": 2025,
+  "observed_od_count": 30390,
+  "wall_seconds": 119.94,
+  "git_publication": "PASS_GITHUB",
+  "generated_utc": "2026-11-02T16:07:25.882817+00:00",
+  "publication_branch": "ml05-education-20261102T160726Z",
+  "artifact_commit_sha": "12ed3f3f929df71460f77b047b4e5597d2542232",
+  "release_tag": "stage2-ml5-v2.0.0-20261102T160726Z",
+  "evidence_release_asset_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/releases/download/stage2-ml5-v2.0.0-20261102T160726Z/ML5_EVIDENCE.zip",
+  "notebook_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/blob/ml05-education-20261102T160726Z/stage2/ml05_education/ML5_EDUCATION_MIGRATION.ipynb",
+  "excel_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/blob/ml05-education-20261102T160726Z/stage2/ml05_education/ML5_EDUCATION_MIGRATION_RESULTS.xlsx"
+}
