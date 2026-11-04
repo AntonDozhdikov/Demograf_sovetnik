@@ -1,11 +1,11 @@
 {
-  "version": "stage2-ml5-v2.0.1",
+  "version": "stage2-ml5-v2.0.2",
   "mode": "FULL",
-  "run_status": "FULL_PASS_WITH_DOCUMENTED_LIMITATIONS",
-  "git_publication": "PASS_GITHUB",
+  "run_status": "PUBLISHING",
+  "git_publication": "PENDING_RELEASE_VERIFICATION",
   "repo": "AntonDozhdikov/Demograf_sovetnik",
   "segment": "stage2/ml05_education",
-  "supersedes_version": "stage2-ml5-v2.0.0",
+  "supersedes_version": "stage2-ml5-v2.0.1",
   "target_branch": "ml05-education-20261102T160726Z",
   "stage1_index_version": "7.2",
   "input_sha256": {
@@ -18,11 +18,11 @@
     "05::E04::organization_total": "9f4bda5ce3011aff5c37ecd4ef9a2b746be9eb0eacf97c4115897fcf8844ab29"
   },
   "outputs_sha256": {
-    "ML5_EDUCATION_MIGRATION_RESULTS.xlsx": "14aabf11083dc7a25e45dc1c1275d44e1131c1fb42b17420b4ab4aa89e777faf",
-    "ML5_EVIDENCE.zip": "f6e1c3efe6c3b2adbcab36fda03c88b1cbe0343737ab21e3b19ca690b5f80253",
-    "ML5_EDUCATION_MIGRATION.ipynb": "087ebafc80b169b487abde4ad03b670a77e52be49b3852ebcb0699f8346b38fc"
+    "ML5_EDUCATION_MIGRATION_RESULTS.xlsx": "82bbdb5b5217f4525df9893237a2e0dcc3695c719eb6a7f106d1039cf1ce3b68",
+    "ML5_EVIDENCE.zip": "2c68cb5862e6e3c17ceb76e36062df8842bcfff3401f1f747a94605bd6d17e0b",
+    "ML5_EDUCATION_MIGRATION.ipynb": "0e09b4b2fe765c1b17452b049fbc773bf92ba995666e2b4610cb7e275291ee74"
   },
-  "plan_hash": "4ec6f2665ceb7258e661001d09cc1a2a3e6345ff158bc38b9e48c6ffe1c0248d",
+  "plan_hash": "908b355437d433c264a4b42924af2861209b44efc00dfd2c3c9b0d1187b86a49",
   "parquet_zip": {
     "panels/edu_od_year.parquet": {
       "rows": 30390,
@@ -68,6 +68,14 @@
       "rows": 20,
       "columns": 4
     },
+    "panels/od_edge_coverage.parquet": {
+      "rows": 5,
+      "columns": 8
+    },
+    "panels/od_edge_transitions.parquet": {
+      "rows": 9704,
+      "columns": 5
+    },
     "panels/outflow_interregional_observed.parquet": {
       "rows": 433,
       "columns": 4
@@ -83,6 +91,10 @@
     "panels/municipality_education_context.parquet": {
       "rows": 14,
       "columns": 16
+    },
+    "panels/confirmatory_results.parquet": {
+      "rows": 2,
+      "columns": 8
     },
     "panels/edu_network_year.parquet": {
       "rows": 433,
@@ -101,22 +113,26 @@
       "columns": 13
     },
     "panels/metrics.parquet": {
-      "rows": 63,
+      "rows": 71,
       "columns": 17
     },
     "panels/interpretation.parquet": {
       "rows": 7,
       "columns": 3
     },
+    "panels/holm_confirmatory.parquet": {
+      "rows": 2,
+      "columns": 7
+    },
     "predictions/education_predictions.parquet": {
-      "rows": 40205,
+      "rows": 54655,
       "columns": 15
     }
   },
   "module_status": {
     "ML-5.1": {
       "status": "TESTED_FULL",
-      "reason": "Межрегиональный поток без диагонали; test 2025; DEV-selected: gravity_ppml. Отсутствующие рёбра не достраиваются; H5.1 не идентифицирует экономические причины"
+      "reason": "Межрегиональный поток без диагонали; test 2025; DEV-selected: gravity_ppml; test delta_MAE=+2.3365. Отсутствующие рёбра не достраиваются; H5.1 не идентифицирует экономические причины"
     },
     "ML-5.2": {
       "status": "NOT_FEASIBLE",
@@ -124,7 +140,7 @@
     },
     "ML-5.3": {
       "status": "TESTED_FULL",
-      "reason": "Межрегиональный поток без диагонали; test 2025; DEV-selected: catboost. Отсутствующие рёбра не достраиваются; H5.1 не идентифицирует экономические причины"
+      "reason": "Межрегиональный поток без диагонали; test 2025; DEV-selected: catboost; test delta_MAE=+663.2510. Отсутствующие рёбра не достраиваются; H5.1 не идентифицирует экономические причины"
     },
     "ML-5.4": {
       "status": "NOT_FEASIBLE",
@@ -212,16 +228,12 @@
     "intra_value": 3687621.0,
     "unknown_value": 2992.0
   },
-  "model_metrics_count": 63,
-  "predictions_rows": 40205,
+  "model_metrics_count": 71,
+  "predictions_rows": 54655,
   "scientific_caveat": "OD по E01 не доказывает постоянную смену места жительства; 4 модуля могут иметь NOT_FEASIBLE; расстояния и экономические эффекты H5.1 не проверены",
-  "elapsed_seconds": 378.6,
-  "generated_utc": "2026-11-02T16:45:45.603065+00:00",
-  "previous_segment_head_sha": "7b810cc88d72806e091a3855af379967548e213b",
+  "elapsed_seconds": 76.4,
+  "generated_utc": "2026-11-04T07:41:58.700056+00:00",
+  "previous_segment_head_sha": "05f1ec8e8c92abc9a06d3222d012725612d45a19",
   "publication_branch": "ml05-education-20261102T160726Z",
-  "release_tag": "stage2-ml5-v2.0.1-20261102T164546Z",
-  "artifact_commit_sha": "7fb4fc2f0a29b17009a8e21072030d12317530b5",
-  "release_asset_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/releases/download/stage2-ml5-v2.0.1-20261102T164546Z/ML5_EVIDENCE.zip",
-  "notebook_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/blob/ml05-education-20261102T160726Z/stage2/ml05_education/ML5_EDUCATION_MIGRATION.ipynb",
-  "excel_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/blob/ml05-education-20261102T160726Z/stage2/ml05_education/ML5_EDUCATION_MIGRATION_RESULTS.xlsx"
+  "release_tag": "stage2-ml5-v2.0.2-20261104T074159Z"
 }
