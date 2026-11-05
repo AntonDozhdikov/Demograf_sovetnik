@@ -1,0 +1,14 @@
+{
+  "version": "stage2-ml5-v6.0.0-full-replacement",
+  "run_key": "657fde73fecafe98f9db",
+  "release_tag": "ml05-v6-full-657fde73fecafe98f9db",
+  "release_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/releases/tag/ml05-v6-full-657fde73fecafe98f9db",
+  "evidence_sha256": "bfe38a21bcd01124c5ff5e5107e972646227d66cc37aa3df84e2d1640be663f0",
+  "parts_manifest": "ML5_V6_RELEASE_PARTS.json",
+  "source_commit": "58473f995440daac295ca32532959f101bfa14ea",
+  "source_count": 52,
+  "computational_pass": true,
+  "scientific_targets_all_identified": false,
+  "target_prefix": "stage2/ml05_education/",
+  "replacement_policy": "atomic current ML-05 tree only; preserve git history and Stage I"
+}

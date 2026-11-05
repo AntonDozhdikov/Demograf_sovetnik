@@ -1,243 +1,1822 @@
 {
-  "version": "stage2-ml5-v2.0.2",
+  "version": "stage2-ml5-v6.0.0-full-replacement",
   "mode": "FULL",
-  "run_status": "FULL_PASS_WITH_DOCUMENTED_LIMITATIONS",
-  "git_publication": "PASS_GITHUB",
-  "repo": "AntonDozhdikov/Demograf_sovetnik",
-  "segment": "stage2/ml05_education",
-  "supersedes_version": "stage2-ml5-v2.0.1",
-  "target_branch": "ml05-education-20261102T160726Z",
-  "stage1_index_version": "7.2",
-  "input_sha256": {
+  "created_utc": "2026-11-05T20:26:38.845566+00:00",
+  "source_repo": "AntonDozhdikov/Demograf_sovetnik",
+  "source_commit": "58473f995440daac295ca32532959f101bfa14ea",
+  "source_index_git_blob_sha": "d6625ccddc24f24a1ee451e33c48b736d3a57043",
+  "source_index_version": "7.2",
+  "source_hashes": {
     "01::0": "7564bcb6af322758369069273f15462ba42404e7e2aa6c1c89886e467477ed5f",
+    "02::budget::00::00": "70baff304c07d2988849cf5b89c8f765373801711d331454da534a3dad2a8938",
+    "02::education::00::00": "7b9ca9c33637ddb05d10841e8fa66d73a445d6e5245553f5b418a026b2954465",
+    "02::housing::00::00": "d934b1d4554521473277f8e9b533887db49c98f45f10798b5e31fae27e30ebc9",
+    "02::social::00::00": "32347fb007a1d05f6ebeaebaf1e5ca3e03accbcba39fceb41edf4fff720bb971",
+    "02::construction::00::00": "f88e7cab0c050072684ab48dff9ceacdaf16d508c631185ac402841fb4bef4df",
+    "02::labor::00::00": "4e3e3176c7ceb1a175f7e38aee946f056c553a3f105aa43a9ad7e4b0fbfc8bad",
+    "02::socio1::00::00": "646541265840fb39c9eca7e463c0cf18236edb3dce4915487a7f9bddae704bcc",
+    "02::socio2::00::00": "fcfafe030f87488167c35e59bd83b60825d008bf14b784fa77806d98c4e799a4",
+    "02::socio3::00::00": "cafcd2322f6a9b8bbc039a4bc49fcdcd33ce17920eb6bbb36ed41a387d93cdb8",
+    "02::5ndfl::00::00": "f87e141598f0df2ca34d414137e41b4ec2467ac2d69bf2925fe9ead676889e51",
+    "02::7ndfl::00::00": "3b9ee93d82e7a33f7a4d5e1a7cbd91cbfe0cab858ca8666865d75e918a1b0678",
     "03::42f47d3cf2159992::000": "c829090e75a7577ec4593bbe3e30070c46d9ab15df2fdc40e6b6338c0d77b9e5",
     "03::a032c08f0d85b6a2::000": "7bb01b9f39f953619f7d5b4c38917c8abc13b4341abc72633e249eb0f0686b3d",
     "03::89505d5993e6f4ad::000": "32874c42321f777f44668ed121ba87f8217425a72f0937c1937b4062f89572c3",
     "03::84695c056f13b0c3::000": "1d0c0236bb0faa5ffd4785e25116f985384ccb8191699a2e56b470d87c03ca35",
+    "03::94ce78c88f57647e::000": "f07dc3dbc5736eaa7d73290063126ec000bc4a488bbfdbc1f2100b790e83cb46",
+    "03::70266e7a1bba1167::000": "a52fe87a6087fd5080bd45f6e9617063f0fa391673dea07f325d6e5a57b5628a",
+    "03::316f9f685aa46733::000": "1bab453b8b3012aa68b00e983d1f885c647538c0c28f7b6386e6c4937ca32a96",
+    "03::7fc3a850dd2f2c25::000": "4c9b1d8b927e381cc2ba537013d9f00ecc5a8f2f5d4aed305f641d6b00072ca9",
+    "03::4779600a07341daa::000": "0e13f83bec636d8f998ab0ebd6fab35f641a7087105139b40cc466d3e1f2fd78",
+    "03::6981467c4678cf59::000": "1ff5bf0ca0cb55feeb7193ac7dd967a1e03006ccf568b8f2663ba040a0be6056",
+    "03::8b6540e17a79eb74::000": "6ea1c66565ead0f124f88989d1fdf56e11bce19a57498e5a3f4e5d37075bdbcb",
+    "03::a10bb379ea733bae::000": "b29c4dddebbd0ec7bf1be89afd911e765707e197423156c0eb04644aab404321",
+    "03::d3b8f470397e2eca::000": "d6c37b32e0772a02be15d6604bfa34ff128d28b93c08cead5f91cf44c1fad8c0",
+    "03::158145691ba48e91::000": "e744912af9b357c3e21f9af4162343e3f6dce3b17af7016c6a60827caefa6629",
+    "03::5b3797117fe25268::000": "12a7d7d42580971ab30a7766fb524ec9c8369aa673ec84307ebbaad57848e65f",
+    "03::5b3797117fe25268::001": "dd4419975cc97f4f989b5534ab78cca2aee0157c311082a56f54e0f2b60bbf2e",
+    "03::5b3797117fe25268::002": "d47ed60345fedcd6f79a271813bdf84e3bab2b077c3baa671c30b1bd10a1d44f",
+    "03::5b3797117fe25268::003": "78e1de8988e11432756297bf018c45600648c14d9a44be703ab8fd4e26f22f15",
+    "03::5b3797117fe25268::004": "0abdec20cb2a42b6f5a1e8a7363fab2cc5c23af643abaedf7c71bb23fc2df497",
     "04::E02::E02::000::e45a15e7567e": "d69075fb815b17d85c63a0126995f560ff0fd9072a5d2772802aec3871d25f6c",
-    "05::E04::organization_total": "9f4bda5ce3011aff5c37ecd4ef9a2b746be9eb0eacf97c4115897fcf8844ab29"
+    "04::VPO_2_1_1::VPO_2_1_1::000::f9f714878501": "298678c85a6e5a6aa846de1934524d9e4527b6d2c1719326d50d89ef8650e741",
+    "04::VPO_2_1_2::VPO_2_1_2::000::8ee3a0dd59b2": "fa787665c723809b9ea9a01e2aa198ed219cb8a8f6d50655097d0230ae2b843c",
+    "04::VPO_2_1_3::VPO_2_1_3::000::d5c03abeb283": "9a934f97893f26aad1cef75f14c454b22b9f53317a9065163dc4cd5d80b9f17a",
+    "04::VPO_2_2::VPO_2_2::000::500a6d934613": "2c16281da516cd356b3fc3950ca3e1297f85e8883c7bbc4b63a87c53e7ab3e0f",
+    "04::VPO_2_3::VPO_2_3::000::4e30aac2eb55": "25189721df754ec369c4ea6c71eb17ac3ceaf1f7ca7b8e4246ecc6822cf76290",
+    "04::VPO_2_4::VPO_2_4::000::1db3b5c681d8": "5492b5590661a063677e8f1cf26ed366205f6a69e704c5ac926cd1c9994e1261",
+    "04::VPO_2_5::VPO_2_5::000::f366f7a91498": "8cd5ec96c3b97acc58b2ff04beb5c89e3ada8213d8efb2647cf7546bf7a7b758",
+    "04::VPO_2_8::VPO_2_8::000::8af654c843f2": "e3f95a4f0b31eeac7ce9a60001476fbd43d6aea80ca4f8190caf80a4d7acbb3e",
+    "04::VPO_2_9::VPO_2_9::000::e8a9bc53598b": "4ed2c275744303ab90a53a60c1db94856f5ca583b5d3a412f3e57ac9d80a9ff6",
+    "04::VPO_2_10::VPO_2_10::000::2f93dc7c92db": "fb69b4834a055256a36c9ccf1bfbc929267e8c5d03bc0758221865376b6ed4ce",
+    "05::E04::organization_total": "9f4bda5ce3011aff5c37ecd4ef9a2b746be9eb0eacf97c4115897fcf8844ab29",
+    "05::E04::organization_specialty": "6f81e212597e54268a59ec124cfe2761f50cbee98cca71d837e6bfd9fd6089ae",
+    "05::E05::field_specialty": "0a7430d091444f015a2d3e97395bf53f9800d02b3e1c6c445bf2a4e0f5077012",
+    "05::E05::field_area": "1370bc3dcfaf5efe03b19aaafa2e45560a3bb23b7e3fad2f1a2c692880db3c3b",
+    "06::D04::D04_member00::full": "49da6033ca9b25cddd80a62ad4db57e7c63813cfd255aa6c9c59a21aa323d3f9",
+    "06::D04::D04_member00::spatial_reference::derived": "40445cf86e447bc5a5f2d817230f4fd4c483005c29f0b647ef3a7290e166830a",
+    "06::BDMO6::BDMO6_member00::full": "0e9cda0a09781d4f2c8dce761e2ab2853ff99cefe792ccc97b7ef368a534433d",
+    "06::BDMO6::BDMO6_member00::municipality_registry_observed::derived": "f92ffeb9563ff8724bd939edba058d1a1a51b9a0a30b44bab10016191a46da74",
+    "06::BDMO6::BDMO6_member00::municipality_history_observed::derived": "0a815ab72a437a698e791547eb766b881a3d14a4ea8489124fabdd5452ad0e78",
+    "06::TRANSPORT::TRANSPORT_member00::full": "a5d84b4104fbc9b4f53a13a254f519a0be02c44e8a442ea54adfda2827a6bec5"
   },
-  "outputs_sha256": {
-    "ML5_EDUCATION_MIGRATION_RESULTS.xlsx": "82bbdb5b5217f4525df9893237a2e0dcc3695c719eb6a7f106d1039cf1ce3b68",
-    "ML5_EVIDENCE.zip": "2c68cb5862e6e3c17ceb76e36062df8842bcfff3401f1f747a94605bd6d17e0b",
-    "ML5_EDUCATION_MIGRATION.ipynb": "0e09b4b2fe765c1b17452b049fbc773bf92ba995666e2b4610cb7e275291ee74"
-  },
-  "plan_hash": "908b355437d433c264a4b42924af2861209b44efc00dfd2c3c9b0d1187b86a49",
-  "parquet_zip": {
-    "panels/edu_od_year.parquet": {
-      "rows": 30390,
-      "columns": 8
+  "context_derived_files": {
+    "d02_01.parquet": {
+      "rows": 8395,
+      "sha256": "87356cbb4fed314d28467459c156850f10dc7535c0f4866e6fcf5ac40214577d"
     },
-    "panels/municipal_demography.parquet": {
-      "rows": 31445,
-      "columns": 8
+    "d02_02.parquet": {
+      "rows": 12222,
+      "sha256": "d760c72c1029e98158357f44d98bd10be4b24b53288ce8ada53ee4341196ba79"
     },
-    "panels/edu_org_registry.parquet": {
-      "rows": 60796,
-      "columns": 21
+    "d02_03.parquet": {
+      "rows": 6793,
+      "sha256": "492dec5638dce44ff45763fde55b9d2ca8dfd9a425f0db3bd549fd5e6d234979"
     },
-    "panels/spo_indicator_dictionary.parquet": {
-      "rows": 223,
-      "columns": 3
+    "d02_04.parquet": {
+      "rows": 23025,
+      "sha256": "cdaa1b15bbd6606c16ef0b73fa1fc761f0157744268e4455e34e65379e71d17d"
     },
-    "panels/e02_indicator_dictionary.parquet": {
-      "rows": 141,
-      "columns": 2
+    "d02_05.parquet": {
+      "rows": 39508,
+      "sha256": "8dba283b26f0f9015b12f83422d2abc6789508c62db43c349907f9db877c7a74"
     },
-    "panels/edu_program_year.parquet": {
-      "rows": 185295,
-      "columns": 10
+    "d02_06.parquet": {
+      "rows": 20182,
+      "sha256": "e770f5e225c008de816506da32d9daa5b0ea1ec132dd27082ceebf5804909544"
     },
-    "panels/graduate_outcomes.parquet": {
-      "rows": 184501,
-      "columns": 12
+    "d02_07.parquet": {
+      "rows": 69577,
+      "sha256": "c6f97cb3903124abb87f28ba336dfdd153e30426a78fe1dc051f71b3f8ccc3e5"
     },
-    "panels/edu_od_interregional.parquet": {
-      "rows": 29455,
-      "columns": 8
+    "d02_08.parquet": {
+      "rows": 40629,
+      "sha256": "4cd8ad7ea67a9a3f1a543f1deb00bf8229dfc5fb42846f5588ca11b9baa25e50"
     },
-    "panels/edu_od_intraregional.parquet": {
-      "rows": 425,
-      "columns": 8
+    "d02_09.parquet": {
+      "rows": 87933,
+      "sha256": "181705d68b8e023430894d919533edc7d776e7cda03145adc38bff8ed2c25791"
     },
-    "panels/edu_od_unknown_region.parquet": {
-      "rows": 510,
-      "columns": 8
+    "d02_10.parquet": {
+      "rows": 13737,
+      "sha256": "e93d424cd95e8e183fa752223b20ad3fb59fceb3df98150acdd623062453bd17"
     },
-    "panels/od_composition.parquet": {
-      "rows": 20,
-      "columns": 4
+    "d02_11.parquet": {
+      "rows": 17254,
+      "sha256": "df769d425226215d1bf409fb662994322340b2dc4990fc0194655fa3b983d762"
     },
-    "panels/od_edge_coverage.parquet": {
-      "rows": 5,
-      "columns": 8
+    "vpo_01.parquet": {
+      "rows": 1461,
+      "sha256": "3886117675626a75fee6c4ee948687cc0ee92dae36ce1dec01a0224c4594335e"
     },
-    "panels/od_edge_transitions.parquet": {
-      "rows": 9704,
-      "columns": 5
+    "vpo_02.parquet": {
+      "rows": 260,
+      "sha256": "b4dd35ec60dbcf4a405cfd219b9ee3060d763ead4cc8633faedb154a9d699eb9"
     },
-    "panels/outflow_interregional_observed.parquet": {
-      "rows": 433,
-      "columns": 4
+    "vpo_03.parquet": {
+      "rows": 134,
+      "sha256": "12ec36ebb438160b6bf09db1d4b87a46e1554af43fcc7bfde8a60d8a491b76b3"
     },
-    "panels/forecast_feature_coverage.parquet": {
-      "rows": 7,
-      "columns": 4
+    "vpo_04.parquet": {
+      "rows": 285,
+      "sha256": "c73a64f8f35ecaf0b9b07f2e7a372452275a45ad3d989da43db293e27e68f593"
     },
-    "panels/canary_tests.parquet": {
-      "rows": 2,
-      "columns": 2
+    "vpo_05.parquet": {
+      "rows": 166,
+      "sha256": "7f5931ed08d758b568c8ff96295a7f43669974e0547e2b28f69cbf12ab273bb9"
     },
-    "panels/municipality_education_context.parquet": {
+    "vpo_06.parquet": {
+      "rows": 30,
+      "sha256": "5a578b31a6f6cfb08487365b73b38340a62e33859ff536afe0581f7ed73e188c"
+    },
+    "vpo_07.parquet": {
+      "rows": 30,
+      "sha256": "0d6ec4760364722de6614804ecb72c7cb45703a905e72f506eeef4395e8d36f0"
+    },
+    "vpo_08.parquet": {
+      "rows": 35,
+      "sha256": "c680bde19589575eb6f71fff0533b30f3e7e56524844cbdcbd277d8b0f0da97b"
+    },
+    "vpo_09.parquet": {
+      "rows": 47,
+      "sha256": "c8f2a5c63da5469598333bb7117864cd47b44d98d471c7abf21b73f6b8cbacda"
+    },
+    "vpo_10.parquet": {
+      "rows": 60,
+      "sha256": "54549750d133a239c4df936282971e0e87ea157768a044e0328ae64237953779"
+    },
+    "vpo_11.parquet": {
+      "rows": 48,
+      "sha256": "281105ca700f790314bd13667f57eaf00feed7855a3a33178bd77e669d1b3276"
+    },
+    "graduates_source_1.parquet": {
+      "rows": 108,
+      "sha256": "e1ee782d2b0d6fb6398eb0892880e0e91f59a670d006935fd4ebcc3ad5f733e5"
+    },
+    "graduates_source_2.parquet": {
+      "rows": 108,
+      "sha256": "2ecc90ba1f1f638ac4868b01bc1efc837027f5bc32ccadcb191726b994ffb4b5"
+    },
+    "graduates_source_3.parquet": {
+      "rows": 851,
+      "sha256": "0d904d520b7ea73f6c1f85a47277b666a1a555e1915797ef40dd63b368671c1c"
+    },
+    "graduates_source_4.parquet": {
+      "rows": 851,
+      "sha256": "4bae233865c9ba4de7d38935b20b1520cb0ccd7362eacdf671ae8ae610f75855"
+    },
+    "bdmo_education_municipal.parquet": {
+      "rows": 669436,
+      "sha256": "57fcc1474651d4562afbe0ca1c3c720bec2b90e80f470396adcf215201a869e9"
+    },
+    "source_01.parquet": {
       "rows": 14,
-      "columns": 16
+      "sha256": "ed96787dc40c699cbdcb00f4178024c9ee2b63dfb7f61f79e3745c85202dc71c"
     },
-    "panels/confirmatory_results.parquet": {
-      "rows": 2,
-      "columns": 8
+    "source_02.parquet": {
+      "rows": 15,
+      "sha256": "cb46fe22731670129f65ea74c170cf8e5d29011bbb11761e162e6b3c285b248f"
     },
-    "panels/edu_network_year.parquet": {
-      "rows": 433,
-      "columns": 9
+    "source_03.parquet": {
+      "rows": 21,
+      "sha256": "f8ab4c0536a5d83e79ae90d726ff99cdf360cf9bb0c89d931d07beef6e894b41"
     },
-    "panels/edu_network_edges.parquet": {
-      "rows": 17780,
-      "columns": 4
+    "source_04.parquet": {
+      "rows": 20,
+      "sha256": "0dd349759f1a231bedf61a39377706c283ca6abe17cb5f7ba5f43db160fe8e28"
     },
-    "panels/network_stability.parquet": {
-      "rows": 4,
-      "columns": 4
+    "source_05.parquet": {
+      "rows": 9,
+      "sha256": "6ae5f0f3accc114470d3f38617367676e5b984d82e3067b0055abfb9217a3b01"
     },
-    "panels/group_protocols.parquet": {
-      "rows": 4,
-      "columns": 13
+    "source_06.parquet": {
+      "rows": 15,
+      "sha256": "d2276b9b6fc180d96ba399f08c9e374a288ff916e5694109026352b014bcf046"
     },
-    "panels/metrics.parquet": {
-      "rows": 71,
-      "columns": 17
+    "source_07.parquet": {
+      "rows": 9,
+      "sha256": "5b94ca902a791a400358530fd3c9902f43946720aa4d3e0056c4c29bd9af8a99"
     },
-    "panels/interpretation.parquet": {
-      "rows": 7,
-      "columns": 3
+    "source_08.parquet": {
+      "rows": 24,
+      "sha256": "97b2162aae0764379611da15f58bc3b641a4c3ae9632f4d91f926ff895f06494"
     },
-    "panels/holm_confirmatory.parquet": {
-      "rows": 2,
-      "columns": 7
+    "source_09.parquet": {
+      "rows": 24,
+      "sha256": "0976178ba4ac13c598d898e3a1c9c40abe5303b4248e28a26be3c4c2ec672a29"
     },
-    "predictions/education_predictions.parquet": {
-      "rows": 54655,
-      "columns": 15
+    "source_10.parquet": {
+      "rows": 25,
+      "sha256": "4bf7a6e23b4c1dc654dbfeac58870e7a8fab3c6b77063728b909cf1f8586de80"
+    },
+    "source_11.parquet": {
+      "rows": 9,
+      "sha256": "f66b742ebc367caff633d338cd3c3061045a33387b7630897b3b58f06404e509"
+    },
+    "source_12.parquet": {
+      "rows": 11,
+      "sha256": "d330e651838f3d7103e2bd3ceadd65f020fcd12b5e2212b211279ca596b8ef72"
+    },
+    "source_13.parquet": {
+      "rows": 5,
+      "sha256": "1950838b49992704906970778d0a399f705a49a425528f5a7845991a5187c975"
+    },
+    "source_14.parquet": {
+      "rows": 10,
+      "sha256": "bba626320f92b6b9f0e8e200bba267999f4e054f2ee9ed21cef0007487e3ad46"
+    },
+    "source_15.parquet": {
+      "rows": 10,
+      "sha256": "e5bf1f18f23dce397da216a2ec94f5cc98944bfbb852de70bf103a16923d4170"
+    },
+    "source_16.parquet": {
+      "rows": 8,
+      "sha256": "e049a89f47fc1e94f8616a38e33439605b05b5cb5522cf09b0b58bd4571b48cc"
+    },
+    "source_17.parquet": {
+      "rows": 1,
+      "sha256": "2964ec5bd33811312dc56eeff6a08035355233f76b4a075b1f347420646fc793"
+    },
+    "source_18.parquet": {
+      "rows": 1,
+      "sha256": "44cb60c24ac50790021380f74a9322f00611815153d8542b145b59891bcededb"
+    },
+    "source_19.parquet": {
+      "rows": 1,
+      "sha256": "456b262551820d4f3cfd9e0312c4017ed3f11f003c51cf45291b27661ed3341a"
+    },
+    "source_20.parquet": {
+      "rows": 1,
+      "sha256": "6ef713f34a95b45f14f4389f459764d4a13ef18d2157e30f973a3faeb4a2fa86"
+    },
+    "source_21.parquet": {
+      "rows": 1,
+      "sha256": "5330ce7e16b94f7630b59d20786773efe2382747f9848df34eeeee49a296c0b6"
+    },
+    "source_22.parquet": {
+      "rows": 1,
+      "sha256": "9e7d5987c6f9cf678a8fbc19f3ad1df2ba150453288ac2363bd8433111c214fb"
+    },
+    "source_23.parquet": {
+      "rows": 1,
+      "sha256": "16b947022a31c4bf32806712900ee40319c2ca2cd0b3ecaa94eeb7afe44e5d5c"
+    },
+    "source_24.parquet": {
+      "rows": 1,
+      "sha256": "0a749488b5106d4818976a16d25ff0706c855738b6aff700cba832df4bf8d9f8"
+    },
+    "source_25.parquet": {
+      "rows": 1,
+      "sha256": "28ac8efc9f07f5884e41f1af907f443a32acc191240d404dd3a2177d30e930b2"
+    },
+    "source_26.parquet": {
+      "rows": 1,
+      "sha256": "7175b604219723769e71b55f8a859f43130653236910825e7772ba7ac546458c"
+    },
+    "source_27.parquet": {
+      "rows": 1,
+      "sha256": "7c573e3277d33fb1c2ebdfa8fe9cf77c74594d8a8fb9a924982192b4aa61aa52"
+    },
+    "source_28.parquet": {
+      "rows": 1,
+      "sha256": "8df4888c40c964bb4bf37aae097fa375a69951027546bedda05fee1a1f1cc1f2"
+    },
+    "source_29.parquet": {
+      "rows": 1,
+      "sha256": "e98d0690f273c8abc7ff478e784b9696547656b5619a1ee0d471edc1c412a73f"
+    },
+    "source_30.parquet": {
+      "rows": 1,
+      "sha256": "884963759a09e7709f08fc00c8be2bc55c3eb14c4d812e8dd4a988c3e53edaf0"
+    },
+    "source_31.parquet": {
+      "rows": 1,
+      "sha256": "257f224b2063b3593b0842b9cd4e5149a28247bda882d065bc56e9de02d514c2"
+    },
+    "source_32.parquet": {
+      "rows": 11,
+      "sha256": "5d9f5b4b15dd4890b9e07a701d89a2d81b92494ba47b86acdc417fab277d2f5b"
+    },
+    "source_33.parquet": {
+      "rows": 10,
+      "sha256": "4550b2c66eb29e8d5a270d8245f0dbee08b4907bc2585039a770ad6fa5ca42da"
+    },
+    "source_34.parquet": {
+      "rows": 10,
+      "sha256": "53b50f311337c04b20ec2928c72a3a0c5facfd775eb13cb460fa265630386a0a"
+    },
+    "source_35.parquet": {
+      "rows": 10,
+      "sha256": "762550fb65ccad96f365431d41eaa9f2abc401510a6656abbc4608f0d815dfea"
+    },
+    "source_36.parquet": {
+      "rows": 10,
+      "sha256": "78451c6c7f8074fc8a2f1deb1ff2164498a1a490f439fc870548cea0c7cfd394"
+    },
+    "source_37.parquet": {
+      "rows": 10,
+      "sha256": "da8157e174751197c0d1eeff1e12c88d8ae5c4ac39196dd00ccc9c5850b59c83"
+    },
+    "source_38.parquet": {
+      "rows": 10,
+      "sha256": "903a883bb5860f723c3281d517353a66fb9dc939d7f80e22397df9f0e9789bda"
+    },
+    "source_39.parquet": {
+      "rows": 10,
+      "sha256": "a225d5441b89d213200eefc6757087657fa5349d21ed1a0ecfd307410c670ad4"
+    },
+    "source_40.parquet": {
+      "rows": 10,
+      "sha256": "bd608be0a69f1262cf3550822b7a1e1157bcc4bbcdda17ee7e5bf83e0bf0126a"
+    },
+    "source_41.parquet": {
+      "rows": 10,
+      "sha256": "87bf6ea457d17266145492bee4048ce5ac69c55fdb3884834a38cf9eecdb5d80"
+    },
+    "source_42.parquet": {
+      "rows": 10,
+      "sha256": "822b8b9a02c5ea5e38263a033c122836b7920fff2776044e2d3c26af78f5c4a4"
+    },
+    "source_43.parquet": {
+      "rows": 9,
+      "sha256": "2515248dc4805edaac5375049da83d8d3db6f62b331511111e5afdc581958c39"
+    },
+    "source_44.parquet": {
+      "rows": 9,
+      "sha256": "f256771554d8525696883a0317528aa9dce34548c2b268254b240e0ec6d4490d"
+    },
+    "source_45.parquet": {
+      "rows": 9,
+      "sha256": "1bc3cfaa071447732915b1068a0a58cde412fba389c3217282a2d8c2a8054e2b"
+    },
+    "source_46.parquet": {
+      "rows": 9,
+      "sha256": "d65aab1f78dd35a7c2b95d13b28ea17bd0a240c539bba8614cdf825148db64f8"
+    },
+    "source_47.parquet": {
+      "rows": 1,
+      "sha256": "ef470a971f746b29a198c6400bc74ca97918a2a674d1b43b41be5949843a2dcc"
+    },
+    "source_48.parquet": {
+      "rows": 1,
+      "sha256": "20b0f79e80e845ca81f8660feffdd555e617d8c6326612e52503e9dd5d640b7f"
+    },
+    "source_49.parquet": {
+      "rows": 20,
+      "sha256": "c843731673b38374faf174141685be77acc6b950bff31aa077e2f8bba8b42930"
+    },
+    "source_50.parquet": {
+      "rows": 20,
+      "sha256": "7feeaefd647ec8e6bd1df1c6ccbc7fa2173918fd988aa18086097cf757584dd0"
+    },
+    "source_51.parquet": {
+      "rows": 20,
+      "sha256": "da471b0d9b7ffbd4b671b4a686c0d6f7ad8b5b1ed62e148ff97c711874fed0c6"
+    },
+    "source_52.parquet": {
+      "rows": 1,
+      "sha256": "71df71bfe8ba82ce20dd3d6cfa428ce1ae7a4d8b8a5765f5f9114789a7655024"
+    },
+    "v4_regional_specialty_admissions.parquet": {
+      "rows": 237208,
+      "sha256": "db246920f6db9132ab1c03de3f6b7a4bf36751207695f6dbd2d6d3c037c979ac"
+    },
+    "v4_municipality_education_exact_support.parquet": {
+      "rows": 50325,
+      "sha256": "3fa20e9767f3d7329f22e12caff7f47b16707a8b2795b7812bd76f348ef9bbd9"
     }
+  },
+  "catalog_52_coverage": {
+    "registered": 52,
+    "sha_verified": 52,
+    "verified_every_asset": true,
+    "year_profiled": 446
+  },
+  "experiment_plan_sha256": "dd1439f37e155e3f50abfeae4d92e99099d5ce0cc21079a6032a6c5e3099ef95",
+  "v5_science_gates": {
+    "all52_source_content_verified": true,
+    "all_feasible_computations_succeeded": true,
+    "all_seven_scientifically_identified": false,
+    "model_failure_count": 0
+  },
+  "status": {
+    "technical": "PASS",
+    "scientific": "FULL_COMPUTATIONS_WITH_SCIENTIFIC_LIMITS",
+    "publication": "NOT_ATTEMPTED",
+    "overall": "FULL_COMPUTATIONS_WITH_SCIENTIFIC_LIMITS"
   },
   "module_status": {
     "ML-5.1": {
       "status": "TESTED_FULL",
-      "reason": "Межрегиональный поток без диагонали; test 2025; DEV-selected: gravity_ppml; test delta_MAE=+2.3365. Отсутствующие рёбра не достраиваются; H5.1 не идентифицирует экономические причины"
+      "reason": "Ретроспективный тест с неподтверждёнными историческими версиями источника; DEV-проверка доступности соблюдена; улучшение не гарантировано",
+      "n": 7140,
+      "test_year": 2025,
+      "selected": "persistence"
     },
     "ML-5.2": {
-      "status": "NOT_FEASIBLE",
-      "reason": "Нет утверждённых точных показателей зачисления или недостаточная годовая панель"
+      "status": "ALTERNATIVE_ORG_AREA_CONTINGENT_TESTED_NOT_ADMISSIONS",
+      "reason": "Observed E02 student contingent by organization/area/specialty; NOT admitted cohorts, not institutional total",
+      "n": 17563,
+      "test_year": 2025,
+      "selected": "damped_trend"
     },
     "ML-5.3": {
       "status": "TESTED_FULL",
-      "reason": "Межрегиональный поток без диагонали; test 2025; DEV-selected: catboost; test delta_MAE=+663.2510. Отсутствующие рёбра не достраиваются; H5.1 не идентифицирует экономические причины"
+      "reason": "Ретроспективный тест с неподтверждёнными историческими версиями источника; DEV-проверка доступности соблюдена; улучшение не гарантировано",
+      "n": 85,
+      "test_year": 2025,
+      "selected": "persistence"
     },
     "ML-5.4": {
-      "status": "NOT_FEASIBLE",
-      "reason": "Не определено по исходному показателю, какие строки программ являются поступлением"
+      "status": "TESTED_FULL",
+      "reason": "Exact VPO admitted value regional specialty/level/form/admission_type stratum; not OD and not institution-level",
+      "n": 22092,
+      "test_year": 2025,
+      "selected": "damped_trend"
     },
     "ML-5.5": {
-      "status": "NOT_FEASIBLE",
-      "reason": "E04 фиксирует измерение занятости по состоянию на 2024-12-31; ряд независимых дат измерения пока не подтверждён. География работы отсутствует"
+      "status": "DESCRIPTIVE_AND_CROSS_SECTIONAL_TEST",
+      "reason": "All four E04/E05 descriptive; E04 regional OOS employment test does not imply retention/temporal forecast",
+      "n": 39216
     },
     "ML-5.6": {
-      "status": "DESCRIPTIVE_PASS",
-      "reason": "Наблюдаемые межрегиональные сети без петель: 5 лет; проверены сообщества и устойчивость"
+      "status": "DESCRIPTIVE_FULL_NETWORK_STRESS",
+      "reason": "Динамические сети, PageRank, Louvain, концентрация, reciprocity и устойчивость удаления центрального узла; сопоставимость лет ограничена",
+      "n": 433
     },
     "ML-5.7": {
-      "status": "NOT_FEASIBLE",
-      "reason": "Мало точных ОКТМО совпадений или вариации инфраструктуры: n=2, years=7"
+      "status": "NOT_FEASIBLE_FOR_PREDICTION",
+      "reason": "Недостаточно подтвержденного кампусного покрытия: 0 ОКТМО; неизвестно != 0",
+      "n": 0
     }
   },
-  "qa": [
+  "observed_od_counts": {
+    "all": 30390,
+    "inter": 29455,
+    "intra": 425,
+    "unknown": 510
+  },
+  "real_prediction_rows": 2737382,
+  "v5_model_file_count": 227,
+  "v5_module_acceptance": [
     {
-      "table": "edu_od_year",
-      "status": "PASS",
-      "rows": 30390,
-      "duplicates": 0,
-      "years": 5
+      "module": "ML-5.1",
+      "status": "TESTED_FULL",
+      "metrics": 67,
+      "model_file_count": 61,
+      "failed_methods": 0,
+      "missing_methods": "",
+      "missing_final_seeds": "",
+      "nonfinite_metrics": "",
+      "computational_pass": true,
+      "scientific_scope": "OBSERVED_TARGET_TESTED_RETROSPECTIVELY",
+      "original_target_fully_identified": false,
+      "historical_source_vintage_validated": false
     },
     {
-      "table": "municipal_demography",
-      "status": "PASS",
-      "rows": 31445,
-      "duplicates": 0,
-      "years": 14
+      "module": "ML-5.2",
+      "status": "ALTERNATIVE_ORG_AREA_CONTINGENT_TESTED_NOT_ADMISSIONS",
+      "metrics": 57,
+      "model_file_count": 53,
+      "failed_methods": 0,
+      "missing_methods": "",
+      "missing_final_seeds": "",
+      "nonfinite_metrics": "",
+      "computational_pass": true,
+      "scientific_scope": "DESCRIPTIVE_OR_PROXY_TEST_ONLY",
+      "original_target_fully_identified": false,
+      "historical_source_vintage_validated": false
     },
     {
-      "table": "vo_registry",
-      "status": "PASS",
-      "rows": 15277,
-      "duplicates": 0,
-      "years": 11
+      "module": "ML-5.3",
+      "status": "TESTED_FULL",
+      "metrics": 59,
+      "model_file_count": 55,
+      "failed_methods": 0,
+      "missing_methods": "",
+      "missing_final_seeds": "",
+      "nonfinite_metrics": "",
+      "computational_pass": true,
+      "scientific_scope": "OBSERVED_TARGET_TESTED_RETROSPECTIVELY",
+      "original_target_fully_identified": false,
+      "historical_source_vintage_validated": false
     },
     {
-      "table": "spo_registry",
-      "status": "PASS",
-      "rows": 45519,
-      "duplicates": 0,
-      "years": 10
+      "module": "ML-5.4",
+      "status": "TESTED_FULL",
+      "metrics": 59,
+      "model_file_count": 55,
+      "failed_methods": 0,
+      "missing_methods": "",
+      "missing_final_seeds": "",
+      "nonfinite_metrics": "",
+      "computational_pass": true,
+      "scientific_scope": "OBSERVED_TARGET_TESTED_RETROSPECTIVELY",
+      "original_target_fully_identified": true,
+      "historical_source_vintage_validated": false
     },
     {
-      "table": "edu_org_year",
-      "status": "EMPTY",
-      "rows": 0
+      "module": "ML-5.5",
+      "status": "DESCRIPTIVE_AND_CROSS_SECTIONAL_TEST",
+      "metrics": 0,
+      "model_file_count": 3,
+      "failed_methods": 0,
+      "missing_methods": "",
+      "missing_final_seeds": "",
+      "nonfinite_metrics": "",
+      "computational_pass": true,
+      "scientific_scope": "DESCRIPTIVE_OR_PROXY_TEST_ONLY",
+      "original_target_fully_identified": false,
+      "historical_source_vintage_validated": false
     },
     {
-      "table": "edu_od_interregional",
-      "status": "PASS",
-      "rows": 29455,
-      "duplicates": 0,
-      "years": 5
+      "module": "ML-5.6",
+      "status": "DESCRIPTIVE_FULL_NETWORK_STRESS",
+      "metrics": 0,
+      "model_file_count": 0,
+      "failed_methods": 0,
+      "missing_methods": "",
+      "missing_final_seeds": "",
+      "nonfinite_metrics": "",
+      "computational_pass": true,
+      "scientific_scope": "DESCRIPTIVE_OR_PROXY_TEST_ONLY",
+      "original_target_fully_identified": false,
+      "historical_source_vintage_validated": false
     },
     {
-      "table": "municipality_education_context",
-      "status": "PASS",
-      "rows": 14,
-      "duplicates": 0,
-      "years": null
-    },
-    {
-      "table": "edu_network_year",
-      "status": "PASS",
-      "rows": 433,
-      "duplicates": 0,
-      "years": 5
+      "module": "ML-5.7",
+      "status": "NOT_FEASIBLE_FOR_PREDICTION",
+      "metrics": 0,
+      "model_file_count": 0,
+      "failed_methods": 0,
+      "missing_methods": "",
+      "missing_final_seeds": "",
+      "nonfinite_metrics": "",
+      "computational_pass": true,
+      "scientific_scope": "NOT_IDENTIFIABLE_WITH_AVAILABLE_STAGE_I",
+      "original_target_fully_identified": false,
+      "historical_source_vintage_validated": false
     }
   ],
-  "canary_results": {
-    "ML-5.1": true,
-    "ML-5.3": true
+  "v5_original_seven_target_identifiable": false,
+  "metric_rows": 242,
+  "panels": {
+    "stage1_sources": {
+      "rows": 52,
+      "columns": 8,
+      "sha256": "3191f7d214cb8d1a2bbe3698cba5e4e1e3c9901136ee678a1aede9a7fb6b3556"
+    },
+    "full52_source_inventory": {
+      "rows": 52,
+      "columns": 19,
+      "sha256": "cef58367d794fd15895eab7fbec11e12e333b093c39ad353372bb3d4df770f42"
+    },
+    "full52_year_coverage": {
+      "rows": 446,
+      "columns": 4,
+      "sha256": "72358091c3bd6d35344345e2b2ee7630213908b833c305a93485dd99c81907ec"
+    },
+    "full52_theme_coverage": {
+      "rows": 8,
+      "columns": 5,
+      "sha256": "4a66b2d76b3357a78040340d87d57332f0c8379e4200b4e751820ca608715fbb"
+    },
+    "full52_raw_originals": {
+      "rows": 1,
+      "columns": 5,
+      "sha256": "489c4acc388491001fca2dbb459bf6f905489b88c5f856e08200c087c19fc517"
+    },
+    "dictionary_e02": {
+      "rows": 156,
+      "columns": 6,
+      "sha256": "0a5b7e624538f95c0c4bda0a105bc8c7570f8d36205e6b5d38e4dd6adc78705c"
+    },
+    "dictionary_vpo_admission": {
+      "rows": 1316,
+      "columns": 7,
+      "sha256": "2189bec01c81dff96a904243ccb9c1f7dd2cb9ae25bf8e4b6ca398a05851c3b2"
+    },
+    "dictionary_spo": {
+      "rows": 223,
+      "columns": 6,
+      "sha256": "788b16e5f8029bc9d19e25d12655d1df4e8a80058382a3642beae2737e433f36"
+    },
+    "dictionary_spo_regional": {
+      "rows": 183,
+      "columns": 6,
+      "sha256": "a8eb66f1486a85084e9f878481cebb8bbb0c53404ed70ae64debd04e51499932"
+    },
+    "dictionary_vpo_graduation": {
+      "rows": 608,
+      "columns": 6,
+      "sha256": "03440e266a15a69aad23cc8fb8aa0a581a1ccac388e63b96948cf8a9193a366f"
+    },
+    "semantic_indicator_catalog": {
+      "rows": 2486,
+      "columns": 14,
+      "sha256": "76afdae76899656fe726ef1b71fe32efc56b25d304c2c23fc216290174907f22"
+    },
+    "e01_original_headers": {
+      "rows": 5,
+      "columns": 3,
+      "sha256": "17be69f8d6d61dbaaa062289096970bea35d7f24953bb99b76e1c35021057d43"
+    },
+    "e01_raw_cell_sources": {
+      "rows": 5,
+      "columns": 4,
+      "sha256": "f8310f083f767f702b4c2c890232b0d3ff0b7aa184f379ebc3e88e2595ac060c"
+    },
+    "admission_approval_register": {
+      "rows": 363,
+      "columns": 5,
+      "sha256": "5058de1aad1f50b2d008e24d09a673d09c480e9ff38daa1a6ec88735feebe6bd"
+    },
+    "edu_od_year": {
+      "rows": 30390,
+      "columns": 18,
+      "sha256": "7a4ee80110bf918832ce731880fce18e3f6d55b9750f52c36687aa9736d8729f"
+    },
+    "edu_od_interregional": {
+      "rows": 29455,
+      "columns": 18,
+      "sha256": "6bdc07b0070e53ecaf0c3da9a613952c61280031b263f7f8e143f0a48e368360"
+    },
+    "edu_od_intraregional": {
+      "rows": 425,
+      "columns": 18,
+      "sha256": "36b5caec1cd1b029a44e1fb95108d01e0079049668abe2bd93de7af501fe2f44"
+    },
+    "edu_od_unknown_code": {
+      "rows": 510,
+      "columns": 18,
+      "sha256": "efee3f750b76857634cb96550aa128f127a98c6ebeaa0c4606b51da91bf2edaa"
+    },
+    "od_composition": {
+      "rows": 13,
+      "columns": 4,
+      "sha256": "1be5b4d268f570731fd78328494c0a646f436433cbaefd7e60a63c0113f06855"
+    },
+    "od_edge_coverage": {
+      "rows": 5,
+      "columns": 9,
+      "sha256": "8a18a48f89c2dbf33de6ecf9ab52a257b79b0a3d8ea1bd1405a0e05a51fca80d"
+    },
+    "od_edge_transitions": {
+      "rows": 6282,
+      "columns": 3,
+      "sha256": "ea00f3765de014febb407de3bf1af378e7b3933ee87ee2208116f95fb7d5043d"
+    },
+    "edu_org_registry": {
+      "rows": 60796,
+      "columns": 12,
+      "sha256": "af72256f4d15425223e6ba9dd31ab5c759d3ae1cb1dc8f280fe58a80e7b2651b"
+    },
+    "registry_coverage_audit": {
+      "rows": 2,
+      "columns": 5,
+      "sha256": "f48c8462901e3daf00c81f314175d5c68849fb3dac779d54e329f832a3fee1d9"
+    },
+    "vpo_program_description": {
+      "rows": 760655,
+      "columns": 11,
+      "sha256": "91f4f022244b50fd5ed129e3fd2a66ee53461673265947b45a711435d4ca457a"
+    },
+    "vpo_admission_audit": {
+      "rows": 2000,
+      "columns": 15,
+      "sha256": "a8bd4bf7f86d9d7a9c3fc376b1c901a2b9656c12294c66a27a82e53dabf0259d"
+    },
+    "edu_program_year": {
+      "rows": 2000,
+      "columns": 8,
+      "sha256": "c891ca51bd5ba889a689b6d1a2f825765b52333c02bc124f6129cdec2bf1544d"
+    },
+    "graduate_descriptive_statistics": {
+      "rows": 108,
+      "columns": 10,
+      "sha256": "d6d00d2207178c05cb98e2800d6e4e47df765ec605cbc2c9e22bec1d7a62da25"
+    },
+    "graduate_specialty_description": {
+      "rows": 24425,
+      "columns": 9,
+      "sha256": "bcb03d0cb73ecfa56322bbd1b5938cd9fad3c7e4ac22c6c0c4c3bcc7cfdffffc"
+    },
+    "graduate_full_scan_audit": {
+      "rows": 2,
+      "columns": 5,
+      "sha256": "4a33fe1298e9b2550d3569606c493991a8b19808015126e319f25cc6a43cf3a2"
+    },
+    "graduate_outcomes_preview": {
+      "rows": 1000,
+      "columns": 16,
+      "sha256": "a3c1f3b5bdfed7d1635d2b68aac35a1d9a4ab23529382ebc1f74c0d40175b08e"
+    },
+    "municipal_demography": {
+      "rows": 31445,
+      "columns": 10,
+      "sha256": "8ca62dfdad764f405b567497c74f6d09275feefdb3f25109c9c57ac78cde4e65"
+    },
+    "municipality_education_context": {
+      "rows": 31445,
+      "columns": 13,
+      "sha256": "e18f818c0c7bf2c011141500f419f35f00a32ceab8c8e08e53a706f10018227a"
+    },
+    "region_distance_proxy": {
+      "rows": 6489,
+      "columns": 4,
+      "sha256": "b42e497671d5931fb434f7895fcd65b6874932f535855516d6870fd1036b4a47"
+    },
+    "economic_indicator_candidates": {
+      "rows": 93592,
+      "columns": 9,
+      "sha256": "b6d1516b1ccefd9b099f65e75bb40a6d9a5ec0b7d86c603351a786b2524cad08"
+    },
+    "regional_economy": {
+      "rows": 3901,
+      "columns": 5,
+      "sha256": "de4459a247b069366ebd85f160e1323f93c89f68b7acf250526bd27383cb1e14"
+    },
+    "forecast_od_candidates": {
+      "rows": 13815,
+      "columns": 33,
+      "sha256": "fc0c1bd72d194162db4b1761109703adad4ef3901f6e2f1ba65da4419d60a92e"
+    },
+    "outflow_observed": {
+      "rows": 433,
+      "columns": 6,
+      "sha256": "169fb8b421a3337568f32042c7ff41d27be6dc283e676c27ad7c0d11ab7a6dd8"
+    },
+    "forecast_outflow_candidates": {
+      "rows": 255,
+      "columns": 19,
+      "sha256": "ece9586de7e43a773912f6f2b02b2b5cb611b9a505879dfb57084cdd6da54094"
+    },
+    "d02_indicator_coverage": {
+      "rows": 11,
+      "columns": 5,
+      "sha256": "c073ad5cde4a77ae10e667f48769d5da6798fe79a4011461e74e56e22166edd7"
+    },
+    "vpo_all_sections_audit": {
+      "rows": 11,
+      "columns": 5,
+      "sha256": "d58a3e08651c481eaa5436da258b45e81ead21d5f8ab3b3e7ec81e5848926716"
+    },
+    "spo_annual_vs_master": {
+      "rows": 20,
+      "columns": 6,
+      "sha256": "35ae2f0c79e041aaf9a12b64d4ed202d3c72d062348aa195c7e6481c41af9602"
+    },
+    "graduate_family_1": {
+      "rows": 108,
+      "columns": 7,
+      "sha256": "e1ee782d2b0d6fb6398eb0892880e0e91f59a670d006935fd4ebcc3ad5f733e5"
+    },
+    "graduate_family_2": {
+      "rows": 108,
+      "columns": 7,
+      "sha256": "2ecc90ba1f1f638ac4868b01bc1efc837027f5bc32ccadcb191726b994ffb4b5"
+    },
+    "graduate_family_3": {
+      "rows": 851,
+      "columns": 8,
+      "sha256": "0d904d520b7ea73f6c1f85a47277b666a1a555e1915797ef40dd63b368671c1c"
+    },
+    "graduate_family_4": {
+      "rows": 851,
+      "columns": 8,
+      "sha256": "4bae233865c9ba4de7d38935b20b1520cb0ccd7362eacdf671ae8ae610f75855"
+    },
+    "e04_e05_full_family_audit": {
+      "rows": 4,
+      "columns": 7,
+      "sha256": "9437dd79c947471c996284e2ce1622ded2c5e6fe76bf452b112a199389b869ee"
+    },
+    "spatial_D04_preview": {
+      "rows": 2000,
+      "columns": 8,
+      "sha256": "1d4dc1557e0d0cb2f6b44fa8f2a37932c811646852aa4a3a7a52405b879244b4"
+    },
+    "spatial_BDMO_REG_preview": {
+      "rows": 2000,
+      "columns": 4,
+      "sha256": "80ac4c22e463df8ce3e8f62a613407c1e605c12fac86e7395402ac233277af14"
+    },
+    "spatial_BDMO_HIST_preview": {
+      "rows": 2000,
+      "columns": 6,
+      "sha256": "630b9659e8956ddde8f606ed6f0cb27f721c39ec5263aa965b054216ff551f3f"
+    },
+    "spatial_exact_crosswalk": {
+      "rows": 29500,
+      "columns": 8,
+      "sha256": "9d1926c9a7b6c9668a13c49933ef58a01ddbfffcbec9261c3005dbf08a9901e8"
+    },
+    "bdmo_education_candidates": {
+      "rows": 1000,
+      "columns": 10,
+      "sha256": "f73e32a136fcd848d3ef4bee489339b4c365b707cb1375c890ec053fea7cbb03"
+    },
+    "municipal_infrastructure_candidates": {
+      "rows": 1000,
+      "columns": 10,
+      "sha256": "f73e32a136fcd848d3ef4bee489339b4c365b707cb1375c890ec053fea7cbb03"
+    },
+    "v4_all52_source_value_audit": {
+      "rows": 52,
+      "columns": 11,
+      "sha256": "85b168a0b2465c0cc458a348c8dc73fd13edbefe31ce7b7567e2c9198fa45e43"
+    },
+    "v4_all52_research_use": {
+      "rows": 52,
+      "columns": 9,
+      "sha256": "0b6ee9f4ec6f82b84e099c647251c40e4a8d97f83cc623afcd3af415826df1e2"
+    },
+    "embedded_unit_tests": {
+      "rows": 14,
+      "columns": 2,
+      "sha256": "327223516ddd61117654d6e888293d3bdf790a30baacb7edc1e100ca1733505b"
+    },
+    "education_network_year": {
+      "rows": 433,
+      "columns": 11,
+      "sha256": "3358ce766bc9ce423c9771c9f7b5012cf01b7c88554493b4de6f78550e1a578d"
+    },
+    "education_network_edges": {
+      "rows": 17780,
+      "columns": 4,
+      "sha256": "b3581bd7db71d67c8ca8841030c5d5e11b96a6854f428ecf35064c8c815c139d"
+    },
+    "education_network_communities": {
+      "rows": 5,
+      "columns": 5,
+      "sha256": "e6034a11edc16420f6284683c2e4b5e2c055568341b512734da0c857ad55f650"
+    },
+    "network_stability": {
+      "rows": 4,
+      "columns": 6,
+      "sha256": "6bc21061096cc1c05c0f1df09d4e72e8247ea5c352961d695d25a7569dcca7f5"
+    },
+    "seven_module_status": {
+      "rows": 7,
+      "columns": 6,
+      "sha256": "11708f9722a31c169ff0834f3d3cce7e53d2ec5fa2bad2d5d81c4990a3020041"
+    },
+    "module_diagnostics": {
+      "rows": 5,
+      "columns": 17,
+      "sha256": "0bac55a7cbea39afe8ed5a3a0abf3010d7791f1a46f9f138e69b4d673c025b05"
+    },
+    "ml52_admission_candidates": {
+      "rows": 5,
+      "columns": 5,
+      "sha256": "ebc8edc109ec20e42c08d69e61fcebe578c889bee13fca02dc133d26d39718b3"
+    },
+    "ml54_specialty_history": {
+      "rows": 103400,
+      "columns": 6,
+      "sha256": "b37fa6a02430c4e9806cd97b4ca5d878e27af8eb262d3b9da2adacf4073ec51c"
+    },
+    "ml54_history_persistence_diagnostic": {
+      "rows": 17316,
+      "columns": 10,
+      "sha256": "929e504318f0f969ae5f004d87c134296a4cf199a222ac5038d3d554715600fe"
+    },
+    "ml55_outcome_disparities": {
+      "rows": 1918,
+      "columns": 11,
+      "sha256": "9f374ef63e06a121340dd177fbc763a6139c2ac18ff772c7afda60a1973cf285"
+    },
+    "ml56_network_stress": {
+      "rows": 5,
+      "columns": 11,
+      "sha256": "0823ced488364b3e7dbe56312e5cb9a464ebe9db45cd82da2f3eff290180c1c3"
+    },
+    "ml51_spatial_protocols": {
+      "rows": 2,
+      "columns": 17,
+      "sha256": "595a0141e95cd9d1b565d39f811e80b7febc0d0cd236fa28222981d0d738bce8"
+    },
+    "module_52_extension": {
+      "rows": 7,
+      "columns": 22,
+      "sha256": "4e5188a408787926ed791c3fd6a3a571ff1607ec4acc0791051f5dee4b856792"
+    },
+    "seven_module_status_final": {
+      "rows": 7,
+      "columns": 6,
+      "sha256": "e4c81a70ef84d73bfd88d2378e28b150a00cd348cf2b784112126497eb7b77f7"
+    },
+    "v4_specialty_admission_gate": {
+      "rows": 1,
+      "columns": 8,
+      "sha256": "d8ce0b31023002ca480be7dfbb8e9e0ddce12f3bd7577f6c4b4fc3d605bb93f4"
+    },
+    "v5_ml54_full_strata_coverage": {
+      "rows": 1,
+      "columns": 4,
+      "sha256": "9752b17c708978aeb07e21be697a62ce7b97abdfa210408edc09360051dc9a12"
+    },
+    "v4_specialty_model_frame": {
+      "rows": 126642,
+      "columns": 19,
+      "sha256": "ab2600da0d589a0181ba19a3adb3ea4a4620696061e5c1c02fc6332fd9840878"
+    },
+    "v4_organization_contingent_candidates": {
+      "rows": 13956,
+      "columns": 6,
+      "sha256": "096196e644bbe2164427cc0f19e5608f2e51d355d025535d6168b81a4c1b77eb"
+    },
+    "v4_additional_subexperiments": {
+      "rows": 3,
+      "columns": 6,
+      "sha256": "f2e8dffabebdaf7a15614be9bfabce21cfb8ceb513fe8e4bf4cd4b825e8f3a59"
+    },
+    "v5_ml52_organization_area_source_strata": {
+      "rows": 206921,
+      "columns": 10,
+      "sha256": "0ce0258c32a83ab39b97c66bcb9d242d32dea78dcdf8e35ea0d2777483d66a62"
+    },
+    "v5_ml52_area_model_execution": {
+      "rows": 1,
+      "columns": 9,
+      "sha256": "42cd34c5107c14e52ea93065ec39a6f8c0a318da74e8a2f2aaaeb8d42abca64e"
+    },
+    "v4_ml57_indicator_support": {
+      "rows": 7,
+      "columns": 11,
+      "sha256": "d0acab7bf1591a7fd1c0364cec863ad3463eff6d00d07b9f3669ea8a21112c00"
+    },
+    "v4_ml57_execution": {
+      "rows": 1,
+      "columns": 7,
+      "sha256": "0b6e6853b7879281c6314a5267285a785d2e047e62d4ae507b74092805635bae"
+    },
+    "v4_ml55_crosssection_predictions": {
+      "rows": 39216,
+      "columns": 8,
+      "sha256": "9330c0206b7fda4c0a4e84815dbff3b714172dbe52bf0881b7b3c25a6970679d"
+    },
+    "v4_ml55_crosssection_metrics": {
+      "rows": 4,
+      "columns": 9,
+      "sha256": "25439328ef4cc3155a3b1f08631ff8096b3f84143f6e8894bf15843d5b5df103"
+    },
+    "v4_ml55_execution": {
+      "rows": 1,
+      "columns": 10,
+      "sha256": "b03eca6ab71d7e81af773c12effc0b229455c1dbde16374b9baab0f79afec588"
+    },
+    "v4_ml56_node_forecast": {
+      "rows": 4,
+      "columns": 7,
+      "sha256": "24e5bd870dc042101ee484335c8f23287280f6f11d57eb03cbd44d010c5b7b50"
+    },
+    "v5_ml57_spatial_proxy_eligibility": {
+      "rows": 1,
+      "columns": 6,
+      "sha256": "1e112ccaf9e49ea5fe34630a9133edd4b0b2f2702ef328e056925012198acaaa"
+    },
+    "v5_ml57_spatial_E0_E1_execution": {
+      "rows": 1,
+      "columns": 2,
+      "sha256": "803d9510b3b2f015ec1cbee5555b6eecfe6b0cd4a521261161a40c3c0c1f1ada"
+    },
+    "future_mutation_canaries": {
+      "rows": 6,
+      "columns": 6,
+      "sha256": "d99f5b8fa62c8221739f2cf8af45086322f3d9c41f6db8a5bdb20876de676096"
+    },
+    "metrics_recomputed_from_predictions": {
+      "rows": 242,
+      "columns": 10,
+      "sha256": "8e38770790826054f5eb73ebb309cd414f0781e94cd27a2577f216fd1c7278eb"
+    },
+    "confirmatory_comparisons": {
+      "rows": 4,
+      "columns": 20,
+      "sha256": "17cf35164ea52d137389ebf9f26639fc12507e36568c45716b9fa22900b4b802"
+    },
+    "seven_hypotheses": {
+      "rows": 7,
+      "columns": 7,
+      "sha256": "33a876da591ce4120ecc7897fffc5e4b3c1ccc20df180858c3f51034bf0687fd"
+    },
+    "split_audit": {
+      "rows": 6,
+      "columns": 9,
+      "sha256": "62a049d5dff72792d513f4dfe92cdfce6eba2f4947ebe0e371386d82340437b1"
+    },
+    "model_metrics": {
+      "rows": 242,
+      "columns": 11,
+      "sha256": "9d9bb595dee4a779bce6f926ad977ad29749a8f88ee62f5b23ce500985178e13"
+    },
+    "model_registry": {
+      "rows": 227,
+      "columns": 15,
+      "sha256": "b60679fef5595b3bfd39a912bd2482207763c852a71621fe12054cca5df2dfbc"
+    },
+    "v4_exploratory_paired_comparisons": {
+      "rows": 28,
+      "columns": 16,
+      "sha256": "788c4f3cc7d0d046c4df8a978892f4decbd8697b9603c4622e406624899ba92f"
+    },
+    "v4_methods_execution_ledger": {
+      "rows": 7,
+      "columns": 13,
+      "sha256": "3da2f3f9f72e72bb81cf06122c3d5799eede88c6978cb3426a300dbc71b30989"
+    },
+    "v4_scientific_acceptance": {
+      "rows": 1,
+      "columns": 13,
+      "sha256": "52467b530d395d089355ab216c2fb75a8799318055ee232942f9d1e9d903b01a"
+    },
+    "v4_rolling_origin_feasibility": {
+      "rows": 4,
+      "columns": 7,
+      "sha256": "0b24578132c8ad6b0cffcda70a3029996bc5cf50ab044b6ee220fc8844008ce9"
+    },
+    "v5_model_files_independently_verified": {
+      "rows": 227,
+      "columns": 8,
+      "sha256": "6b2a9b3a917b8b4a96e9f16d4a80710cd381adc0a5a65eb73547795888b60118"
+    },
+    "v5_seven_module_acceptance": {
+      "rows": 7,
+      "columns": 12,
+      "sha256": "450009f40af64626fa7ae4c035bcc46859cacac4a87b2b6bbac54e8b05591317"
+    },
+    "v5_all52_source_evidence": {
+      "rows": 52,
+      "columns": 11,
+      "sha256": "85b168a0b2465c0cc458a348c8dc73fd13edbefe31ce7b7567e2c9198fa45e43"
+    },
+    "education_predictions": {
+      "rows": 2737382,
+      "columns": 21,
+      "sha256": "cfe206537f56a38abae7c824a606f2e050f1c6bb330ede7941bae867905febc9"
+    }
   },
-  "od_composition": {
-    "all_rows": 30390,
-    "inter_rows": 29455,
-    "intra_rows": 425,
-    "unknown_rows": 510,
-    "inter_value": 419906.0,
-    "intra_value": 3687621.0,
-    "unknown_value": 2992.0
+  "output_sha256": {
+    "ML5_EDUCATION_MIGRATION_RESULTS.xlsx": "12dde439c9588ec7e30e6e605bf050fb64d96a0c96c456e610358414cf5cdff0",
+    "ML5_EVIDENCE.zip": "bfe38a21bcd01124c5ff5e5107e972646227d66cc37aa3df84e2d1640be663f0",
+    "ML5_EDUCATION_MIGRATION.ipynb": "767325096c4566730f77201c07ba1899751a78a047b1b80a1881b568ca965c5a"
   },
-  "model_metrics_count": 71,
-  "predictions_rows": 54655,
-  "scientific_caveat": "OD по E01 не доказывает постоянную смену места жительства; 4 модуля могут иметь NOT_FEASIBLE; расстояния и экономические эффекты H5.1 не проверены",
-  "elapsed_seconds": 76.4,
-  "generated_utc": "2026-11-04T07:41:58.700056+00:00",
-  "previous_segment_head_sha": "05f1ec8e8c92abc9a06d3222d012725612d45a19",
-  "publication_branch": "ml05-education-20261102T160726Z",
-  "release_tag": "stage2-ml5-v2.0.2-20261104T074159Z",
-  "artifact_commit_sha": "2af95501a17ed640b41fb4248d6f9b34f2e944d1",
-  "release_asset_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/releases/download/stage2-ml5-v2.0.2-20261104T074159Z/ML5_EVIDENCE.zip",
-  "notebook_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/blob/ml05-education-20261102T160726Z/stage2/ml05_education/ML5_EDUCATION_MIGRATION.ipynb",
-  "excel_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/blob/ml05-education-20261102T160726Z/stage2/ml05_education/ML5_EDUCATION_MIGRATION_RESULTS.xlsx"
+  "runtime_seconds": 1159.4,
+  "limitations": [
+    {
+      "module": "STAGE1",
+      "status": "SOURCE_NOT_INGESTED",
+      "reason": "В каталоге нет D03; нельзя подменять внешними данными",
+      "required": "D03"
+    },
+    {
+      "module": "STAGE1",
+      "status": "SOURCE_NOT_INGESTED",
+      "reason": "В каталоге нет D06; нельзя подменять внешними данными",
+      "required": "D06"
+    },
+    {
+      "module": "SEM-E01",
+      "status": "COVERAGE_BREAK_UNRESOLVED",
+      "reason": "Изменение регистрации OD-направлений: прямое межгодовое сравнение требует аудита полноты",
+      "required": "Единые определения и покрытие матрицы по годам"
+    },
+    {
+      "module": "ML-5.2",
+      "status": "UNAPPROVED_ADMISSION_CANDIDATES",
+      "reason": "E02: 3 неутверждённых исходных имён",
+      "required": "утвердить точные имена в конфигурации"
+    },
+    {
+      "module": "ML-5.1",
+      "status": "ECONOMIC_GRAIN_CONFLICT",
+      "reason": "Исключено 52525 неоднозначных строк регион×год×индикатор",
+      "required": "verified regional stratum and indicator definition"
+    },
+    {
+      "module": "ML-5.7",
+      "status": "PROXY_PREVIEW_ONLY",
+      "reason": "664917 unique municipal education rows exceed RAM cap",
+      "required": "SQL-only E0/E1"
+    },
+    {
+      "module": "ML-5.1",
+      "status": "SEVERE_TEMPORAL_LIMIT",
+      "reason": "Нет DEV-меток, опубликованных до cutoff TEST; сравнения альтернатив только разведочные",
+      "required": "older archived vintages or longer observations"
+    },
+    {
+      "module": "ML-5.1",
+      "status": "UNRESOLVED_YEAR_COVERAGE_BREAK",
+      "reason": "Смена числа OD-пар в 2023 г. не доказана как изменение реальной мобильности; модельные результаты — условно разведочные",
+      "required": "semantics/coverage harmonization across 2022–2023"
+    },
+    {
+      "module": "ML-5.2",
+      "status": "NOT_FEASIBLE_FOR_PREDICTION",
+      "reason": "Предметный каталог E02/VPO/SPO прочитан, но однозначное зачисление организация×год не подтверждено",
+      "required": "source-admission indicator and organization with unique key"
+    },
+    {
+      "module": "ML-5.3",
+      "status": "SEVERE_TEMPORAL_LIMIT",
+      "reason": "Нет DEV-меток, опубликованных до cutoff TEST; сравнения альтернатив только разведочные",
+      "required": "older archived vintages or longer observations"
+    },
+    {
+      "module": "ML-5.7",
+      "status": "NOT_FEASIBLE_FOR_PREDICTION",
+      "reason": "Недостаточно подтвержденного кампусного покрытия: 0 ОКТМО; неизвестно != 0",
+      "required": "verified municipality campus registry with historical validity"
+    }
+  ],
+  "publication_status": "PUBLISHED_GITHUB",
+  "commit_self_reference": "Commit SHA can be reported after Git commit; cannot be embedded in the same hashed blob",
+  "local_qa": [
+    {
+      "check": "INPUT_SOURCE_PIN",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "SEVEN_MODULES_REPORTED",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "EXPECTED_CATALOG",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "FULL52_SHA_COVERAGE",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "FULL52_ROW_COVERAGE",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "FULL52_YEAR_DISTRIBUTION",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "FULL52_D02_PROFILE",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "FULL52_VPO_PROFILE",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "FULL52_E04_E05_PROFILE",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "FULL52_CONTEXT_EXPORT",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V4_SOURCE_VALUES_52",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V4_MODEL_FAILURES_ZERO",
+      "status": "PASS",
+      "reason": "Failed model or source value analysis is a real computational failure"
+    },
+    {
+      "check": "V5_COMPLETE_COMPUTATIONAL_CONTRACT",
+      "status": "PASS",
+      "reason": "All feasible models and checks must complete; no hidden failures"
+    },
+    {
+      "check": "V5_UNIQUE_MODEL_ARTIFACTS",
+      "status": "PASS",
+      "reason": "No overwritten spatial model files"
+    },
+    {
+      "check": "V5_ALL_MODELS_VERIFIED",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V5_SEVEN_MODULE_LEDGER",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V5_ALL52_SOURCE_EVIDENCE",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V5_ML54_NO_SAMPLE",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V4_FINAL_LEDGER",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V4_SCIENTIFIC_TRUTHFUL",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "E01_PRIMARY_OPENED",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "SEMANTIC_APPROVAL_GATED",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "EDGES_PARTITION",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "INTRA_EXCLUDED",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "NO_FUTURE_FEATURES",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "CANARIES_EXECUTED",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "NO_TEST_SELECTED_MODEL",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "NEGATIVE_FINDINGS_PRESERVED",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "ZIP_CRC",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "EXCEL_OPENS",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "MODEL_RELOAD",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "NOTEBOOK_CAPTURED",
+      "status": "PASS",
+      "reason": "Необходимо получить очищенный самостоятельный Colab notebook"
+    },
+    {
+      "check": "NOTEBOOK_NO_TOKEN",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "NOTEBOOK_NO_OUTPUTS",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "NOTEBOOK_SELF_CONTAINED",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "NOTEBOOK_REQUIRED_SECTION_COUNT",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "NOTEBOOK_REASONABLE_SIZE",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_stage1_sources",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_full52_source_inventory",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_full52_year_coverage",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_full52_theme_coverage",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_full52_raw_originals",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_dictionary_e02",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_dictionary_vpo_admission",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_dictionary_spo",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_dictionary_spo_regional",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_dictionary_vpo_graduation",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_semantic_indicator_catalog",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_e01_original_headers",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_e01_raw_cell_sources",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_admission_approval_register",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_edu_od_year",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_edu_od_interregional",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_edu_od_intraregional",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_edu_od_unknown_code",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_od_composition",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_od_edge_coverage",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_od_edge_transitions",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_edu_org_registry",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_registry_coverage_audit",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_vpo_program_description",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_vpo_admission_audit",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_edu_program_year",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_graduate_descriptive_statistics",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_graduate_specialty_description",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_graduate_full_scan_audit",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_graduate_outcomes_preview",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_municipal_demography",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_municipality_education_context",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_region_distance_proxy",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_economic_indicator_candidates",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_regional_economy",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_forecast_od_candidates",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_outflow_observed",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_forecast_outflow_candidates",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_d02_indicator_coverage",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_vpo_all_sections_audit",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_spo_annual_vs_master",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_graduate_family_1",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_graduate_family_2",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_graduate_family_3",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_graduate_family_4",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_e04_e05_full_family_audit",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_spatial_D04_preview",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_spatial_BDMO_REG_preview",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_spatial_BDMO_HIST_preview",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_spatial_exact_crosswalk",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_bdmo_education_candidates",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_municipal_infrastructure_candidates",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_all52_source_value_audit",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_all52_research_use",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_embedded_unit_tests",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_education_network_year",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_education_network_edges",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_education_network_communities",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_network_stability",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_seven_module_status",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_module_diagnostics",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_ml52_admission_candidates",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_ml54_specialty_history",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_ml54_history_persistence_diagnostic",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_ml55_outcome_disparities",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_ml56_network_stress",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_ml51_spatial_protocols",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_module_52_extension",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_seven_module_status_final",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_specialty_admission_gate",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v5_ml54_full_strata_coverage",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_specialty_model_frame",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_organization_contingent_candidates",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_additional_subexperiments",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v5_ml52_organization_area_source_strata",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v5_ml52_area_model_execution",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_ml57_indicator_support",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_ml57_execution",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_ml55_crosssection_predictions",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_ml55_crosssection_metrics",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_ml55_execution",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_ml56_node_forecast",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v5_ml57_spatial_proxy_eligibility",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v5_ml57_spatial_E0_E1_execution",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_future_mutation_canaries",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_metrics_recomputed_from_predictions",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_confirmatory_comparisons",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_seven_hypotheses",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_split_audit",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_model_metrics",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_model_registry",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_exploratory_paired_comparisons",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_methods_execution_ledger",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_scientific_acceptance",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v4_rolling_origin_feasibility",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v5_model_files_independently_verified",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v5_seven_module_acceptance",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v5_all52_source_evidence",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_education_predictions",
+      "status": "PASS",
+      "reason": ""
+    }
+  ],
+  "publication_reference": {
+    "release_tag": "ml05-v6-full-657fde73fecafe98f9db",
+    "evidence_sha256": "bfe38a21bcd01124c5ff5e5107e972646227d66cc37aa3df84e2d1640be663f0"
+  }
 }
