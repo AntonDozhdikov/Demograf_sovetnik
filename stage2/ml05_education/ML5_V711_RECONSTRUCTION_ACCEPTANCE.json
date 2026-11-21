@@ -1,0 +1,19 @@
+{
+  "version": "stage2-ml5-v7.1.1-advanced-data-reconstruction-sql-progress-fixed",
+  "source_catalog_entries": 52,
+  "source_sha_passed": 52,
+  "all_seven_modules_reported": true,
+  "v7_technical_methods_retained": true,
+  "v71_additional_experiment_count": 9,
+  "v71_additional_model_experiment_count": 2,
+  "v71_computational_pass": true,
+  "seven_original_scientific_targets_identified": false,
+  "OD_all_year_balanced_edges": 12400,
+  "VO_source_approved_org_year_admissions": 0,
+  "SPO_spatially_reconstructed_site_year_proxies": 22,
+  "municipal_geocode_E0E1": {
+    "status": "SKIPPED_NO_SPATIAL_PROXY",
+    "n_spo_location_proxies": 22
+  },
+  "methodological_rule": "MISSING_NOT_OBSERVED_IS_SKIPPED_NOT_ZERO_FILLED_AND_NOT_FABRICATED"
+}

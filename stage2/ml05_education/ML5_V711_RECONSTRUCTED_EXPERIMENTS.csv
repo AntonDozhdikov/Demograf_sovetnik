@@ -1,0 +1,10 @@
+﻿module,experiment,status,train_rows,test_rows,source_ids,scientific_claim,reason
+ML-5.1,OD_HIGH_OVERLAP_STABILITY,DESCRIPTIVE_COMPLETED,12400,2,03::42f47d3cf2159992::000,Only the intersection of actually reported regional schooling-study edges,2023 coverage break recorded separately; no missing OD zero replacement
+ML-5.3,OUTFLOW_BALANCED_OD_SUPPORT,DESCRIPTIVE_COMPLETED,12400,2,03::42f47d3cf2159992::000,"Observed outflow from prior schooling region, not permanent population outmigration",OD annual marginal totals not comparable without common support
+ML-5.6,NETWORK_BALANCED_GRAPH_SUPPORT,DESCRIPTIVE_COMPLETED,12400,2,03::42f47d3cf2159992::000,"Observed OD network topology, not residential migration infrastructure",Temporal graph robustness restricted to comparable reported edges
+ML-5.1,ADR_BALANCED_OD_TIME,MODEL_COMPLETED,2480,2480,03::42f47d3cf2159992::000,"Observed stable OD subpopulation, not a national movement count or source-year admission",6 predeclared methods; no selection from TEST
+ML-5.3,ADR_BALANCED_OUTFLOW_TIME,MODEL_COMPLETED,85,85,03::42f47d3cf2159992::000,"Observed stable OD subpopulation, not a national movement count or source-year admission",6 predeclared methods; no selection from TEST
+ML-5.2,APPROVED_VO_ADMISSIONS_RETROSPECTIVE,SKIPPED_SEMANTICALLY_UNVERIFIED,0,0,04::E02::E02::000::e45a15e7567e,Candidate labels cannot be converted into real admissions without verified definition,Published source data did not certify unique admissions by organization-year; V7 contingent experiment is retained
+ML-5.4,FULL_SPECIALTY_STRATA_MODEL,V7_COMPLETED,0,0,04::VPO_2_1_1::VPO_2_1_1::000::f9f714878501,,Existing V7 observational tests retained; no graduate job-location inference
+ML-5.5,ALL_FOUR_GRADUATE_FAMILIES,V7_COMPLETED,0,0,05::E04::organization_total,,Existing V7 observational tests retained; no graduate job-location inference
+ML-5.7,GEO_RECONSTRUCTED_SPO_E0_E1,SKIPPED_NO_SPATIAL_PROXY,0,0,03::89505d5993e6f4ad::000;06::D04::D04_member00::spatial_reference::derived;01::0,,No as-of historical support for unique high-confidence geocoded SPO entities

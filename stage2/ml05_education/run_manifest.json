@@ -1,7 +1,7 @@
 {
-  "version": "stage2-ml5-v6.0.0-full-replacement",
+  "version": "stage2-ml5-v7.1.1-advanced-data-reconstruction-sql-progress-fixed",
   "mode": "FULL",
-  "created_utc": "2026-11-05T20:26:38.845566+00:00",
+  "created_utc": "2026-11-21T13:59:37.457578+00:00",
   "source_repo": "AntonDozhdikov/Demograf_sovetnik",
   "source_commit": "58473f995440daac295ca32532959f101bfa14ea",
   "source_index_git_blob_sha": "d6625ccddc24f24a1ee451e33c48b736d3a57043",
@@ -171,211 +171,211 @@
     },
     "source_01.parquet": {
       "rows": 14,
-      "sha256": "ed96787dc40c699cbdcb00f4178024c9ee2b63dfb7f61f79e3745c85202dc71c"
+      "sha256": "c793ff4115f34e8159b35e0b336a5b24b8d1b0a0e150745ed7fa342cff00a4c3"
     },
     "source_02.parquet": {
       "rows": 15,
-      "sha256": "cb46fe22731670129f65ea74c170cf8e5d29011bbb11761e162e6b3c285b248f"
+      "sha256": "5c36212427651437f112e601427b96663b54b7e2aa7f6dfed2cb58efa0715566"
     },
     "source_03.parquet": {
       "rows": 21,
-      "sha256": "f8ab4c0536a5d83e79ae90d726ff99cdf360cf9bb0c89d931d07beef6e894b41"
+      "sha256": "8348fb7cd1a628d6f5805c8ff601fdf37d3a4d2d2de286faf38604dc70836ad4"
     },
     "source_04.parquet": {
       "rows": 20,
-      "sha256": "0dd349759f1a231bedf61a39377706c283ca6abe17cb5f7ba5f43db160fe8e28"
+      "sha256": "15be8949c2e180e95f2942f92dc1157dc04e4eb5853fc161d07d216948796513"
     },
     "source_05.parquet": {
       "rows": 9,
-      "sha256": "6ae5f0f3accc114470d3f38617367676e5b984d82e3067b0055abfb9217a3b01"
+      "sha256": "0fcb2ca883ef3592954439c4540a9dc607585b2bfefd47ead18fb156c45b3a7a"
     },
     "source_06.parquet": {
       "rows": 15,
-      "sha256": "d2276b9b6fc180d96ba399f08c9e374a288ff916e5694109026352b014bcf046"
+      "sha256": "3281c43bbe9a482eee6e4cc212123a94d6290af5a8f235a147fee53c61ff2744"
     },
     "source_07.parquet": {
       "rows": 9,
-      "sha256": "5b94ca902a791a400358530fd3c9902f43946720aa4d3e0056c4c29bd9af8a99"
+      "sha256": "a306cbb751706233af46f876241ba087d8e20e52aff3f9f40edd0b33721c8eed"
     },
     "source_08.parquet": {
       "rows": 24,
-      "sha256": "97b2162aae0764379611da15f58bc3b641a4c3ae9632f4d91f926ff895f06494"
+      "sha256": "15dd2288ec7d41d9223f04e6ffd2408dfb7b264f0316165f412bd41a85f5276d"
     },
     "source_09.parquet": {
       "rows": 24,
-      "sha256": "0976178ba4ac13c598d898e3a1c9c40abe5303b4248e28a26be3c4c2ec672a29"
+      "sha256": "8bab6b0a6424bd29dcf51041170312443b7bac0e7236dfb008afd578bf7e830d"
     },
     "source_10.parquet": {
       "rows": 25,
-      "sha256": "4bf7a6e23b4c1dc654dbfeac58870e7a8fab3c6b77063728b909cf1f8586de80"
+      "sha256": "d9d310e935d80bc8db8f1b00ad2d2e983af1ab2caf4f1c3d831e3b24257a4394"
     },
     "source_11.parquet": {
       "rows": 9,
-      "sha256": "f66b742ebc367caff633d338cd3c3061045a33387b7630897b3b58f06404e509"
+      "sha256": "a7197a6ab5452ffbe77bc45a1c5e0e355633bc561e2f677059b82598632aac8b"
     },
     "source_12.parquet": {
       "rows": 11,
-      "sha256": "d330e651838f3d7103e2bd3ceadd65f020fcd12b5e2212b211279ca596b8ef72"
+      "sha256": "c0e800a12ae5dd87c8349a10d166e7c1c5e120e3647b9309e35da7dd061ece7f"
     },
     "source_13.parquet": {
       "rows": 5,
-      "sha256": "1950838b49992704906970778d0a399f705a49a425528f5a7845991a5187c975"
+      "sha256": "64d0eb435fda692a259d113e6af440d485f017fac9732e0886a6503af44d89b8"
     },
     "source_14.parquet": {
       "rows": 10,
-      "sha256": "bba626320f92b6b9f0e8e200bba267999f4e054f2ee9ed21cef0007487e3ad46"
+      "sha256": "6fd6342e4496a134ac2ef36459a1469014bcc375ccee5400a0ea8125fe4cfb42"
     },
     "source_15.parquet": {
       "rows": 10,
-      "sha256": "e5bf1f18f23dce397da216a2ec94f5cc98944bfbb852de70bf103a16923d4170"
+      "sha256": "b5c5c9fe518c36c95e5d949f159d2224131701dd2c1e5371ece3599dad597db4"
     },
     "source_16.parquet": {
       "rows": 8,
-      "sha256": "e049a89f47fc1e94f8616a38e33439605b05b5cb5522cf09b0b58bd4571b48cc"
+      "sha256": "42503339b7541ce18b204a20393e662f041f22d8255a76cc529350987b8f337f"
     },
     "source_17.parquet": {
       "rows": 1,
-      "sha256": "2964ec5bd33811312dc56eeff6a08035355233f76b4a075b1f347420646fc793"
+      "sha256": "661f39e7f7e14e672a96d8e17c909c8c589596ba5f7d77903b6bc9851506cd65"
     },
     "source_18.parquet": {
       "rows": 1,
-      "sha256": "44cb60c24ac50790021380f74a9322f00611815153d8542b145b59891bcededb"
+      "sha256": "dfe8e6d9ddd7a2bce5d1378c68f576a850aac24e39752c792e79ec3f83a164c2"
     },
     "source_19.parquet": {
       "rows": 1,
-      "sha256": "456b262551820d4f3cfd9e0312c4017ed3f11f003c51cf45291b27661ed3341a"
+      "sha256": "cfdeba9744475a61d9aad03227748bf33ed4d0be6e8c0aab6398b4f32f9bd3d3"
     },
     "source_20.parquet": {
       "rows": 1,
-      "sha256": "6ef713f34a95b45f14f4389f459764d4a13ef18d2157e30f973a3faeb4a2fa86"
+      "sha256": "d62b81b7624f71a1e538f2afbf1bdefdfed1e3bb39151122aba629db5c7999a2"
     },
     "source_21.parquet": {
       "rows": 1,
-      "sha256": "5330ce7e16b94f7630b59d20786773efe2382747f9848df34eeeee49a296c0b6"
+      "sha256": "d3582afaabc9a5f777ece38c54f805b4bba3a252ded04c77b99bf711a1dd8f0b"
     },
     "source_22.parquet": {
       "rows": 1,
-      "sha256": "9e7d5987c6f9cf678a8fbc19f3ad1df2ba150453288ac2363bd8433111c214fb"
+      "sha256": "5794793ab87b1cf88477f7af1df3c766e17c2e1c5276135e9a2913dc2c24aec6"
     },
     "source_23.parquet": {
       "rows": 1,
-      "sha256": "16b947022a31c4bf32806712900ee40319c2ca2cd0b3ecaa94eeb7afe44e5d5c"
+      "sha256": "fe28bd47c4a955a3d20db32cba88e08e1e11243ca1fb23a8e10399e4162038c6"
     },
     "source_24.parquet": {
       "rows": 1,
-      "sha256": "0a749488b5106d4818976a16d25ff0706c855738b6aff700cba832df4bf8d9f8"
+      "sha256": "2d2a6cf10bf1a8fa6a5d7db8e43c64c604c9a24fb30f6fe4ecfcee61088d003e"
     },
     "source_25.parquet": {
       "rows": 1,
-      "sha256": "28ac8efc9f07f5884e41f1af907f443a32acc191240d404dd3a2177d30e930b2"
+      "sha256": "f89fc490ea2eebb9abe8269abd1c225a1f7f18e4899ff2e62842a39c9b345a41"
     },
     "source_26.parquet": {
       "rows": 1,
-      "sha256": "7175b604219723769e71b55f8a859f43130653236910825e7772ba7ac546458c"
+      "sha256": "e3fe1d7fb5b2b90262f21feb221aed78f5ce6dceb7292224a1e32b24861326da"
     },
     "source_27.parquet": {
       "rows": 1,
-      "sha256": "7c573e3277d33fb1c2ebdfa8fe9cf77c74594d8a8fb9a924982192b4aa61aa52"
+      "sha256": "2a44a5c98ecdfdf7c1659049228ed138f142eab025aba8275b7ab47227f835a7"
     },
     "source_28.parquet": {
       "rows": 1,
-      "sha256": "8df4888c40c964bb4bf37aae097fa375a69951027546bedda05fee1a1f1cc1f2"
+      "sha256": "d1a430e42b1d1391df3ac3b952db85018d1755efe52e3e62752194011a7255ab"
     },
     "source_29.parquet": {
       "rows": 1,
-      "sha256": "e98d0690f273c8abc7ff478e784b9696547656b5619a1ee0d471edc1c412a73f"
+      "sha256": "331ec11db554d8592958b59c8df294eef3fde366e688ac695aeca902c8e9ab3d"
     },
     "source_30.parquet": {
       "rows": 1,
-      "sha256": "884963759a09e7709f08fc00c8be2bc55c3eb14c4d812e8dd4a988c3e53edaf0"
+      "sha256": "2b13872515f461e95664aaa21e9d0e4ea29e78dff7b08d444674cecd90235ff5"
     },
     "source_31.parquet": {
       "rows": 1,
-      "sha256": "257f224b2063b3593b0842b9cd4e5149a28247bda882d065bc56e9de02d514c2"
+      "sha256": "625c07bc77c0f9e860f05a193308617d60dc3c98d65472e7a909740e218e83f1"
     },
     "source_32.parquet": {
       "rows": 11,
-      "sha256": "5d9f5b4b15dd4890b9e07a701d89a2d81b92494ba47b86acdc417fab277d2f5b"
+      "sha256": "015ae85019f142946b05f62f8fac63710c4e2c78dab92d207d507a26281b50a4"
     },
     "source_33.parquet": {
       "rows": 10,
-      "sha256": "4550b2c66eb29e8d5a270d8245f0dbee08b4907bc2585039a770ad6fa5ca42da"
+      "sha256": "dca6bb400333d8dc7b7ed5e992045d62d3a1223da078e2d7f302f5d07c1e870d"
     },
     "source_34.parquet": {
       "rows": 10,
-      "sha256": "53b50f311337c04b20ec2928c72a3a0c5facfd775eb13cb460fa265630386a0a"
+      "sha256": "72ee9ca3ea2a0c1e3be5c8af0beebb9c88f45eef2be652830ecb423c85833aa4"
     },
     "source_35.parquet": {
       "rows": 10,
-      "sha256": "762550fb65ccad96f365431d41eaa9f2abc401510a6656abbc4608f0d815dfea"
+      "sha256": "ff6799c4ed1d39923462753d681e4c679ba9572c18fbd692e1a59923cfc3e948"
     },
     "source_36.parquet": {
       "rows": 10,
-      "sha256": "78451c6c7f8074fc8a2f1deb1ff2164498a1a490f439fc870548cea0c7cfd394"
+      "sha256": "dd83ff06828d2bbce921d502c1034d17d578999fba4be55448eb6341e4d81a3c"
     },
     "source_37.parquet": {
       "rows": 10,
-      "sha256": "da8157e174751197c0d1eeff1e12c88d8ae5c4ac39196dd00ccc9c5850b59c83"
+      "sha256": "6a3cc0e0f771e9ea5a2e79fa9a27644366330d590a085a274332f66e5c8d1e4d"
     },
     "source_38.parquet": {
       "rows": 10,
-      "sha256": "903a883bb5860f723c3281d517353a66fb9dc939d7f80e22397df9f0e9789bda"
+      "sha256": "feadee8b86986bc221cc560d8fde2a4eb8a84cf58ea1aff9c49c46e0b2748b95"
     },
     "source_39.parquet": {
       "rows": 10,
-      "sha256": "a225d5441b89d213200eefc6757087657fa5349d21ed1a0ecfd307410c670ad4"
+      "sha256": "8e84a2d97a9d59aa8cf9e8f1bdc8410105ed89448b0c362232c9a2d3fb2d648a"
     },
     "source_40.parquet": {
       "rows": 10,
-      "sha256": "bd608be0a69f1262cf3550822b7a1e1157bcc4bbcdda17ee7e5bf83e0bf0126a"
+      "sha256": "113d4f8ab405847d4acc9d7e241e89eea6923b089244c00af815815ec24c33fa"
     },
     "source_41.parquet": {
       "rows": 10,
-      "sha256": "87bf6ea457d17266145492bee4048ce5ac69c55fdb3884834a38cf9eecdb5d80"
+      "sha256": "437b5a5bf88ff217b6af29cd006fbe040fee30103dabb8f4e811aef12296169b"
     },
     "source_42.parquet": {
       "rows": 10,
-      "sha256": "822b8b9a02c5ea5e38263a033c122836b7920fff2776044e2d3c26af78f5c4a4"
+      "sha256": "c0ef7d8c36ad33a1491aa210e43a8b12fbcf1ddda3798c3426ef8e69e5b8d174"
     },
     "source_43.parquet": {
       "rows": 9,
-      "sha256": "2515248dc4805edaac5375049da83d8d3db6f62b331511111e5afdc581958c39"
+      "sha256": "56ad712c76f26d89605bf5d634078bbb76fa5b63d57748ea00703d530a0c58b8"
     },
     "source_44.parquet": {
       "rows": 9,
-      "sha256": "f256771554d8525696883a0317528aa9dce34548c2b268254b240e0ec6d4490d"
+      "sha256": "05488ac44a3d759f6ea360e3e207070d5aa2e2854450e98e5eeb15d028dc8eb1"
     },
     "source_45.parquet": {
       "rows": 9,
-      "sha256": "1bc3cfaa071447732915b1068a0a58cde412fba389c3217282a2d8c2a8054e2b"
+      "sha256": "7d6c8fc9918398681e265c341976adc427da71745a7569d811127b6aaa68d300"
     },
     "source_46.parquet": {
       "rows": 9,
-      "sha256": "d65aab1f78dd35a7c2b95d13b28ea17bd0a240c539bba8614cdf825148db64f8"
+      "sha256": "b8c69b19d931efb1966cf22fa25ab6f9944e92816538383ee294508e766c3c64"
     },
     "source_47.parquet": {
       "rows": 1,
-      "sha256": "ef470a971f746b29a198c6400bc74ca97918a2a674d1b43b41be5949843a2dcc"
+      "sha256": "b3ec001187c974ad6df427c6357f789f5a9c9b05a38773d1663b3d26e1bf0a42"
     },
     "source_48.parquet": {
       "rows": 1,
-      "sha256": "20b0f79e80e845ca81f8660feffdd555e617d8c6326612e52503e9dd5d640b7f"
+      "sha256": "77bea7a9ded6067304aae3f825b19c82061b71f504138b363ec58672c15a2b21"
     },
     "source_49.parquet": {
       "rows": 20,
-      "sha256": "c843731673b38374faf174141685be77acc6b950bff31aa077e2f8bba8b42930"
+      "sha256": "03bcfd3bae4b3ca29181e9175e70964f7788f38e6c1b62d94d0044b20841e8e1"
     },
     "source_50.parquet": {
       "rows": 20,
-      "sha256": "7feeaefd647ec8e6bd1df1c6ccbc7fa2173918fd988aa18086097cf757584dd0"
+      "sha256": "435e29bf658dcf626081573bcc3c37d87f00e891aa5f9e20a86febfb3f1c6349"
     },
     "source_51.parquet": {
       "rows": 20,
-      "sha256": "da471b0d9b7ffbd4b671b4a686c0d6f7ad8b5b1ed62e148ff97c711874fed0c6"
+      "sha256": "8339f53e7538d0f7441ffbd49caa0e634fe2c0b3358f1010e3c6e7e19a7884e7"
     },
     "source_52.parquet": {
       "rows": 1,
-      "sha256": "71df71bfe8ba82ce20dd3d6cfa428ce1ae7a4d8b8a5765f5f9114789a7655024"
+      "sha256": "4e78ea45776093d1d2e683b7335a85afbde4e80fbe696a4e21a27cf22ebbd11f"
     },
     "v4_regional_specialty_admissions.parquet": {
       "rows": 237208,
@@ -392,7 +392,7 @@
     "verified_every_asset": true,
     "year_profiled": 446
   },
-  "experiment_plan_sha256": "dd1439f37e155e3f50abfeae4d92e99099d5ce0cc21079a6032a6c5e3099ef95",
+  "experiment_plan_sha256": "f5cfc9152928df848094b93983025df2be2400160d981d8e7b874b6e2c7e57e7",
   "v5_science_gates": {
     "all52_source_content_verified": true,
     "all_feasible_computations_succeeded": true,
@@ -402,7 +402,7 @@
   "status": {
     "technical": "PASS",
     "scientific": "FULL_COMPUTATIONS_WITH_SCIENTIFIC_LIMITS",
-    "publication": "NOT_ATTEMPTED",
+    "publication": "PENDING_GITHUB_VERIFICATION",
     "overall": "FULL_COMPUTATIONS_WITH_SCIENTIFIC_LIMITS"
   },
   "module_status": {
@@ -456,14 +456,14 @@
     "intra": 425,
     "unknown": 510
   },
-  "real_prediction_rows": 2737382,
-  "v5_model_file_count": 227,
+  "real_prediction_rows": 2752772,
+  "v5_model_file_count": 233,
   "v5_module_acceptance": [
     {
       "module": "ML-5.1",
       "status": "TESTED_FULL",
-      "metrics": 67,
-      "model_file_count": 61,
+      "metrics": 73,
+      "model_file_count": 64,
       "failed_methods": 0,
       "missing_methods": "",
       "missing_final_seeds": "",
@@ -490,8 +490,8 @@
     {
       "module": "ML-5.3",
       "status": "TESTED_FULL",
-      "metrics": 59,
-      "model_file_count": 55,
+      "metrics": 65,
+      "model_file_count": 58,
       "failed_methods": 0,
       "missing_methods": "",
       "missing_final_seeds": "",
@@ -559,7 +559,7 @@
     }
   ],
   "v5_original_seven_target_identifiable": false,
-  "metric_rows": 242,
+  "metric_rows": 254,
   "panels": {
     "stage1_sources": {
       "rows": 52,
@@ -721,6 +721,41 @@
       "columns": 13,
       "sha256": "e18f818c0c7bf2c011141500f419f35f00a32ceab8c8e08e53a706f10018227a"
     },
+    "adr_od_balanced_edges_by_year": {
+      "rows": 5,
+      "columns": 6,
+      "sha256": "c70c70e30e790f556f4821e144dae6f067c6434b624550b0fdc5e041b8a7d770"
+    },
+    "adr_od_balanced_edges": {
+      "rows": 12400,
+      "columns": 4,
+      "sha256": "b776050e0ef3efcfdd59fcbad8c23b52a6763c801cf0565d16f418eedfbb6b16"
+    },
+    "adr_od_pairwise_comparable": {
+      "rows": 4,
+      "columns": 12,
+      "sha256": "cbfa4224a0b21c7978dca152848c6ee520535638745559a6f021a360c7d481b6"
+    },
+    "adr_organizational_admission_dictionary": {
+      "rows": 12,
+      "columns": 17,
+      "sha256": "470fc2e7dea9493d32d9cc89a751d312b4db6fb83fbd0cd108ba4a18d56eefdc"
+    },
+    "adr_spo_geolocation_candidates": {
+      "rows": 24498,
+      "columns": 12,
+      "sha256": "24a3d4c57c6c304056f95ac16ab6a175154f0374aa79492fb198538cf3365c1c"
+    },
+    "adr_spo_geolocation_high_confidence": {
+      "rows": 22,
+      "columns": 12,
+      "sha256": "501ad7850c410a868223f8ef3950d3c1ea077af0e85e36bd0488f3d3a23b16ee"
+    },
+    "adr_preprocessing_provenance": {
+      "rows": 4,
+      "columns": 6,
+      "sha256": "d05f19e3af512f8c5e016aa037f51739a3a63365b0a18e79910b5e8d718804bd"
+    },
     "region_distance_proxy": {
       "rows": 6489,
       "columns": 4,
@@ -830,6 +865,11 @@
       "rows": 52,
       "columns": 9,
       "sha256": "0b6ee9f4ec6f82b84e099c647251c40e4a8d97f83cc623afcd3af415826df1e2"
+    },
+    "v7_all52_scientific_source_audit": {
+      "rows": 52,
+      "columns": 14,
+      "sha256": "01142429a56e886d9a828d4120b3a5f13b9e4c4551e97de15b288a0f71570735"
     },
     "embedded_unit_tests": {
       "rows": 14,
@@ -981,15 +1021,50 @@
       "columns": 2,
       "sha256": "803d9510b3b2f015ec1cbee5555b6eecfe6b0cd4a521261161a40c3c0c1f1ada"
     },
+    "v7_od_common_support_sensitivity": {
+      "rows": 4,
+      "columns": 11,
+      "sha256": "cd85f31f696190c2733a362e8e57285fc53d0d9fe8db1818933f2b95bb4d2fef"
+    },
+    "v7_organization_admission_discovery": {
+      "rows": 12,
+      "columns": 12,
+      "sha256": "7db1f12edcde0d10120424de4a0d5ff8b516ee87623508bdf505c2a11294b4d4"
+    },
+    "v7_municipal_identification_gate": {
+      "rows": 1,
+      "columns": 9,
+      "sha256": "0339803b0c629caf6a3e52d8840e074f4b45f1073a778209da2013f935008d24"
+    },
+    "adr_od_high_overlap_year_comparisons": {
+      "rows": 2,
+      "columns": 12,
+      "sha256": "bb48725cbd245a0ed88ff40b9cccbf645b3dcba612df16e02baf93d35956fa73"
+    },
+    "adr_spo_site_year_observed_counts": {
+      "rows": 10,
+      "columns": 3,
+      "sha256": "4a7a4874ef5671184029fbcc161266c76831fdb2059b6d886f01451926411a80"
+    },
+    "adr_ml57_geographic_execution": {
+      "rows": 1,
+      "columns": 2,
+      "sha256": "718b7e24a700ed94963736b16d496f37225f1364476d1a3c4dcd9c00a59141d2"
+    },
+    "adr_all_feasible_experiments": {
+      "rows": 9,
+      "columns": 8,
+      "sha256": "b0bdd6e71e01aee9be0543555254892ef94bbf1fd4d64e89ebd1cd9bb91926c2"
+    },
     "future_mutation_canaries": {
       "rows": 6,
       "columns": 6,
       "sha256": "d99f5b8fa62c8221739f2cf8af45086322f3d9c41f6db8a5bdb20876de676096"
     },
     "metrics_recomputed_from_predictions": {
-      "rows": 242,
+      "rows": 254,
       "columns": 10,
-      "sha256": "8e38770790826054f5eb73ebb309cd414f0781e94cd27a2577f216fd1c7278eb"
+      "sha256": "315d3a6ae53768ce450617674ede2b69ff8d72aa3dcca9aacc0b4555db692245"
     },
     "confirmatory_comparisons": {
       "rows": 4,
@@ -1002,34 +1077,34 @@
       "sha256": "33a876da591ce4120ecc7897fffc5e4b3c1ccc20df180858c3f51034bf0687fd"
     },
     "split_audit": {
-      "rows": 6,
+      "rows": 8,
       "columns": 9,
-      "sha256": "62a049d5dff72792d513f4dfe92cdfce6eba2f4947ebe0e371386d82340437b1"
+      "sha256": "f2e1d83d2d1e7dbc4fc69facb852fa5dc0f3ba715b00a8249eabde5202931de0"
     },
     "model_metrics": {
-      "rows": 242,
+      "rows": 254,
       "columns": 11,
-      "sha256": "9d9bb595dee4a779bce6f926ad977ad29749a8f88ee62f5b23ce500985178e13"
+      "sha256": "6987f8b9ad77e92da1ca615e1ca1e29fbcb9206adac339bf6417077381952a45"
     },
     "model_registry": {
-      "rows": 227,
+      "rows": 233,
       "columns": 15,
-      "sha256": "b60679fef5595b3bfd39a912bd2482207763c852a71621fe12054cca5df2dfbc"
+      "sha256": "c6014e7c30fce5aae47f42c02dbb1ee80635e8162e998fc9b98e630087b7d846"
     },
     "v4_exploratory_paired_comparisons": {
-      "rows": 28,
+      "rows": 34,
       "columns": 16,
-      "sha256": "788c4f3cc7d0d046c4df8a978892f4decbd8697b9603c4622e406624899ba92f"
+      "sha256": "8fef6bb25eb5632b28b037fc7b6c516d7367805198a7dc5b8466f37a79381120"
     },
     "v4_methods_execution_ledger": {
       "rows": 7,
       "columns": 13,
-      "sha256": "3da2f3f9f72e72bb81cf06122c3d5799eede88c6978cb3426a300dbc71b30989"
+      "sha256": "4799d357c09be8b2f8435198db7b53fba62d34457a26486a24fe303bd684878d"
     },
     "v4_scientific_acceptance": {
       "rows": 1,
       "columns": 13,
-      "sha256": "52467b530d395d089355ab216c2fb75a8799318055ee232942f9d1e9d903b01a"
+      "sha256": "06c474a1298d5b47d78f199fae2e8af8265fe64935552fae5f1d01ad55e9a290"
     },
     "v4_rolling_origin_feasibility": {
       "rows": 4,
@@ -1037,32 +1112,178 @@
       "sha256": "0b24578132c8ad6b0cffcda70a3029996bc5cf50ab044b6ee220fc8844008ce9"
     },
     "v5_model_files_independently_verified": {
-      "rows": 227,
+      "rows": 233,
       "columns": 8,
-      "sha256": "6b2a9b3a917b8b4a96e9f16d4a80710cd381adc0a5a65eb73547795888b60118"
+      "sha256": "ed253a973125de517b9a37270043e587eb6ea7ed51d2638787456a33779d1668"
     },
     "v5_seven_module_acceptance": {
       "rows": 7,
       "columns": 12,
-      "sha256": "450009f40af64626fa7ae4c035bcc46859cacac4a87b2b6bbac54e8b05591317"
+      "sha256": "880b2a31917de61daf8547ac6b289e618bd023bf320c38351de55d67de04f769"
     },
     "v5_all52_source_evidence": {
       "rows": 52,
       "columns": 11,
       "sha256": "85b168a0b2465c0cc458a348c8dc73fd13edbefe31ce7b7567e2c9198fa45e43"
     },
+    "v7_model_lineage": {
+      "rows": 233,
+      "columns": 11,
+      "sha256": "940969c05b4949633600ba01536dcc8d9bbe6360af3dc7995ab3c27b89676d10"
+    },
+    "v7_source_lineage_52": {
+      "rows": 52,
+      "columns": 14,
+      "sha256": "49bc876de7916e0c44d3679915e4c2d577dd4d7435d817f7a309855be034bfbf"
+    },
+    "v7_seven_scientific_gates": {
+      "rows": 7,
+      "columns": 10,
+      "sha256": "aae0ca112d89e5840674563ca6f7b14be3053956be822fd78f479abdec9ed07e"
+    },
+    "adr_reconstructed_model_lineage": {
+      "rows": 233,
+      "columns": 11,
+      "sha256": "940969c05b4949633600ba01536dcc8d9bbe6360af3dc7995ab3c27b89676d10"
+    },
+    "adr_v71_seven_module_acceptance": {
+      "rows": 7,
+      "columns": 9,
+      "sha256": "d52e0d92481c43395efec10c269e0a492d076a770d83ce9304d6218b9104329e"
+    },
+    "adr_source_52_completeness": {
+      "rows": 52,
+      "columns": 7,
+      "sha256": "14d35579c4b1008ab9fa6df29c65891dbdd8a6ee0bb1dae8ee662571d173b2b4"
+    },
+    "adr_final_scientific_diagnostics": {
+      "rows": 1,
+      "columns": 14,
+      "sha256": "5dbc70bb4440ea97feb14a60dd5196831642a45a775c5ce9535892578c9b2a18"
+    },
     "education_predictions": {
-      "rows": 2737382,
+      "rows": 2752772,
       "columns": 21,
-      "sha256": "cfe206537f56a38abae7c824a606f2e050f1c6bb330ede7941bae867905febc9"
+      "sha256": "419aa0f1cff5b5d3163ec04b17fbf0d325ded2d4f35533b755f6642c30e241a6"
     }
   },
-  "output_sha256": {
-    "ML5_EDUCATION_MIGRATION_RESULTS.xlsx": "12dde439c9588ec7e30e6e605bf050fb64d96a0c96c456e610358414cf5cdff0",
-    "ML5_EVIDENCE.zip": "bfe38a21bcd01124c5ff5e5107e972646227d66cc37aa3df84e2d1640be663f0",
-    "ML5_EDUCATION_MIGRATION.ipynb": "767325096c4566730f77201c07ba1899751a78a047b1b80a1881b568ca965c5a"
+  "adr_advanced_data_reconstruction": {
+    "version": "stage2-ml5-v7.1.1-advanced-data-reconstruction-sql-progress-fixed",
+    "source_catalog_entries": 52,
+    "source_sha_passed": 52,
+    "all_seven_modules_reported": true,
+    "v7_technical_methods_retained": true,
+    "v71_additional_experiment_count": 9,
+    "v71_additional_model_experiment_count": 2,
+    "v71_computational_pass": true,
+    "seven_original_scientific_targets_identified": false,
+    "OD_all_year_balanced_edges": 12400,
+    "VO_source_approved_org_year_admissions": 0,
+    "SPO_spatially_reconstructed_site_year_proxies": 22,
+    "municipal_geocode_E0E1": {
+      "status": "SKIPPED_NO_SPATIAL_PROXY",
+      "n_spo_location_proxies": 22
+    },
+    "methodological_rule": "MISSING_NOT_OBSERVED_IS_SKIPPED_NOT_ZERO_FILLED_AND_NOT_FABRICATED"
   },
-  "runtime_seconds": 1159.4,
+  "adr_experiment_ledger": [
+    {
+      "module": "ML-5.1",
+      "experiment": "OD_HIGH_OVERLAP_STABILITY",
+      "status": "DESCRIPTIVE_COMPLETED",
+      "train_rows": 12400,
+      "test_rows": 2,
+      "source_ids": "03::42f47d3cf2159992::000",
+      "scientific_claim": "Only the intersection of actually reported regional schooling-study edges",
+      "reason": "2023 coverage break recorded separately; no missing OD zero replacement"
+    },
+    {
+      "module": "ML-5.3",
+      "experiment": "OUTFLOW_BALANCED_OD_SUPPORT",
+      "status": "DESCRIPTIVE_COMPLETED",
+      "train_rows": 12400,
+      "test_rows": 2,
+      "source_ids": "03::42f47d3cf2159992::000",
+      "scientific_claim": "Observed outflow from prior schooling region, not permanent population outmigration",
+      "reason": "OD annual marginal totals not comparable without common support"
+    },
+    {
+      "module": "ML-5.6",
+      "experiment": "NETWORK_BALANCED_GRAPH_SUPPORT",
+      "status": "DESCRIPTIVE_COMPLETED",
+      "train_rows": 12400,
+      "test_rows": 2,
+      "source_ids": "03::42f47d3cf2159992::000",
+      "scientific_claim": "Observed OD network topology, not residential migration infrastructure",
+      "reason": "Temporal graph robustness restricted to comparable reported edges"
+    },
+    {
+      "module": "ML-5.1",
+      "experiment": "ADR_BALANCED_OD_TIME",
+      "status": "MODEL_COMPLETED",
+      "train_rows": 2480,
+      "test_rows": 2480,
+      "source_ids": "03::42f47d3cf2159992::000",
+      "scientific_claim": "Observed stable OD subpopulation, not a national movement count or source-year admission",
+      "reason": "6 predeclared methods; no selection from TEST"
+    },
+    {
+      "module": "ML-5.3",
+      "experiment": "ADR_BALANCED_OUTFLOW_TIME",
+      "status": "MODEL_COMPLETED",
+      "train_rows": 85,
+      "test_rows": 85,
+      "source_ids": "03::42f47d3cf2159992::000",
+      "scientific_claim": "Observed stable OD subpopulation, not a national movement count or source-year admission",
+      "reason": "6 predeclared methods; no selection from TEST"
+    },
+    {
+      "module": "ML-5.2",
+      "experiment": "APPROVED_VO_ADMISSIONS_RETROSPECTIVE",
+      "status": "SKIPPED_SEMANTICALLY_UNVERIFIED",
+      "train_rows": 0,
+      "test_rows": 0,
+      "source_ids": "04::E02::E02::000::e45a15e7567e",
+      "scientific_claim": "Candidate labels cannot be converted into real admissions without verified definition",
+      "reason": "Published source data did not certify unique admissions by organization-year; V7 contingent experiment is retained"
+    },
+    {
+      "module": "ML-5.4",
+      "experiment": "FULL_SPECIALTY_STRATA_MODEL",
+      "status": "V7_COMPLETED",
+      "train_rows": 0,
+      "test_rows": 0,
+      "source_ids": "04::VPO_2_1_1::VPO_2_1_1::000::f9f714878501",
+      "scientific_claim": "",
+      "reason": "Existing V7 observational tests retained; no graduate job-location inference"
+    },
+    {
+      "module": "ML-5.5",
+      "experiment": "ALL_FOUR_GRADUATE_FAMILIES",
+      "status": "V7_COMPLETED",
+      "train_rows": 0,
+      "test_rows": 0,
+      "source_ids": "05::E04::organization_total",
+      "scientific_claim": "",
+      "reason": "Existing V7 observational tests retained; no graduate job-location inference"
+    },
+    {
+      "module": "ML-5.7",
+      "experiment": "GEO_RECONSTRUCTED_SPO_E0_E1",
+      "status": "SKIPPED_NO_SPATIAL_PROXY",
+      "train_rows": 0,
+      "test_rows": 0,
+      "source_ids": "03::89505d5993e6f4ad::000;06::D04::D04_member00::spatial_reference::derived;01::0",
+      "scientific_claim": "",
+      "reason": "No as-of historical support for unique high-confidence geocoded SPO entities"
+    }
+  ],
+  "output_sha256": {
+    "ML5_EDUCATION_MIGRATION_RESULTS.xlsx": "9aa21eb16027856d86150a0e7781b51928895d50577d2730e382dfab9fafe5cd",
+    "ML5_EVIDENCE.zip": "e516634dc0c47e003baa430e8baf271a860373297ba4607a84075ba258fd467e",
+    "ML5_EDUCATION_MIGRATION.ipynb": "d14f47d278c522b5bd205dfd3f73483c6730f37b57907214e792f220f3966468"
+  },
+  "runtime_seconds": 1390.7,
   "limitations": [
     {
       "module": "STAGE1",
@@ -1131,9 +1352,14 @@
       "required": "verified municipality campus registry with historical validity"
     }
   ],
-  "publication_status": "PUBLISHED_GITHUB",
+  "publication_status": "PENDING_GITHUB_VERIFICATION",
   "commit_self_reference": "Commit SHA can be reported after Git commit; cannot be embedded in the same hashed blob",
   "local_qa": [
+    {
+      "check": "DUCKDB_SQL_PREFLIGHT_PRODUCTION_QUERIES",
+      "status": "PASS",
+      "reason": "Production COPY, candidate SUMMARY and org-year TOTAL must parse and execute before Stage I download"
+    },
     {
       "check": "INPUT_SOURCE_PIN",
       "status": "PASS",
@@ -1480,6 +1706,41 @@
       "reason": ""
     },
     {
+      "check": "PARQUET_adr_od_balanced_edges_by_year",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_od_balanced_edges",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_od_pairwise_comparable",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_organizational_admission_dictionary",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_spo_geolocation_candidates",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_spo_geolocation_high_confidence",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_preprocessing_provenance",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
       "check": "PARQUET_region_distance_proxy",
       "status": "PASS",
       "reason": ""
@@ -1586,6 +1847,11 @@
     },
     {
       "check": "PARQUET_v4_all52_research_use",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v7_all52_scientific_source_audit",
       "status": "PASS",
       "reason": ""
     },
@@ -1740,6 +2006,41 @@
       "reason": ""
     },
     {
+      "check": "PARQUET_v7_od_common_support_sensitivity",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v7_organization_admission_discovery",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v7_municipal_identification_gate",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_od_high_overlap_year_comparisons",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_spo_site_year_observed_counts",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_ml57_geographic_execution",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_all_feasible_experiments",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
       "check": "PARQUET_future_mutation_canaries",
       "status": "PASS",
       "reason": ""
@@ -1810,13 +2111,103 @@
       "reason": ""
     },
     {
+      "check": "PARQUET_v7_model_lineage",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v7_source_lineage_52",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v7_seven_scientific_gates",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_reconstructed_model_lineage",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_v71_seven_module_acceptance",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_source_52_completeness",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_adr_final_scientific_diagnostics",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
       "check": "PARQUET_education_predictions",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V7_SOURCE_AUDIT_ALL52",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V7_LINEAGE_52_UNIQUE",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V7_ALL_MODELS_LINKED",
+      "status": "PASS",
+      "reason": "Every recorded model needs a traceable source input"
+    },
+    {
+      "check": "V7_ORIGINAL_7_GATES_REPORTED",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V7_OD_COMPARABLE_COMMON_SUPPORT",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V71_PUBLISH_CHECK_SEPARATED_FROM_LOCAL_QA",
+      "status": "PASS",
+      "reason": "Remote publication is checked only after uploading and reading the GitHub Release"
+    },
+    {
+      "check": "V71_ADVANCED_SOURCE_COVERAGE",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V71_SEVEN_MODULE_RECONSTRUCTION_LEDGER",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V71_RECONSTRUCTION_MODEL_AND_SEMANTICS",
+      "status": "PASS",
+      "reason": "All actually executed reconstruction models passed; missing source targets are explicitly skipped"
+    },
+    {
+      "check": "V71_NO_INVENTED_ADMISSIONS",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V71_NO_INVENTED_CAMPUSES",
       "status": "PASS",
       "reason": ""
     }
   ],
   "publication_reference": {
-    "release_tag": "ml05-v6-full-657fde73fecafe98f9db",
-    "evidence_sha256": "bfe38a21bcd01124c5ff5e5107e972646227d66cc37aa3df84e2d1640be663f0"
+    "release_tag": "ml05-v7.1.1-full-eedfcd5f523948ba366e",
+    "evidence_sha256": "e516634dc0c47e003baa430e8baf271a860373297ba4607a84075ba258fd467e"
   }
 }
