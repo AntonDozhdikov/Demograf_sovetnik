@@ -1,0 +1,112 @@
+{
+  "version": "stage2-ml3-v4.0.2-final",
+  "cells": 21,
+  "sources": [
+    {
+      "cell": "01",
+      "runtime_source_present": true,
+      "sha256": "d187b74e66b6b5d9fb5764ad33677102abeba478d36f5e717f83a0d51a191ba1"
+    },
+    {
+      "cell": "02",
+      "runtime_source_present": true,
+      "sha256": "b9a85628fb54ca4b3703a5427ef3ba5330c55d9939e6cd43effbc9ec8548bb3a"
+    },
+    {
+      "cell": "03",
+      "runtime_source_present": true,
+      "sha256": "b0130f49f0ecc05ced0a0afde3b2a7be5fb8d9ad525f9fa0fe7cd9b743002759"
+    },
+    {
+      "cell": "04",
+      "runtime_source_present": true,
+      "sha256": "cadd9cd40df417aed0683a296fe369460c18adefba32527db84563f689a6c527"
+    },
+    {
+      "cell": "05",
+      "runtime_source_present": true,
+      "sha256": "ee5fbd1acc54f5efc89e41dd063c877af151bc18e01f2a2c0e573f6da793fed0"
+    },
+    {
+      "cell": "06",
+      "runtime_source_present": true,
+      "sha256": "45a10a69b117884762abff3545ec4181ca761e8badd3049f90d661c3a576bc0a"
+    },
+    {
+      "cell": "07",
+      "runtime_source_present": true,
+      "sha256": "11fb2a23c9f8206f821789a118e4ad77ce3a41ccadad145578a0313670f761a7"
+    },
+    {
+      "cell": "08",
+      "runtime_source_present": true,
+      "sha256": "e85497f1e89515589eb5090159a3686a8f74bd90530503321ddc260b4d305369"
+    },
+    {
+      "cell": "09",
+      "runtime_source_present": true,
+      "sha256": "18895466d2e1f5b0cd2b147905b19a42591b81e29d494c9cd6dc796d5e82934c"
+    },
+    {
+      "cell": "10",
+      "runtime_source_present": true,
+      "sha256": "817ed3c717c7d6e9105d3bc18829762ef2f3ac6fbf0c08e0b80dc49c3555f302"
+    },
+    {
+      "cell": "11",
+      "runtime_source_present": true,
+      "sha256": "f6bd3424137f0df0dffaee39cbbf821da942be6eedff38e559d05d40dd07933b"
+    },
+    {
+      "cell": "12",
+      "runtime_source_present": true,
+      "sha256": "507923c38518ca0c4596724cf9c374f2697032f45d2651ac432618470afd98a9"
+    },
+    {
+      "cell": "13",
+      "runtime_source_present": true,
+      "sha256": "30179482037e2c65ba73e5d42060f6c3f4ced87d3ea20d3c048f8bd659528661"
+    },
+    {
+      "cell": "C01",
+      "runtime_source_present": true,
+      "sha256": "491156da6dadb4bfe6131cd2dd25c0129496c4500110c3799fef01a0f9650e85"
+    },
+    {
+      "cell": "C02",
+      "runtime_source_present": true,
+      "sha256": "5eb9d9a5916ec69114e749088c1c171a6667710f6ea706e3e7eca203a08df4f7"
+    },
+    {
+      "cell": "C03",
+      "runtime_source_present": true,
+      "sha256": "8e97b2173d746e84672237a159985820f7c97d6dc6906b38ed84437f3acd5501"
+    },
+    {
+      "cell": "C04",
+      "runtime_source_present": true,
+      "sha256": "38e99d8724e2814932360dfa9fc1ca23520d710d4af5f70d290e204ff2e0c12f"
+    },
+    {
+      "cell": "C05",
+      "runtime_source_present": true,
+      "sha256": "0d0d43aa146fa603f8228753c7ecfb0a0d23dcfdc7e1c010dc9cdbd2df39d7f9"
+    },
+    {
+      "cell": "C06",
+      "runtime_source_present": true,
+      "sha256": "639dc7afa6c173e93a44db4f1dfb19fe7b3b1c41b429c257abbe36ef400bc75b"
+    },
+    {
+      "cell": "C07",
+      "runtime_source_present": true,
+      "sha256": "e91d6080e4954871502ed71196a03646a9f4f5b534eb151a010ba2775b3b5626"
+    },
+    {
+      "cell": "21",
+      "runtime_source_present": true,
+      "sha256": "8c17a82c8b140f3488f19b71f1d44c2e22526f3cae9424842d3d35a884aad06f"
+    }
+  ],
+  "notebook_sha256": "ae87b9b1f754b06c1891194df1bffc6388f6f9e39838935cf81170ba6fb2cefb"
+}
