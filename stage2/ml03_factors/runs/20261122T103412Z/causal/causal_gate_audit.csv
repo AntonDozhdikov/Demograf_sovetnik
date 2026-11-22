@@ -1,0 +1,6 @@
+gate,status,reason,zip_sha256
+SOURCE_SHA,PASS,Архив V4.02 проверен,64b2e83d3d7a371141f67adcca0dae3caa2b2416ee8981c5c1f159f69bc8f041
+PANEL,PASS,31445 муниципалитет-лет; SHAs сверены,
+TREATMENT_REGISTER,NOT_FEASIBLE,Нет проверенного реестра вмешательств; ATT не вычисляется,
+BOUNDARY_REGISTER,NOT_FEASIBLE,Нет официального реестра исторических муниципальных границ,
+CAUSAL_ESTIMATES,BLOCKED,0 group-time estimates; NOT_IDENTIFIED,
