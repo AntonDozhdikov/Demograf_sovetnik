@@ -1,0 +1,16 @@
+{
+  "status": "ASSET_VERIFIED",
+  "repository": "AntonDozhdikov/Demograf_sovetnik",
+  "scientific_status": "PARTIAL",
+  "technical_archive_name": "ML3_EVIDENCE.zip",
+  "technical_archive_bytes": 301952998,
+  "technical_archive_sha256": "64b2e83d3d7a371141f67adcca0dae3caa2b2416ee8981c5c1f159f69bc8f041",
+  "verification": "SHA256_FROM_GITHUB",
+  "branch": "ml03-results/v403-20261122T103412Z",
+  "tag": "ml03-v403-results-20261122T103412Z",
+  "release_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/releases/tag/untagged-d49746341ae07799ef6a",
+  "asset_id": 778699789,
+  "asset_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/releases/download/untagged-d49746341ae07799ef6a/ML03_V4_03_TECHNICAL_EVIDENCE_20261122T103412Z.zip",
+  "scientific_ready": false,
+  "source_sha": "58473f995440daac295ca32532959f101bfa14ea"
+}
