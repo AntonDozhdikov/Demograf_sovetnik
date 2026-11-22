@@ -1,0 +1,38 @@
+{
+  "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
+  "source_evidence": "ML5_EVIDENCE.zip",
+  "evidence_sha256": "7ea95920e8aa2c69ff67101f85a0444c910addf9dc35b2086e1124fe0c1bda0e",
+  "evidence_bytes": 978719035,
+  "parts": [
+    {
+      "name": "ML5_EVIDENCE.zip.part001",
+      "bytes": 167772160,
+      "sha256": "f7cfa337ae7f1b53dc03ec97b809b6edac7496c15361ce39cddffc86e7687838"
+    },
+    {
+      "name": "ML5_EVIDENCE.zip.part002",
+      "bytes": 167772160,
+      "sha256": "aac7d6851f59eae7d0e6a40c1602075756396cd362babed8776d7025c72a4c3a"
+    },
+    {
+      "name": "ML5_EVIDENCE.zip.part003",
+      "bytes": 167772160,
+      "sha256": "1d965bb6b107bcc1e029ebe7ad9c6778f1ab4f4399393a68a833c2a036dd8c6b"
+    },
+    {
+      "name": "ML5_EVIDENCE.zip.part004",
+      "bytes": 167772160,
+      "sha256": "2a4eef92b15eae4e19244248ab72a8d19afb87527f52eb505df0cea9e5b2f035"
+    },
+    {
+      "name": "ML5_EVIDENCE.zip.part005",
+      "bytes": 167772160,
+      "sha256": "c5dce78bc9e07d42ccbfe47ec83adde3419f9a298769b3cecff2a2adbd32e433"
+    },
+    {
+      "name": "ML5_EVIDENCE.zip.part006",
+      "bytes": 139858235,
+      "sha256": "af176483e83303fb796415f864139b6d4a4c273b417a029178962339b5740741"
+    }
+  ]
+}

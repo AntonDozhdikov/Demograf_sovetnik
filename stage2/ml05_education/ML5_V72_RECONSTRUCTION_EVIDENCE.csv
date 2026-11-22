@@ -1,0 +1,8 @@
+﻿module,experiment,status,observed_rows,primary_source,rule,interpretation
+ML-5.1,E01_COVERAGE_CHANGE_SEPARATION,PASS,4,03::42f47d3cf2159992::000,no imputation; common-support sum; explicit coverage flags,Оценка динамики только на пересечении зарегистрированных направлений
+ML-5.2,E02_ADMISSION_PROOF,PASS_WITH_EXCLUSIONS,12,04::E02::E02::000::e45a15e7567e,"No approval means no admission target, even for semantically plausible labels","Единица измерения, значение, утверждение определения и уникальная организационно-годовая ячейка"
+ML-5.3,REGIONAL_OUTFLOW_CONSTANT_EDGES,PASS,425,03::42f47d3cf2159992::000,Do not infer total migration from E01,Суммируются лишь наблюдавшиеся ежегодно направления
+ML-5.4,SPECIALTY_CLASSIFIER_SPELLING_AUDIT,PASS,4711,04::VPO_2_1_1::VPO_2_1_1::000::f9f714878501,Separate historical code coverage from claimed student admissions,Меняются только написания одного кода; разные коды не объявляются одной специальностью
+ML-5.5,E04_E05_NONADDITIVE_GROUPS,PASS,4,05::E04::organization_total;05::E04::organization_specialty;05::E05::field_specialty;05::E05::field_area,No inference of workplace region or graduate retention,"Медианы агрегированных срезов, отдельно для каждой первичной семьи"
+ML-5.6,NETWORK_SAME_NODE_EDGE_YEAR_PAIRS,PASS,4,03::42f47d3cf2159992::000,,Изменение по неизменной наблюдаемой топологии; не общая динамика сети
+ML-5.7,D04_SPO_SPATIAL_PROXY_STABILITY,PASS_WITH_QUARANTINE,24498,03::89505d5993e6f4ad::000;06::D04::D04_member00::spatial_reference::derived,NEVER treat nearest settlement as verified study campus,Проверено постоянство прокси-ОКТМО; подтверждённых кампусов эта процедура не создаёт

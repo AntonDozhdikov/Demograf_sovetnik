@@ -136,6 +136,14 @@ PARQUET_adr_od_high_overlap_year_comparisons,PASS,
 PARQUET_adr_spo_site_year_observed_counts,PASS,
 PARQUET_adr_ml57_geographic_execution,PASS,
 PARQUET_adr_all_feasible_experiments,PASS,
+PARQUET_v72_od_year_pair_coverage_decomposition,PASS,
+PARQUET_v72_org_admission_indicator_decision,PASS,
+PARQUET_v72_origin_common_support_outflow,PASS,
+PARQUET_v72_specialty_code_observed_crosswalk,PASS,
+PARQUET_v72_graduate_family_independent_descriptives,PASS,
+PARQUET_v72_network_same_node_edge_dynamics,PASS,
+PARQUET_v72_spo_municipal_proxy_confidence,PASS,
+PARQUET_v72_all_seven_reconstruction_evidence,PASS,
 PARQUET_future_mutation_canaries,PASS,
 PARQUET_metrics_recomputed_from_predictions,PASS,
 PARQUET_confirmatory_comparisons,PASS,
@@ -157,6 +165,14 @@ PARQUET_adr_reconstructed_model_lineage,PASS,
 PARQUET_adr_v71_seven_module_acceptance,PASS,
 PARQUET_adr_source_52_completeness,PASS,
 PARQUET_adr_final_scientific_diagnostics,PASS,
+PARQUET_v72_each_metric_asof_vintage_gate,PASS,
+PARQUET_v72_ex_ante_model_selection_audit,PASS,
+PARQUET_v72_verified_source_panel_model_links,PASS,
+PARQUET_v72_seven_modules_scientific_acceptance,PASS,
+PARQUET_v72_engineering_decision_gates,PASS,
+PARQUET_v73_paired_model_error_tests,PASS,
+PARQUET_v73_error_stratum_decomposition,PASS,
+PARQUET_v73_prediction_pair_audit,PASS,
 PARQUET_education_predictions,PASS,
 V7_SOURCE_AUDIT_ALL52,PASS,
 V7_LINEAGE_52_UNIQUE,PASS,
@@ -169,3 +185,23 @@ V71_SEVEN_MODULE_RECONSTRUCTION_LEDGER,PASS,
 V71_RECONSTRUCTION_MODEL_AND_SEMANTICS,PASS,All actually executed reconstruction models passed; missing source targets are explicitly skipped
 V71_NO_INVENTED_ADMISSIONS,PASS,
 V71_NO_INVENTED_CAMPUSES,PASS,
+V72_ALL52_SOURCES_SHA,PASS,"Independently computed source, model and scientific contract"
+V72_ALL_7_SCIENTIFIC_DECISIONS_DOCUMENTED,PASS,"Independently computed source, model and scientific contract"
+V72_PRESERVED_V711_COMPLETED_MODELS,PASS,"Independently computed source, model and scientific contract"
+V72_PRESERVED_V711_METRICS,PASS,"Independently computed source, model and scientific contract"
+V72_SAME_MODEL_FILES_AND_LINEAGE,PASS,"Independently computed source, model and scientific contract"
+V72_SOURCE_TO_MODEL_SHA_ALL_VALID,PASS,"Independently computed source, model and scientific contract"
+V72_RECONSTRUCTION_HAS_NO_FAILURE,PASS,"Independently computed source, model and scientific contract"
+V72_NO_AUTOMATIC_ORG_ADMISSION_FROM_UNAPPROVED_LABEL,PASS,"Independently computed source, model and scientific contract"
+V72_NO_GEOGRAPHIC_PROXY_BECOMES_OFFICIAL_CAMPUS,PASS,"Independently computed source, model and scientific contract"
+V72_NO_TEST_OPTIMAL_MODEL_AUTOMATICALLY_SELECTED,PASS,"Independently computed source, model and scientific contract"
+V72_ALL_MODEL_TESTING_VINTAGE_SCOPES_EXPLICIT,PASS,"Independently computed source, model and scientific contract"
+V72_RESEARCH_MODULES_SEVEN,PASS,
+V72_RECONSTRUCTIONS_RECORDED,PASS,
+V72_SOURCE_VINTAGE_NOT_MISLABELED,PASS,Retrospective results must not be relabeled as real-time historical forecasts
+V73_RELEASE_PLAN_PREFLIGHT,PASS,8 assets path validation must pass before input download
+V73_REAL_PAIRED_TESTS,PASS,
+V73_MODEL_RESULT_PRESERVATION,PASS,
+V73_PAIRED_SOURCE_COVERAGE,PASS,
+V73_INFERENCE_MULTIPLICITY,PASS,
+V73_DURABLE_STAGE_JOURNAL,PASS,Expected 13 completed research/export stages in this run session before QA and GitHub

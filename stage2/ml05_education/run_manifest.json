@@ -1,7 +1,7 @@
 {
-  "version": "stage2-ml5-v7.1.1-advanced-data-reconstruction-sql-progress-fixed",
+  "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
   "mode": "FULL",
-  "created_utc": "2026-11-21T13:59:37.457578+00:00",
+  "created_utc": "2026-11-22T08:12:00.209365+00:00",
   "source_repo": "AntonDozhdikov/Demograf_sovetnik",
   "source_commit": "58473f995440daac295ca32532959f101bfa14ea",
   "source_index_git_blob_sha": "d6625ccddc24f24a1ee451e33c48b736d3a57043",
@@ -392,7 +392,7 @@
     "verified_every_asset": true,
     "year_profiled": 446
   },
-  "experiment_plan_sha256": "f5cfc9152928df848094b93983025df2be2400160d981d8e7b874b6e2c7e57e7",
+  "experiment_plan_sha256": "7acae646b52e9ab664abf6cda72ded6136b68a5fe5d73d7898c2e210452e8ee9",
   "v5_science_gates": {
     "all52_source_content_verified": true,
     "all_feasible_computations_succeeded": true,
@@ -402,7 +402,7 @@
   "status": {
     "technical": "PASS",
     "scientific": "FULL_COMPUTATIONS_WITH_SCIENTIFIC_LIMITS",
-    "publication": "PUBLISHED_GITHUB_VERIFIED",
+    "publication": "PENDING_GITHUB_VERIFICATION",
     "overall": "FULL_COMPUTATIONS_WITH_SCIENTIFIC_LIMITS"
   },
   "module_status": {
@@ -1056,6 +1056,46 @@
       "columns": 8,
       "sha256": "b0bdd6e71e01aee9be0543555254892ef94bbf1fd4d64e89ebd1cd9bb91926c2"
     },
+    "v72_od_year_pair_coverage_decomposition": {
+      "rows": 4,
+      "columns": 19,
+      "sha256": "db2f0dfcf0f9920bdc9bfcaf1ad4305c076e240545ff97552e45064b9a4e33a6"
+    },
+    "v72_org_admission_indicator_decision": {
+      "rows": 12,
+      "columns": 22,
+      "sha256": "1ce508da8fd82afe49e52a841786d3afdcdfbaa1ed46b69b5f5d619bcee113b6"
+    },
+    "v72_origin_common_support_outflow": {
+      "rows": 425,
+      "columns": 5,
+      "sha256": "2ff5901ec617d175b671d30002ae1ab4f4da4f306f7d503b14c570dd9208372e"
+    },
+    "v72_specialty_code_observed_crosswalk": {
+      "rows": 4711,
+      "columns": 8,
+      "sha256": "fcdf1e0ae901fed83654a1ae54b6bac07421db8aa5fa3a490e916cd86a5a0eda"
+    },
+    "v72_graduate_family_independent_descriptives": {
+      "rows": 4,
+      "columns": 8,
+      "sha256": "6a57a58fd195b1b9c072e9248bb69e3aa1e30bebebe5116311fbfbb1dd362464"
+    },
+    "v72_network_same_node_edge_dynamics": {
+      "rows": 4,
+      "columns": 9,
+      "sha256": "9d75361f477676668a8adb1ac79b3f9a0c2b38e7b30788054249d46d63fb99a3"
+    },
+    "v72_spo_municipal_proxy_confidence": {
+      "rows": 24498,
+      "columns": 17,
+      "sha256": "c31bcc0cad2ec0e82568290bbd314bf5564c1422d331904bb93743d38b9b155e"
+    },
+    "v72_all_seven_reconstruction_evidence": {
+      "rows": 7,
+      "columns": 7,
+      "sha256": "d8d08935dbaaebdfa99df1bb4fd0205859b4dd2bc1728b3205155aa5870c8359"
+    },
     "future_mutation_canaries": {
       "rows": 6,
       "columns": 6,
@@ -1089,7 +1129,7 @@
     "model_registry": {
       "rows": 233,
       "columns": 15,
-      "sha256": "c6014e7c30fce5aae47f42c02dbb1ee80635e8162e998fc9b98e630087b7d846"
+      "sha256": "048e481d543143c7fc98327ebb5848f1a5d498ae690a5443715c0b54156d955b"
     },
     "v4_exploratory_paired_comparisons": {
       "rows": 34,
@@ -1104,7 +1144,7 @@
     "v4_scientific_acceptance": {
       "rows": 1,
       "columns": 13,
-      "sha256": "06c474a1298d5b47d78f199fae2e8af8265fe64935552fae5f1d01ad55e9a290"
+      "sha256": "b307f45cb47bcb5c035eb65df194cee5f9c330615cef107ef3372944689a02ec"
     },
     "v4_rolling_origin_feasibility": {
       "rows": 4,
@@ -1129,7 +1169,7 @@
     "v7_model_lineage": {
       "rows": 233,
       "columns": 11,
-      "sha256": "940969c05b4949633600ba01536dcc8d9bbe6360af3dc7995ab3c27b89676d10"
+      "sha256": "967da81e559d7b5ea3c061621b75754387a05d1f8174946197b2ea05308838d1"
     },
     "v7_source_lineage_52": {
       "rows": 52,
@@ -1144,7 +1184,7 @@
     "adr_reconstructed_model_lineage": {
       "rows": 233,
       "columns": 11,
-      "sha256": "940969c05b4949633600ba01536dcc8d9bbe6360af3dc7995ab3c27b89676d10"
+      "sha256": "967da81e559d7b5ea3c061621b75754387a05d1f8174946197b2ea05308838d1"
     },
     "adr_v71_seven_module_acceptance": {
       "rows": 7,
@@ -1159,7 +1199,47 @@
     "adr_final_scientific_diagnostics": {
       "rows": 1,
       "columns": 14,
-      "sha256": "5dbc70bb4440ea97feb14a60dd5196831642a45a775c5ce9535892578c9b2a18"
+      "sha256": "a67fc16d2b555216d0566820c25126669e6f6e21a67138dafed1148d701de45e"
+    },
+    "v72_each_metric_asof_vintage_gate": {
+      "rows": 254,
+      "columns": 8,
+      "sha256": "72244bf0d5a8b3fa0022e5032e0364a2c33a3bf357e92f2da1a63c227f6c4095"
+    },
+    "v72_ex_ante_model_selection_audit": {
+      "rows": 8,
+      "columns": 13,
+      "sha256": "5dbf35ff9c77358da8471d8578699a82cd424fa19c96c6e04143aab787fdc174"
+    },
+    "v72_verified_source_panel_model_links": {
+      "rows": 361,
+      "columns": 11,
+      "sha256": "2d77373b6fb82ff090cc9564462ba1564f4fbf66626fd45b555b1d6764ea1715"
+    },
+    "v72_seven_modules_scientific_acceptance": {
+      "rows": 7,
+      "columns": 10,
+      "sha256": "be44fb24c50d765cb023ab9a3f8e4869333f18b9fd85ffbce8434d74e40c431b"
+    },
+    "v72_engineering_decision_gates": {
+      "rows": 11,
+      "columns": 2,
+      "sha256": "140c3e9bbcac0866d40494269b8e2209b51b02975a605d0bebc9f6b54cdbae2f"
+    },
+    "v73_paired_model_error_tests": {
+      "rows": 50,
+      "columns": 22,
+      "sha256": "de7f18ec49b78d89738af41e87a1ba6cea55368d88448fecec481ed6fdd36b52"
+    },
+    "v73_error_stratum_decomposition": {
+      "rows": 208,
+      "columns": 12,
+      "sha256": "4396e695b0a55d6c27581797fd0e285e797ac97cc50c24a64231668f54e9d772"
+    },
+    "v73_prediction_pair_audit": {
+      "rows": 1,
+      "columns": 20,
+      "sha256": "e83a4ccd04f651276106f6a13ef3b0deb1125de4e71fb1366221d3737f10f415"
     },
     "education_predictions": {
       "rows": 2752772,
@@ -1168,7 +1248,7 @@
     }
   },
   "adr_advanced_data_reconstruction": {
-    "version": "stage2-ml5-v7.1.1-advanced-data-reconstruction-sql-progress-fixed",
+    "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
     "source_catalog_entries": 52,
     "source_sha_passed": 52,
     "all_seven_modules_reported": true,
@@ -1186,6 +1266,280 @@
     },
     "methodological_rule": "MISSING_NOT_OBSERVED_IS_SKIPPED_NOT_ZERO_FILLED_AND_NOT_FABRICATED"
   },
+  "v72_reproducibility": {
+    "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
+    "python": "3.13.18",
+    "mode": "FULL",
+    "source_commit": "58473f995440daac295ca32532959f101bfa14ea",
+    "source_catalog_blob_sha": "d6625ccddc24f24a1ee451e33c48b736d3a57043",
+    "catalog_n_assets": 52,
+    "sha_verified_n": 52,
+    "seed_main": 20261104,
+    "seeds_final": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150
+    ],
+    "training_model_count": 233,
+    "metric_rows": 254,
+    "prediction_rows": 2752772,
+    "source_vintage": "2026-10-21T10:33:48.135686+00:00",
+    "prequential_historical_source_vintage_archived": false,
+    "dependencies": {
+      "numpy": "2.4.6",
+      "pandas": "2.2.3",
+      "duckdb": "1.3.2",
+      "pyarrow": "23.0.1",
+      "scikit-learn": "1.6.1",
+      "scipy": "1.16.3",
+      "catboost": "1.2.10",
+      "lightgbm": "4.6.0",
+      "statsmodels": "0.15.0",
+      "networkx": "3.7",
+      "nbformat": "5.11.1",
+      "xlsxwriter": "3.3.3",
+      "requests": "2.32.4"
+    },
+    "n_point_in_time_validated_metrics": 0,
+    "n_retrospective_only_metrics": 254,
+    "v72_gates": {
+      "all52_sources_sha": true,
+      "all_7_scientific_decisions_documented": true,
+      "preserved_v711_completed_models": true,
+      "preserved_v711_metrics": true,
+      "same_model_files_and_lineage": true,
+      "source_to_model_sha_all_valid": true,
+      "reconstruction_has_no_failure": true,
+      "no_automatic_org_admission_from_unapproved_label": true,
+      "no_geographic_proxy_becomes_official_campus": true,
+      "no_test_optimal_model_automatically_selected": true,
+      "all_model_testing_vintage_scopes_explicit": true
+    },
+    "new_observed_reconstruction_checks": 7,
+    "new_original_targets_verified": 1
+  },
+  "v73_paired_inference_audit": {
+    "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
+    "prediction_rows_input": 2752772,
+    "existing_metric_rows_before": 254,
+    "existing_models_before": 233,
+    "inference": "cluster-randomization sign-flips; exploratory retrospective",
+    "selection_policy": "predeclared persistence; no model selected by TEST",
+    "resampling_repetitions": 399,
+    "raw_test_observations_not_independent_across_models": true,
+    "multiple_testing": "Holm-Bonferroni across all qualified paired comparisons",
+    "processing": "ALL rows; task/model grouping; Arrow streaming; no sampling",
+    "model_groups_to_collapse": 58,
+    "unique_model_observations": 455652,
+    "predeclared_baseline_groups": 8,
+    "paired_comparisons": 50,
+    "eligible_p_values": 50,
+    "error_strata": 208,
+    "unpaired_candidate_groups": 0,
+    "models_after": 233,
+    "metrics_after": 254,
+    "training_artifacts_unchanged": true
+  },
+  "v73_paired_comparisons": 50,
+  "v73_error_strata": 208,
+  "v72_module_decisions": [
+    {
+      "module": "ML-5.1",
+      "baseline_v711_computational_pass": true,
+      "new_v72_validated_substudies": 1,
+      "new_v72_skipped_no_source": 0,
+      "new_computational_failures": 0,
+      "original_target_identified": false,
+      "historical_vintage_validated": false,
+      "honest_scientific_scope": "OBSERVED_TARGET_TESTED_RETROSPECTIVELY",
+      "acceptance": "COMPUTATIONAL_PASS_SCIENTIFIC_GATED",
+      "no_missing_source_value_inferred": true
+    },
+    {
+      "module": "ML-5.2",
+      "baseline_v711_computational_pass": true,
+      "new_v72_validated_substudies": 1,
+      "new_v72_skipped_no_source": 0,
+      "new_computational_failures": 0,
+      "original_target_identified": false,
+      "historical_vintage_validated": false,
+      "honest_scientific_scope": "DESCRIPTIVE_OR_PROXY_TEST_ONLY",
+      "acceptance": "COMPUTATIONAL_PASS_SCIENTIFIC_GATED",
+      "no_missing_source_value_inferred": true
+    },
+    {
+      "module": "ML-5.3",
+      "baseline_v711_computational_pass": true,
+      "new_v72_validated_substudies": 1,
+      "new_v72_skipped_no_source": 0,
+      "new_computational_failures": 0,
+      "original_target_identified": false,
+      "historical_vintage_validated": false,
+      "honest_scientific_scope": "OBSERVED_TARGET_TESTED_RETROSPECTIVELY",
+      "acceptance": "COMPUTATIONAL_PASS_SCIENTIFIC_GATED",
+      "no_missing_source_value_inferred": true
+    },
+    {
+      "module": "ML-5.4",
+      "baseline_v711_computational_pass": true,
+      "new_v72_validated_substudies": 1,
+      "new_v72_skipped_no_source": 0,
+      "new_computational_failures": 0,
+      "original_target_identified": true,
+      "historical_vintage_validated": false,
+      "honest_scientific_scope": "OBSERVED_TARGET_TESTED_RETROSPECTIVELY",
+      "acceptance": "COMPUTATIONAL_PASS_SCIENTIFIC_GATED",
+      "no_missing_source_value_inferred": true
+    },
+    {
+      "module": "ML-5.5",
+      "baseline_v711_computational_pass": true,
+      "new_v72_validated_substudies": 1,
+      "new_v72_skipped_no_source": 0,
+      "new_computational_failures": 0,
+      "original_target_identified": false,
+      "historical_vintage_validated": false,
+      "honest_scientific_scope": "DESCRIPTIVE_OR_PROXY_TEST_ONLY",
+      "acceptance": "COMPUTATIONAL_PASS_SCIENTIFIC_GATED",
+      "no_missing_source_value_inferred": true
+    },
+    {
+      "module": "ML-5.6",
+      "baseline_v711_computational_pass": true,
+      "new_v72_validated_substudies": 1,
+      "new_v72_skipped_no_source": 0,
+      "new_computational_failures": 0,
+      "original_target_identified": false,
+      "historical_vintage_validated": false,
+      "honest_scientific_scope": "DESCRIPTIVE_OR_PROXY_TEST_ONLY",
+      "acceptance": "COMPUTATIONAL_PASS_SCIENTIFIC_GATED",
+      "no_missing_source_value_inferred": true
+    },
+    {
+      "module": "ML-5.7",
+      "baseline_v711_computational_pass": true,
+      "new_v72_validated_substudies": 1,
+      "new_v72_skipped_no_source": 0,
+      "new_computational_failures": 0,
+      "original_target_identified": false,
+      "historical_vintage_validated": false,
+      "honest_scientific_scope": "NOT_IDENTIFIABLE_WITH_AVAILABLE_STAGE_I",
+      "acceptance": "COMPUTATIONAL_PASS_SCIENTIFIC_GATED",
+      "no_missing_source_value_inferred": true
+    }
+  ],
+  "v72_new_preprocessing": [
+    {
+      "module": "ML-5.1",
+      "experiment": "E01_COVERAGE_CHANGE_SEPARATION",
+      "status": "PASS",
+      "observed_rows": 4,
+      "primary_source": "03::42f47d3cf2159992::000",
+      "rule": "no imputation; common-support sum; explicit coverage flags",
+      "interpretation": "Оценка динамики только на пересечении зарегистрированных направлений"
+    },
+    {
+      "module": "ML-5.2",
+      "experiment": "E02_ADMISSION_PROOF",
+      "status": "PASS_WITH_EXCLUSIONS",
+      "observed_rows": 12,
+      "primary_source": "04::E02::E02::000::e45a15e7567e",
+      "rule": "No approval means no admission target, even for semantically plausible labels",
+      "interpretation": "Единица измерения, значение, утверждение определения и уникальная организационно-годовая ячейка"
+    },
+    {
+      "module": "ML-5.3",
+      "experiment": "REGIONAL_OUTFLOW_CONSTANT_EDGES",
+      "status": "PASS",
+      "observed_rows": 425,
+      "primary_source": "03::42f47d3cf2159992::000",
+      "rule": "Do not infer total migration from E01",
+      "interpretation": "Суммируются лишь наблюдавшиеся ежегодно направления"
+    },
+    {
+      "module": "ML-5.4",
+      "experiment": "SPECIALTY_CLASSIFIER_SPELLING_AUDIT",
+      "status": "PASS",
+      "observed_rows": 4711,
+      "primary_source": "04::VPO_2_1_1::VPO_2_1_1::000::f9f714878501",
+      "rule": "Separate historical code coverage from claimed student admissions",
+      "interpretation": "Меняются только написания одного кода; разные коды не объявляются одной специальностью"
+    },
+    {
+      "module": "ML-5.5",
+      "experiment": "E04_E05_NONADDITIVE_GROUPS",
+      "status": "PASS",
+      "observed_rows": 4,
+      "primary_source": "05::E04::organization_total;05::E04::organization_specialty;05::E05::field_specialty;05::E05::field_area",
+      "rule": "No inference of workplace region or graduate retention",
+      "interpretation": "Медианы агрегированных срезов, отдельно для каждой первичной семьи"
+    },
+    {
+      "module": "ML-5.6",
+      "experiment": "NETWORK_SAME_NODE_EDGE_YEAR_PAIRS",
+      "status": "PASS",
+      "observed_rows": 4,
+      "primary_source": "03::42f47d3cf2159992::000",
+      "rule": "",
+      "interpretation": "Изменение по неизменной наблюдаемой топологии; не общая динамика сети"
+    },
+    {
+      "module": "ML-5.7",
+      "experiment": "D04_SPO_SPATIAL_PROXY_STABILITY",
+      "status": "PASS_WITH_QUARANTINE",
+      "observed_rows": 24498,
+      "primary_source": "03::89505d5993e6f4ad::000;06::D04::D04_member00::spatial_reference::derived",
+      "rule": "NEVER treat nearest settlement as verified study campus",
+      "interpretation": "Проверено постоянство прокси-ОКТМО; подтверждённых кампусов эта процедура не создаёт"
+    }
+  ],
   "adr_experiment_ledger": [
     {
       "module": "ML-5.1",
@@ -1279,11 +1633,11 @@
     }
   ],
   "output_sha256": {
-    "ML5_EDUCATION_MIGRATION_RESULTS.xlsx": "9aa21eb16027856d86150a0e7781b51928895d50577d2730e382dfab9fafe5cd",
-    "ML5_EVIDENCE.zip": "e516634dc0c47e003baa430e8baf271a860373297ba4607a84075ba258fd467e",
-    "ML5_EDUCATION_MIGRATION.ipynb": "d14f47d278c522b5bd205dfd3f73483c6730f37b57907214e792f220f3966468"
+    "ML5_EDUCATION_MIGRATION_RESULTS.xlsx": "1ae5dc7f4bab94516eb62bd62bc13fde56bab2ffd9c6c5c895391f055aaef17f",
+    "ML5_EVIDENCE.zip": "7ea95920e8aa2c69ff67101f85a0444c910addf9dc35b2086e1124fe0c1bda0e",
+    "ML5_EDUCATION_MIGRATION.ipynb": "7b38e9b9cc393a9b59f9417c636b98d0fe3f092afa6fcce29af6d34abbbc2d08"
   },
-  "runtime_seconds": 1390.7,
+  "runtime_seconds": 1990.3,
   "limitations": [
     {
       "module": "STAGE1",
@@ -1352,7 +1706,7 @@
       "required": "verified municipality campus registry with historical validity"
     }
   ],
-  "publication_status": "PUBLISHED_GITHUB_VERIFIED",
+  "publication_status": "PENDING_GITHUB_VERIFICATION",
   "commit_self_reference": "Commit SHA can be reported after Git commit; cannot be embedded in the same hashed blob",
   "local_qa": [
     {
@@ -2041,6 +2395,46 @@
       "reason": ""
     },
     {
+      "check": "PARQUET_v72_od_year_pair_coverage_decomposition",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v72_org_admission_indicator_decision",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v72_origin_common_support_outflow",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v72_specialty_code_observed_crosswalk",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v72_graduate_family_independent_descriptives",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v72_network_same_node_edge_dynamics",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v72_spo_municipal_proxy_confidence",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v72_all_seven_reconstruction_evidence",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
       "check": "PARQUET_future_mutation_canaries",
       "status": "PASS",
       "reason": ""
@@ -2146,6 +2540,46 @@
       "reason": ""
     },
     {
+      "check": "PARQUET_v72_each_metric_asof_vintage_gate",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v72_ex_ante_model_selection_audit",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v72_verified_source_panel_model_links",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v72_seven_modules_scientific_acceptance",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v72_engineering_decision_gates",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v73_paired_model_error_tests",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v73_error_stratum_decomposition",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "PARQUET_v73_prediction_pair_audit",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
       "check": "PARQUET_education_predictions",
       "status": "PASS",
       "reason": ""
@@ -2204,13 +2638,110 @@
       "check": "V71_NO_INVENTED_CAMPUSES",
       "status": "PASS",
       "reason": ""
+    },
+    {
+      "check": "V72_ALL52_SOURCES_SHA",
+      "status": "PASS",
+      "reason": "Independently computed source, model and scientific contract"
+    },
+    {
+      "check": "V72_ALL_7_SCIENTIFIC_DECISIONS_DOCUMENTED",
+      "status": "PASS",
+      "reason": "Independently computed source, model and scientific contract"
+    },
+    {
+      "check": "V72_PRESERVED_V711_COMPLETED_MODELS",
+      "status": "PASS",
+      "reason": "Independently computed source, model and scientific contract"
+    },
+    {
+      "check": "V72_PRESERVED_V711_METRICS",
+      "status": "PASS",
+      "reason": "Independently computed source, model and scientific contract"
+    },
+    {
+      "check": "V72_SAME_MODEL_FILES_AND_LINEAGE",
+      "status": "PASS",
+      "reason": "Independently computed source, model and scientific contract"
+    },
+    {
+      "check": "V72_SOURCE_TO_MODEL_SHA_ALL_VALID",
+      "status": "PASS",
+      "reason": "Independently computed source, model and scientific contract"
+    },
+    {
+      "check": "V72_RECONSTRUCTION_HAS_NO_FAILURE",
+      "status": "PASS",
+      "reason": "Independently computed source, model and scientific contract"
+    },
+    {
+      "check": "V72_NO_AUTOMATIC_ORG_ADMISSION_FROM_UNAPPROVED_LABEL",
+      "status": "PASS",
+      "reason": "Independently computed source, model and scientific contract"
+    },
+    {
+      "check": "V72_NO_GEOGRAPHIC_PROXY_BECOMES_OFFICIAL_CAMPUS",
+      "status": "PASS",
+      "reason": "Independently computed source, model and scientific contract"
+    },
+    {
+      "check": "V72_NO_TEST_OPTIMAL_MODEL_AUTOMATICALLY_SELECTED",
+      "status": "PASS",
+      "reason": "Independently computed source, model and scientific contract"
+    },
+    {
+      "check": "V72_ALL_MODEL_TESTING_VINTAGE_SCOPES_EXPLICIT",
+      "status": "PASS",
+      "reason": "Independently computed source, model and scientific contract"
+    },
+    {
+      "check": "V72_RESEARCH_MODULES_SEVEN",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V72_RECONSTRUCTIONS_RECORDED",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V72_SOURCE_VINTAGE_NOT_MISLABELED",
+      "status": "PASS",
+      "reason": "Retrospective results must not be relabeled as real-time historical forecasts"
+    },
+    {
+      "check": "V73_RELEASE_PLAN_PREFLIGHT",
+      "status": "PASS",
+      "reason": "8 assets path validation must pass before input download"
+    },
+    {
+      "check": "V73_REAL_PAIRED_TESTS",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V73_MODEL_RESULT_PRESERVATION",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V73_PAIRED_SOURCE_COVERAGE",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V73_INFERENCE_MULTIPLICITY",
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "check": "V73_DURABLE_STAGE_JOURNAL",
+      "status": "PASS",
+      "reason": "Expected 13 completed research/export stages in this run session before QA and GitHub"
     }
   ],
   "publication_reference": {
-    "release_tag": "ml05-v7.1.1-full-eedfcd5f523948ba366e",
-    "evidence_sha256": "e516634dc0c47e003baa430e8baf271a860373297ba4607a84075ba258fd467e",
-    "candidate_commit_sha": "d773c1f155ddde9e66d249e50d52bad669de8dc1",
-    "release_id": 453731467,
-    "verification": "GIT_TREE_AND_RELEASE_ASSET_DIGESTS_PASS"
+    "release_tag": "ml05-v7.3.0-full-c9846bcc916560c14083",
+    "evidence_sha256": "7ea95920e8aa2c69ff67101f85a0444c910addf9dc35b2086e1124fe0c1bda0e"
   }
 }

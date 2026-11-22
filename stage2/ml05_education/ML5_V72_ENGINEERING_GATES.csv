@@ -1,0 +1,12 @@
+﻿gate,passed
+all52_sources_sha,True
+all_7_scientific_decisions_documented,True
+preserved_v711_completed_models,True
+preserved_v711_metrics,True
+same_model_files_and_lineage,True
+source_to_model_sha_all_valid,True
+reconstruction_has_no_failure,True
+no_automatic_org_admission_from_unapproved_label,True
+no_geographic_proxy_becomes_official_campus,True
+no_test_optimal_model_automatically_selected,True
+all_model_testing_vintage_scopes_explicit,True
