@@ -402,7 +402,7 @@
   "status": {
     "technical": "PASS",
     "scientific": "FULL_COMPUTATIONS_WITH_SCIENTIFIC_LIMITS",
-    "publication": "PENDING_GITHUB_VERIFICATION",
+    "publication": "PUBLISHED_GITHUB_VERIFIED",
     "overall": "FULL_COMPUTATIONS_WITH_SCIENTIFIC_LIMITS"
   },
   "module_status": {
@@ -1717,7 +1717,7 @@
       "required": "verified municipality campus registry with historical validity"
     }
   ],
-  "publication_status": "PENDING_GITHUB_VERIFICATION",
+  "publication_status": "PUBLISHED_GITHUB_VERIFIED",
   "commit_self_reference": "Commit SHA can be reported after Git commit; cannot be embedded in the same hashed blob",
   "local_qa": [
     {
@@ -2763,6 +2763,9 @@
   ],
   "publication_reference": {
     "release_tag": "ml05-v7.4.0-full-2f197dd6e99cf22337f9",
-    "evidence_sha256": "0046da3a3041be7a87eb3a3682d073f48c9035cf100412427519c3338a067336"
+    "evidence_sha256": "0046da3a3041be7a87eb3a3682d073f48c9035cf100412427519c3338a067336",
+    "candidate_commit_sha": "c8a8468d41279c6d035fe9ee76b09f7df0804629",
+    "release_id": 454352102,
+    "verification": "GIT_TREE_AND_RELEASE_ASSET_DIGESTS_PASS"
   }
 }

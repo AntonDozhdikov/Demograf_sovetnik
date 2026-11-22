@@ -12,5 +12,9 @@
   "reconstruction_computational_pass": true,
   "target_prefix": "stage2/ml05_education/",
   "replacement_policy": "atomic current ML-05 tree only; preserve git history and Stage I",
-  "remote_verification_state": "PREPARED_NOT_YET_VERIFIED"
+  "remote_verification_state": "PASS_GITHUB",
+  "prepared_candidate_sha": "c8a8468d41279c6d035fe9ee76b09f7df0804629",
+  "release_id": 454352102,
+  "release_digests_confirmed": true,
+  "stage1_unchanged": true
 }
