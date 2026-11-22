@@ -1,0 +1,38 @@
+{
+  "version": "stage2-ml5-v7.4.0-full-research-high-resolution-inference",
+  "source_evidence": "ML5_EVIDENCE.zip",
+  "evidence_sha256": "0046da3a3041be7a87eb3a3682d073f48c9035cf100412427519c3338a067336",
+  "evidence_bytes": 978721043,
+  "parts": [
+    {
+      "name": "ML5_EVIDENCE.zip.part001",
+      "bytes": 167772160,
+      "sha256": "5bcf26631a4d24ebca65016cf7028d48a61bde8e3ec56f580eb31decb4ce56bb"
+    },
+    {
+      "name": "ML5_EVIDENCE.zip.part002",
+      "bytes": 167772160,
+      "sha256": "d2cc4704df4da6b76958d4d1de8331f1502ed277c8d5c94b27a567bfb407a60f"
+    },
+    {
+      "name": "ML5_EVIDENCE.zip.part003",
+      "bytes": 167772160,
+      "sha256": "04b2c29c0a2ef62939d5db983174ead3b26a2a77668a35822ff3a32ad614b464"
+    },
+    {
+      "name": "ML5_EVIDENCE.zip.part004",
+      "bytes": 167772160,
+      "sha256": "7cbc8d9b08be833cbaea1e50847b2f6bf8cdc2b7dd52a9eed235cd1bf235b3d0"
+    },
+    {
+      "name": "ML5_EVIDENCE.zip.part005",
+      "bytes": 167772160,
+      "sha256": "5f7125f82dba6263569b5841533c7608af68317cf59d5f122726fb935c56d14c"
+    },
+    {
+      "name": "ML5_EVIDENCE.zip.part006",
+      "bytes": 139860243,
+      "sha256": "857f774da8324222d04d45e103adfe9d311de125a239c8d1210cfec1da6b7e0e"
+    }
+  ]
+}

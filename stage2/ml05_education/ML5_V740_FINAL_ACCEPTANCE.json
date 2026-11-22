@@ -1,6 +1,6 @@
 {
-  "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
-  "run_key": "c9846bcc916560c14083",
+  "version": "stage2-ml5-v7.4.0-full-research-high-resolution-inference",
+  "run_key": "2f197dd6e99cf22337f9",
   "git_source_commit": "58473f995440daac295ca32532959f101bfa14ea",
   "catalog_assets": 52,
   "sha_verified": 52,
@@ -194,18 +194,18 @@
       "no_synthetic_data": true
     }
   ],
-  "qa_pass": 206,
+  "qa_pass": 208,
   "qa_fail": 0,
   "computational_pass": true,
   "original_seven_targets_scientifically_identified": false,
   "prediction_rows": 2752772,
   "metric_rows": 254,
   "model_count": 233,
-  "evidence_sha256": "7ea95920e8aa2c69ff67101f85a0444c910addf9dc35b2086e1124fe0c1bda0e",
-  "evidence_bytes": 978719035,
+  "evidence_sha256": "0046da3a3041be7a87eb3a3682d073f48c9035cf100412427519c3338a067336",
+  "evidence_bytes": 978721043,
   "scientific_caveat": "Невозможный по имеющимся данным прогноз не подменяется иным целевым показателем.",
   "adr_reconstruction": {
-    "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
+    "version": "stage2-ml5-v7.4.0-full-research-high-resolution-inference",
     "source_catalog_entries": 52,
     "source_sha_passed": 52,
     "all_seven_modules_reported": true,
@@ -236,7 +236,7 @@
     "no_test_optimal_model_automatically_selected": true,
     "all_model_testing_vintage_scopes_explicit": true
   },
-  "v73_publication_preflight": true,
+  "v74_publication_preflight": true,
   "v72_scientific_module_acceptance": [
     {
       "module": "ML-5.1",
@@ -324,7 +324,7 @@
     }
   ],
   "v72_reproduction_fingerprint": {
-    "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
+    "version": "stage2-ml5-v7.4.0-full-research-high-resolution-inference",
     "python": "3.13.18",
     "mode": "FULL",
     "source_commit": "58473f995440daac295ca32532959f101bfa14ea",
@@ -422,14 +422,17 @@
     "new_observed_reconstruction_checks": 7,
     "new_original_targets_verified": 1
   },
-  "v73_paired_tests": {
-    "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
+  "v74_paired_tests": {
+    "version": "stage2-ml5-v7.4.0-full-research-high-resolution-inference",
     "prediction_rows_input": 2752772,
     "existing_metric_rows_before": 254,
     "existing_models_before": 233,
     "inference": "cluster-randomization sign-flips; exploratory retrospective",
     "selection_policy": "predeclared persistence; no model selected by TEST",
-    "resampling_repetitions": 399,
+    "resampling_repetitions": 2499,
+    "sign_flip_repetitions": 9999,
+    "holm_family_level": "all eligible paired models vs persistence",
+    "alpha": 0.05,
     "raw_test_observations_not_independent_across_models": true,
     "multiple_testing": "Holm-Bonferroni across all qualified paired comparisons",
     "processing": "ALL rows; task/model grouping; Arrow streaming; no sampling",
@@ -442,6 +445,14 @@
     "unpaired_candidate_groups": 0,
     "models_after": 233,
     "metrics_after": 254,
-    "training_artifacts_unchanged": true
+    "training_artifacts_unchanged": true,
+    "eligible_family_size": 50,
+    "theoretical_mc_holm_floor": 0.005,
+    "mc_resolution_adequate_for_holm": true,
+    "exact_low_cluster_comparisons": 0,
+    "mc_comparisons": 50,
+    "insufficient_cluster_comparisons": 0,
+    "statistics_rerun_without_retraining": true,
+    "strong_effect_holm_resolution_regression_passed": true
   }
 }

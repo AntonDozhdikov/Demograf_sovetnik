@@ -1,11 +1,14 @@
 {
-  "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
+  "version": "stage2-ml5-v7.4.0-full-research-high-resolution-inference",
   "prediction_rows_input": 2752772,
   "existing_metric_rows_before": 254,
   "existing_models_before": 233,
   "inference": "cluster-randomization sign-flips; exploratory retrospective",
   "selection_policy": "predeclared persistence; no model selected by TEST",
-  "resampling_repetitions": 399,
+  "resampling_repetitions": 2499,
+  "sign_flip_repetitions": 9999,
+  "holm_family_level": "all eligible paired models vs persistence",
+  "alpha": 0.05,
   "raw_test_observations_not_independent_across_models": true,
   "multiple_testing": "Holm-Bonferroni across all qualified paired comparisons",
   "processing": "ALL rows; task/model grouping; Arrow streaming; no sampling",
@@ -18,5 +21,13 @@
   "unpaired_candidate_groups": 0,
   "models_after": 233,
   "metrics_after": 254,
-  "training_artifacts_unchanged": true
+  "training_artifacts_unchanged": true,
+  "eligible_family_size": 50,
+  "theoretical_mc_holm_floor": 0.005,
+  "mc_resolution_adequate_for_holm": true,
+  "exact_low_cluster_comparisons": 0,
+  "mc_comparisons": 50,
+  "insufficient_cluster_comparisons": 0,
+  "statistics_rerun_without_retraining": true,
+  "strong_effect_holm_resolution_regression_passed": true
 }

@@ -1,5 +1,5 @@
 {
-  "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
+  "version": "stage2-ml5-v7.4.0-full-research-high-resolution-inference",
   "python": "3.13.18",
   "mode": "FULL",
   "source_commit": "58473f995440daac295ca32532959f101bfa14ea",

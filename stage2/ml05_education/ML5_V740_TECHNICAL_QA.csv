@@ -170,9 +170,9 @@ PARQUET_v72_ex_ante_model_selection_audit,PASS,
 PARQUET_v72_verified_source_panel_model_links,PASS,
 PARQUET_v72_seven_modules_scientific_acceptance,PASS,
 PARQUET_v72_engineering_decision_gates,PASS,
-PARQUET_v73_paired_model_error_tests,PASS,
-PARQUET_v73_error_stratum_decomposition,PASS,
-PARQUET_v73_prediction_pair_audit,PASS,
+PARQUET_v74_paired_model_error_tests,PASS,
+PARQUET_v74_error_stratum_decomposition,PASS,
+PARQUET_v74_prediction_pair_audit,PASS,
 PARQUET_education_predictions,PASS,
 V7_SOURCE_AUDIT_ALL52,PASS,
 V7_LINEAGE_52_UNIQUE,PASS,
@@ -199,9 +199,11 @@ V72_ALL_MODEL_TESTING_VINTAGE_SCOPES_EXPLICIT,PASS,"Independently computed sourc
 V72_RESEARCH_MODULES_SEVEN,PASS,
 V72_RECONSTRUCTIONS_RECORDED,PASS,
 V72_SOURCE_VINTAGE_NOT_MISLABELED,PASS,Retrospective results must not be relabeled as real-time historical forecasts
-V73_RELEASE_PLAN_PREFLIGHT,PASS,8 assets path validation must pass before input download
-V73_REAL_PAIRED_TESTS,PASS,
-V73_MODEL_RESULT_PRESERVATION,PASS,
-V73_PAIRED_SOURCE_COVERAGE,PASS,
-V73_INFERENCE_MULTIPLICITY,PASS,
-V73_DURABLE_STAGE_JOURNAL,PASS,Expected 13 completed research/export stages in this run session before QA and GitHub
+V74_RELEASE_PLAN_PREFLIGHT,PASS,8 assets path validation must pass before input download
+V74_REAL_PAIRED_TESTS,PASS,
+V74_MODEL_RESULT_PRESERVATION,PASS,
+V74_PAIRED_SOURCE_COVERAGE,PASS,
+V74_INFERENCE_MULTIPLICITY,PASS,
+V74_PERMUTATION_RESOLUTION_HOLM,PASS,All qualified comparisons share Holm family; Monte Carlo p-resolution cannot preclude 5% significance
+V74_CLUSTER_RESAMPLING_ACTUALLY_EXECUTED,PASS,"Exact signs for small independent clusters; 9,999 Monte Carlo permutations otherwise"
+V74_DURABLE_STAGE_JOURNAL,PASS,Expected 13 completed research/export stages in this run session before QA and GitHub

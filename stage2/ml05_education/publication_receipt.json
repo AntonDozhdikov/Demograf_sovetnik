@@ -1,10 +1,10 @@
 {
-  "version": "stage2-ml5-v7.3.0-preserved-full-research-verified-release",
-  "run_key": "c9846bcc916560c14083",
-  "release_tag": "ml05-v7.3.0-full-c9846bcc916560c14083",
-  "release_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/releases/tag/ml05-v7.3.0-full-c9846bcc916560c14083",
-  "evidence_sha256": "7ea95920e8aa2c69ff67101f85a0444c910addf9dc35b2086e1124fe0c1bda0e",
-  "parts_manifest": "ML5_V730_RELEASE_PARTS.json",
+  "version": "stage2-ml5-v7.4.0-full-research-high-resolution-inference",
+  "run_key": "2f197dd6e99cf22337f9",
+  "release_tag": "ml05-v7.4.0-full-2f197dd6e99cf22337f9",
+  "release_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/releases/tag/ml05-v7.4.0-full-2f197dd6e99cf22337f9",
+  "evidence_sha256": "0046da3a3041be7a87eb3a3682d073f48c9035cf100412427519c3338a067336",
+  "parts_manifest": "ML5_V740_RELEASE_PARTS.json",
   "source_commit": "58473f995440daac295ca32532959f101bfa14ea",
   "source_count": 52,
   "computational_pass": true,
@@ -12,9 +12,5 @@
   "reconstruction_computational_pass": true,
   "target_prefix": "stage2/ml05_education/",
   "replacement_policy": "atomic current ML-05 tree only; preserve git history and Stage I",
-  "remote_verification_state": "PASS_GITHUB",
-  "prepared_candidate_sha": "f30c4c61a4454249ca15006967ca5c5943adab4c",
-  "release_id": 454297602,
-  "release_digests_confirmed": true,
-  "stage1_unchanged": true
+  "remote_verification_state": "PREPARED_NOT_YET_VERIFIED"
 }
