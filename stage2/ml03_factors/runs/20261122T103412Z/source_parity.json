@@ -1,0 +1,137 @@
+{
+  "version": "stage2-ml3-v4.0.3-final",
+  "code_cells": 21,
+  "required_executed": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07"
+  ],
+  "missing_runtime_cells": [],
+  "configuration_matches_runtime": true,
+  "source_parity_verified": true,
+  "source_cells": [
+    {
+      "cell": "01",
+      "runtime_source_present": true,
+      "sha256": "22d77d9c0d10f7ea98d32a235bbdcdcb74bfb6047912bb2b1a3dea4bff5bcbe3"
+    },
+    {
+      "cell": "02",
+      "runtime_source_present": true,
+      "sha256": "4f170cfbfcd1f3af7993fe7d0860fa74086717187e64e00aa36502a58dfff487"
+    },
+    {
+      "cell": "03",
+      "runtime_source_present": true,
+      "sha256": "b0130f49f0ecc05ced0a0afde3b2a7be5fb8d9ad525f9fa0fe7cd9b743002759"
+    },
+    {
+      "cell": "04",
+      "runtime_source_present": true,
+      "sha256": "0f6b6f351adfc21ee9655a3c79ca8ad3ffb0dc97a5008782f69c2ddd5554d474"
+    },
+    {
+      "cell": "05",
+      "runtime_source_present": true,
+      "sha256": "ee5fbd1acc54f5efc89e41dd063c877af151bc18e01f2a2c0e573f6da793fed0"
+    },
+    {
+      "cell": "06",
+      "runtime_source_present": true,
+      "sha256": "c7242f17b95a129a246ba29409d33a0eee79c6a7e6f9501058ef61a2001f3eaa"
+    },
+    {
+      "cell": "07",
+      "runtime_source_present": true,
+      "sha256": "11fb2a23c9f8206f821789a118e4ad77ce3a41ccadad145578a0313670f761a7"
+    },
+    {
+      "cell": "08",
+      "runtime_source_present": true,
+      "sha256": "bc1a57f87a5bcfecc4afe99a172c1a01c1140f5a614f9a3897ac526866819380"
+    },
+    {
+      "cell": "09",
+      "runtime_source_present": true,
+      "sha256": "18895466d2e1f5b0cd2b147905b19a42591b81e29d494c9cd6dc796d5e82934c"
+    },
+    {
+      "cell": "10",
+      "runtime_source_present": true,
+      "sha256": "817ed3c717c7d6e9105d3bc18829762ef2f3ac6fbf0c08e0b80dc49c3555f302"
+    },
+    {
+      "cell": "11",
+      "runtime_source_present": true,
+      "sha256": "f6bd3424137f0df0dffaee39cbbf821da942be6eedff38e559d05d40dd07933b"
+    },
+    {
+      "cell": "12",
+      "runtime_source_present": true,
+      "sha256": "507923c38518ca0c4596724cf9c374f2697032f45d2651ac432618470afd98a9"
+    },
+    {
+      "cell": "13",
+      "runtime_source_present": true,
+      "sha256": "fadb9e6a5392252ce660c17afdb72ff246176cf17f006c9ba4ed3b4713c86feb"
+    },
+    {
+      "cell": "C01",
+      "runtime_source_present": true,
+      "sha256": "fb261ef1e612fcab42a76648ddd17365e733a445b7be81593c53c6c59f603040"
+    },
+    {
+      "cell": "C02",
+      "runtime_source_present": true,
+      "sha256": "b42d0724bc2578b5fee2b4950d63b9d10555c56eb5c7940b1623abfb30d29b36"
+    },
+    {
+      "cell": "C03",
+      "runtime_source_present": true,
+      "sha256": "c11d5fe09d85bc96f7f497ae167648c23f6d9ff701d1afa6b4a6b23c7b713963"
+    },
+    {
+      "cell": "C04",
+      "runtime_source_present": true,
+      "sha256": "88d4f0b4fa0a5bed033e83d86111128582d818a514069459e9c82bf6d9247c4a"
+    },
+    {
+      "cell": "C05",
+      "runtime_source_present": true,
+      "sha256": "0d0d43aa146fa603f8228753c7ecfb0a0d23dcfdc7e1c010dc9cdbd2df39d7f9"
+    },
+    {
+      "cell": "C06",
+      "runtime_source_present": true,
+      "sha256": "639dc7afa6c173e93a44db4f1dfb19fe7b3b1c41b429c257abbe36ef400bc75b"
+    },
+    {
+      "cell": "C07",
+      "runtime_source_present": true,
+      "sha256": "bb60a5a0b3dc4d036bb09e6b602f99604dd6697521b82c52d98699c95709c480"
+    },
+    {
+      "cell": "21",
+      "runtime_source_present": true,
+      "sha256": "83d29ead9de57929914bb22ea968ab1d2ee55005f3f268b6634d9080b5c6211c"
+    }
+  ],
+  "notebook_sha256": "656b948eb98b7df57c8363ac488f73ab3656e7ba26f3bb03ce9339a83e87f65c"
+}
