@@ -1,0 +1,57 @@
+{
+  "version": "ML03_V4.03_CAUSAL_BLOCK_1",
+  "status": "NOT_IDENTIFIED",
+  "causal_ready": false,
+  "panel_source": "municipal_source_panel.parquet",
+  "input_evidence_sha256": "64b2e83d3d7a371141f67adcca0dae3caa2b2416ee8981c5c1f159f69bc8f041",
+  "input_manifest_sha256": "272a6568bec475009de3ab5b8da2ed5b5e3d01e2ca14fc38ae0664b4a6d95609",
+  "intervention_sha256": null,
+  "boundary_sha256": null,
+  "n_cohort_time_estimates": 0,
+  "qa": [
+    {
+      "gate": "SOURCE_SHA",
+      "status": "PASS",
+      "reason": "Архив V4.02 проверен",
+      "zip_sha256": "64b2e83d3d7a371141f67adcca0dae3caa2b2416ee8981c5c1f159f69bc8f041"
+    },
+    {
+      "gate": "PANEL",
+      "status": "PASS",
+      "reason": "31445 муниципалитет-лет; SHAs сверены"
+    },
+    {
+      "gate": "TREATMENT_REGISTER",
+      "status": "NOT_FEASIBLE",
+      "reason": "Нет проверенного реестра вмешательств; ATT не вычисляется"
+    },
+    {
+      "gate": "BOUNDARY_REGISTER",
+      "status": "NOT_FEASIBLE",
+      "reason": "Нет официального реестра исторических муниципальных границ"
+    },
+    {
+      "gate": "CAUSAL_ESTIMATES",
+      "status": "BLOCKED",
+      "reason": "0 group-time estimates; NOT_IDENTIFIED"
+    }
+  ],
+  "exposure": {},
+  "limitations": [
+    "No validated exposure registry = no causal design",
+    "Selection on unobserved confounders not testable",
+    "Parallel trends cannot be proven by lead tests",
+    "Spatial spillovers/SUTVA may fail",
+    "Group-by-region crossfit and conditional region bootstrap do not constitute independent causal identification",
+    "Municipal boundaries and official publication vintages must be reviewed"
+  ],
+  "outputs": {
+    "factor_transforms.parquet": "133fb2c288720111aae58208a80a90097dbdc1436f8c9f10843a9bfc9df2c5d7",
+    "causal_group_time_att.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "causal_event_study.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "causal_pretrends.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "causal_nuisance_diagnostics.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "causal_gate_audit.csv": "28f05216171f2219a0bb0c8c5989c1170a5d86fdda68358701f6d880ed619066",
+    "municipal_source_panel.parquet": "4b9cc1e9d0e0fe03ec6d8efce012bc75a242850ab9a26754273b4831bca8fb7d"
+  }
+}
