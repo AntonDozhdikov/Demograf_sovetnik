@@ -1,0 +1,106 @@
+{
+  "status": "PUBLISHED",
+  "repository": "AntonDozhdikov/Demograf_sovetnik",
+  "evidence_sha256": "2242d0546d7ec158bbc6cbd7a3433c3bfae5d16a30dcf431cf0454dd4817cdd2",
+  "evidence_bytes": 1045974795,
+  "predictions": {
+    "available": true,
+    "bytes": 20868519,
+    "sha256": "77432509661c72e1cb9c5f19bfcc287ad74e49ba2ad14e185082c7e637624291",
+    "rows": 2626629,
+    "columns": 22
+  },
+  "branch": "ml05-v751-evidence-2242d0546d7e",
+  "tag": "ml5-v7.5.1-evidence-2242d0546d7e",
+  "release_url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/releases/tag/ml5-v7.5.1-evidence-2242d0546d7e",
+  "parts": 8,
+  "assets": [
+    {
+      "name": "ML5_EVIDENCE_V7_5_1.zip.part001",
+      "bytes": 146800640,
+      "sha256": "15b7744ca0338fa0688b553baa8f4acda9b894f37431bda417fb18f1d823c9be",
+      "asset_id": 782371694,
+      "github_digest_confirmed": true
+    },
+    {
+      "name": "ML5_EVIDENCE_V7_5_1.zip.part002",
+      "bytes": 146800640,
+      "sha256": "19209e137e39749d7eed7e1be8821f0b9b524f06e6f2e58c6527aba021931fec",
+      "asset_id": 782372475,
+      "github_digest_confirmed": true
+    },
+    {
+      "name": "ML5_EVIDENCE_V7_5_1.zip.part003",
+      "bytes": 146800640,
+      "sha256": "3f632dcd7b02ee379b3ed65b06baccecb36dc173c4378352122100104d6370ff",
+      "asset_id": 782373260,
+      "github_digest_confirmed": true
+    },
+    {
+      "name": "ML5_EVIDENCE_V7_5_1.zip.part004",
+      "bytes": 146800640,
+      "sha256": "0b21b0fb3e3927ff7355d58b0fb12067a380829e525a32790fe672d5ef05e5b6",
+      "asset_id": 782374037,
+      "github_digest_confirmed": true
+    },
+    {
+      "name": "ML5_EVIDENCE_V7_5_1.zip.part005",
+      "bytes": 146800640,
+      "sha256": "4a8d1aee4670a0024f6d7031f41727e3f9b1383e47032038928956dfc14621dd",
+      "asset_id": 782374999,
+      "github_digest_confirmed": true
+    },
+    {
+      "name": "ML5_EVIDENCE_V7_5_1.zip.part006",
+      "bytes": 146800640,
+      "sha256": "56032a51e10c4ff17945a5456bdf0a174358288978948b223771000e275986b7",
+      "asset_id": 782375859,
+      "github_digest_confirmed": true
+    },
+    {
+      "name": "ML5_EVIDENCE_V7_5_1.zip.part007",
+      "bytes": 146800640,
+      "sha256": "c8f39efb2428532887638b4ac90a1bc5ddbfdd11875e1a246ddb682a9890d175",
+      "asset_id": 782376635,
+      "github_digest_confirmed": true
+    },
+    {
+      "name": "ML5_EVIDENCE_V7_5_1.zip.part008",
+      "bytes": 18370315,
+      "sha256": "67a7b3b52c6c67a5bb1cfeacb2270c3b2120d13e95a9f53babb7a0defc01747d",
+      "asset_id": 782377346,
+      "github_digest_confirmed": true
+    },
+    {
+      "name": "ML5_FINAL_QA_V7_5_1.json",
+      "bytes": 2058,
+      "sha256": "b0ada761d35df61a50d0954ac32b39e51b3e30084dc9c78684ecd22d98ae4d10",
+      "asset_id": 782377471,
+      "github_digest_confirmed": true
+    },
+    {
+      "name": "ML5_RUN_MANIFEST_V7_5_1.json",
+      "bytes": 1973,
+      "sha256": "b93f4cbd917e6eba3f21ea58257b4a3791aa99f0cda4ca54367345637a940226",
+      "asset_id": 782377528,
+      "github_digest_confirmed": true
+    },
+    {
+      "name": "ML5_EDUCATION_MIGRATION_RESULTS_V7_5_1.xlsx",
+      "bytes": 196287,
+      "sha256": "99cbbb3c6823f0422f1e186c4f12b8f35625de117a4f1bcb8174e4056d5acabb",
+      "asset_id": 782377594,
+      "github_digest_confirmed": true
+    },
+    {
+      "name": "education_predictions.parquet",
+      "bytes": 20868519,
+      "sha256": "77432509661c72e1cb9c5f19bfcc287ad74e49ba2ad14e185082c7e637624291",
+      "asset_id": 782377668,
+      "github_digest_confirmed": true
+    }
+  ],
+  "github_asset_digests_all_verified": true,
+  "scientific_pass_not_claimed": true,
+  "restore": "cat ML5_EVIDENCE_V7_5_1.zip.part* > ML5_EVIDENCE_V7_5_1.zip"
+}
