@@ -1,0 +1,40 @@
+{
+  "version": "ML-5 V7.5.1",
+  "created_utc": "2026-11-23T09:43:42.724596+00:00",
+  "qa_state": {
+    "technical": "PASS",
+    "scientific": "NOT_FULLY_VERIFIED",
+    "publication": "NOT_RUN",
+    "overall": "NOT_FULLY_VERIFIED"
+  },
+  "predictions": {
+    "available": true,
+    "bytes": 20868519,
+    "sha256": "77432509661c72e1cb9c5f19bfcc287ad74e49ba2ad14e185082c7e637624291",
+    "rows": 2626629,
+    "columns": 22
+  },
+  "evidence": {
+    "files": 1023,
+    "uncompressed_bytes": 1051212662,
+    "predictions_included": true
+  },
+  "review_rows": {
+    "policy_35": 35,
+    "source_52": 52,
+    "model_registry": 436,
+    "model_replay": 436,
+    "control_refits": 17,
+    "legacy_sha201": 1,
+    "paired_holm": 67,
+    "error_strata": 252,
+    "metrics": 468,
+    "metrics_recomputed": 468,
+    "split_audit": 12,
+    "source_table_qa": 72,
+    "future_mutation": 3,
+    "municipal_scan": 1,
+    "network_forecasts": 4
+  },
+  "scientific_full_pass_not_assumed": true
+}
