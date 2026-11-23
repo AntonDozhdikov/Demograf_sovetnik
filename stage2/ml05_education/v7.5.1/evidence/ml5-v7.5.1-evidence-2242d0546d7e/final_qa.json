@@ -1,0 +1,97 @@
+{
+  "state": {
+    "technical": "PASS",
+    "scientific": "NOT_FULLY_VERIFIED",
+    "publication": "NOT_RUN",
+    "overall": "NOT_FULLY_VERIFIED"
+  },
+  "checks": [
+    {
+      "check": "SOURCE_INDEX_PINNED",
+      "passed": true,
+      "scope": "TECHNICAL"
+    },
+    {
+      "check": "52_SOURCE_SHA_IN_FULL",
+      "passed": true,
+      "scope": "TECHNICAL"
+    },
+    {
+      "check": "OD_YEAR_COMPARABLE",
+      "passed": true,
+      "scope": "SCIENTIFIC"
+    },
+    {
+      "check": "FIFTY_CATBOOST_SEEDS_CONFIGURED",
+      "passed": true,
+      "scope": "TECHNICAL"
+    },
+    {
+      "check": "NO_CAMPUS_FORECAST",
+      "passed": true,
+      "scope": "SCIENTIFIC"
+    },
+    {
+      "check": "NO_LEGACY_EXANTE_CLAIM",
+      "passed": true,
+      "scope": "SCIENTIFIC"
+    },
+    {
+      "check": "EVIDENCE_CRC",
+      "passed": true,
+      "scope": "TECHNICAL"
+    },
+    {
+      "check": "EVIDENCE_MANIFEST",
+      "passed": true,
+      "scope": "TECHNICAL"
+    },
+    {
+      "check": "WORKING_HOLM_TESTS",
+      "passed": true,
+      "scope": "SCIENTIFIC"
+    },
+    {
+      "check": "VPO_SOURCE_TARGET",
+      "passed": true,
+      "scope": "SCIENTIFIC"
+    },
+    {
+      "check": "E02_STRATIFIED_OBSERVED",
+      "passed": true,
+      "scope": "SCIENTIFIC"
+    },
+    {
+      "check": "E04_EMPLOYMENT_REGION_HOLDOUT",
+      "passed": true,
+      "scope": "SCIENTIFIC"
+    },
+    {
+      "check": "INDEPENDENT_REPLAY_ALL_CURRENT_BINARIES",
+      "passed": true,
+      "scope": "SCIENTIFIC"
+    },
+    {
+      "check": "INDEPENDENT_CONTROL_REFITS",
+      "passed": true,
+      "scope": "SCIENTIFIC"
+    },
+    {
+      "check": "FOUR_NETWORK_FORECASTS",
+      "passed": true,
+      "scope": "SCIENTIFIC"
+    },
+    {
+      "check": "LEGACY_201_SHA_RECONCILED",
+      "passed": false,
+      "scope": "SCIENTIFIC"
+    }
+  ],
+  "archive": {
+    "zip_sha256": "2242d0546d7ec158bbc6cbd7a3433c3bfae5d16a30dcf431cf0454dd4817cdd2",
+    "num_files": 1023,
+    "zip_crc_checked": true,
+    "all_sizes_verified": true,
+    "source_data_full_scan": true
+  }
+}
