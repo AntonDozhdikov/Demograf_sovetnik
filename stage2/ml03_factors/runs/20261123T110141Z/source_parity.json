@@ -1,0 +1,30 @@
+{
+  "version": "stage2-ml3-v5.0.0-final",
+  "code_cells": 18,
+  "configuration_matches_runtime": true,
+  "source_parity_verified": true,
+  "source_cell_sha256": [
+    "513841c45b929d37a6815644963a89f082b9b669c074be7bf9135678f0f5b3b2",
+    "6b0394f45d652eb1a0426fbaaee4374e8c3d92eb5557b6a26d42d0b3606d2105",
+    "b0130f49f0ecc05ced0a0afde3b2a7be5fb8d9ad525f9fa0fe7cd9b743002759",
+    "297fe281f6086eceef4765e2dbf43061aa28626c7128455679f6e84f6b0c79ac",
+    "51b3436646d1b25218ebb292548feb512b1ceb4a77f8432cb1d06d599fe319c8",
+    "3e96671a0c1ce8429c510ad9bbad9e24c18f85bef3c942085d59c12263cddfc2",
+    "e709a79113a29b17b196af5c22adba92552281e06d5c8827e6b6075d02fb0998",
+    "2f6d365fff05be9de11833ff198013904110e6cca0f3509febc2fe11bbf0c54b",
+    "3b8f97a082f568157d40600b4dd2aba9bc1647f492830e29ed75e5b0dc29548a",
+    "eb8d8b1ab357dacd5394a6eaa58f689812ad8cdbb5cd4bb3b3ac8849c4ee346c",
+    "fb690ffe6cf5ac7194aca55f1e63980e650007dd1f3fbbe74f6f9c29a032711b",
+    "fcdd729009c97dba5a575519d19c84ab05aed508c1fae680ca4aaf84bb5e4a26",
+    "f47cb3405db7e8e65ffc890fd538618a5614abbad5c7f07594f392a7a3fb2e8e",
+    "f445268ff294c2ecfa39eb669823e73d233eb49386b9832b3f6084ff0f7db81b",
+    "9eed59fa032cb17383a31ca5a1f419bf7d0144e440be9f3bb85b175bac5f76fa",
+    "08ba8fc55c3b944891ad0cf24055ae9662a18b6cf92b5e2a2fe0e6c740166477",
+    "7c9db380bc83054732f5309f7ab99bf7f34dc343cc3e2621cd2da5dbb53790a5",
+    "d5d2eb91d57ab5564ea5da40792c9817505b1c481d9133a435ed31b76bd40661"
+  ],
+  "notebook_sha256": "b318cbc38a26f4611d0416d05d651651e408f0fe4fcd5b3beb50cbf034cae52b",
+  "history_matched_cells": 17,
+  "history_present_cells": 18,
+  "source_mode": "COMPLETE_IMMUTABLE_EMBEDDED_V5_NOTEBOOK"
+}
