@@ -1,0 +1,1689 @@
+{
+  "version": "ML5_V10.2_SINGLE_RUN_STAGE2",
+  "mode": "FULL",
+  "run_started_utc": "2026-11-24T18:48:18.730468+00:00",
+  "scientific_goal": "territorial educational mobility, seven original modules",
+  "run_id": "20261124T184818730468Z-084bb8d00734",
+  "run_mode": "SINGLE_RUN_ALL",
+  "source_commit_sha": "58473f995440daac295ca32532959f101bfa14ea",
+  "index_sha": "d6625ccddc24f24a1ee451e33c48b736d3a57043",
+  "catalog_assets": 52,
+  "handoff_preflight": [
+    {
+      "path": "handoff/07_v2/07_handoff_bundle.zip",
+      "git_blob_sha": "4b89d5e9119563af04067c5426537a53c8ec9e90",
+      "size": 86273
+    },
+    {
+      "path": "handoff/07_v2/stage2_loader.py",
+      "git_blob_sha": "eba891d6887dc7fe8121db401948ba91d8c140fd",
+      "size": 2361
+    }
+  ],
+  "private_repo_write_permission_checked": true,
+  "sources_used_and_verified": {
+    "03::42f47d3cf2159992::000": {
+      "sha256": "c829090e75a7577ec4593bbe3e30070c46d9ab15df2fdc40e6b6338c0d77b9e5",
+      "rows": 30390,
+      "verified": true
+    },
+    "04::E02::E02::000::e45a15e7567e": {
+      "sha256": "d69075fb815b17d85c63a0126995f560ff0fd9072a5d2772802aec3871d25f6c",
+      "rows": 2251127,
+      "verified": true
+    },
+    "03::89505d5993e6f4ad::000": {
+      "sha256": "32874c42321f777f44668ed121ba87f8217425a72f0937c1937b4062f89572c3",
+      "rows": 45519,
+      "verified": true
+    },
+    "04::VPO_2_1_1::VPO_2_1_1::000::f9f714878501": {
+      "sha256": "298678c85a6e5a6aa846de1934524d9e4527b6d2c1719326d50d89ef8650e741",
+      "rows": 7534596,
+      "verified": true
+    },
+    "03::84695c056f13b0c3::000": {
+      "sha256": "1d0c0236bb0faa5ffd4785e25116f985384ccb8191699a2e56b470d87c03ca35",
+      "rows": 250740,
+      "verified": true
+    },
+    "05::E04::organization_total": {
+      "sha256": "9f4bda5ce3011aff5c37ecd4ef9a2b746be9eb0eacf97c4115897fcf8844ab29",
+      "rows": 184501,
+      "verified": true
+    },
+    "05::E05::field_specialty": {
+      "sha256": "0a7430d091444f015a2d3e97395bf53f9800d02b3e1c6c445bf2a4e0f5077012",
+      "rows": 669801,
+      "verified": true
+    },
+    "02::education::00::00": {
+      "sha256": "7b9ca9c33637ddb05d10841e8fa66d73a445d6e5245553f5b418a026b2954465",
+      "rows": 1570945,
+      "verified": true
+    },
+    "01::0": {
+      "sha256": "7564bcb6af322758369069273f15462ba42404e7e2aa6c1c89886e467477ed5f",
+      "rows": 31445,
+      "verified": true
+    },
+    "02::labor::00::00": {
+      "sha256": "4e3e3176c7ceb1a175f7e38aee946f056c553a3f105aa43a9ad7e4b0fbfc8bad",
+      "rows": 53180,
+      "verified": true
+    },
+    "06::TRANSPORT::TRANSPORT_member00::full": {
+      "sha256": "a5d84b4104fbc9b4f53a13a254f519a0be02c44e8a442ea54adfda2827a6bec5",
+      "rows": 96660,
+      "verified": true
+    }
+  },
+  "derived_files": [
+    {
+      "table": "БДМО_тематические_ячеки_полностью",
+      "file": "bdmo_professional_education_observed_full.parquet",
+      "rows": 669436,
+      "SHA256": "21dc8b6ae73f44000f4d0524afdf2c40a372e67c7357b689014f9002516889e7",
+      "bytes": 2271342
+    },
+    {
+      "table": "OD_исходные",
+      "file": "01_OD_исходные.parquet",
+      "rows": 30390,
+      "SHA256": "b6cdae0326081976bf325d778682fec66ca5356dd53f198bd4da95d01bf41f8c",
+      "bytes": 73812
+    },
+    {
+      "table": "OD_постоянные_пары",
+      "file": "02_OD_постоянные_пары.parquet",
+      "rows": 12400,
+      "SHA256": "3629a383dce562d8b918a3fce17c19b9d4a927833a075079cb34eff34a5424c0",
+      "bytes": 70799
+    },
+    {
+      "table": "Регионы_постоянный_охват",
+      "file": "03_Регионы_постоянный_охват.parquet",
+      "rows": 425,
+      "SHA256": "6354d862e78354fb5595454d545f146df0064e9320c3b7356572d3ce237a8155",
+      "bytes": 26376
+    },
+    {
+      "table": "Региональные_профили",
+      "file": "04_Региональные_профили.parquet",
+      "rows": 85,
+      "SHA256": "cbab983f446362d142a967e2059ea47fdd8048e4f69af730661cdd8adfd9338d",
+      "bytes": 23182
+    },
+    {
+      "table": "Сеть_регионы_по_годам",
+      "file": "05_Сеть_регионы_по_годам.parquet",
+      "rows": 858,
+      "SHA256": "9d564139216c6acfcfd97b03aa41016c82c83a5d9d965fc6bca5301ce6d03092",
+      "bytes": 30163
+    },
+    {
+      "table": "Сеть_устойчивость_лет",
+      "file": "06_Сеть_устойчивость_лет.parquet",
+      "rows": 10,
+      "SHA256": "ffd94a42a170778d0ad0db34c75402c8a7f7125de27e6750ddc1be8e061e217e",
+      "bytes": 11732
+    },
+    {
+      "table": "Реестр_ВО",
+      "file": "07_Реестр_ВО.parquet",
+      "rows": 15277,
+      "SHA256": "46ba43f0a872790ad3e96e77d6e96e281df09b7d4130b1169658db7fad0eead5",
+      "bytes": 201828
+    },
+    {
+      "table": "Реестр_СПО",
+      "file": "08_Реестр_СПО.parquet",
+      "rows": 45519,
+      "SHA256": "044ddac61e7e940c5508c77770d9a6898b6f696948c110727505fdc31d4dc9cb",
+      "bytes": 1877139
+    },
+    {
+      "table": "ВПО_прием_точные_страты",
+      "file": "09_ВПО_прием_точные_страты.parquet",
+      "rows": 215356,
+      "SHA256": "b6b9ea724260e4a93e77b890c1255b9247757b9939acf0b9364889e44bfa45a0",
+      "bytes": 1052788
+    },
+    {
+      "table": "СПО_региональные_спец_индикаторы",
+      "file": "10_СПО_региональные_спец_индикаторы.parquet",
+      "rows": 189642,
+      "SHA256": "9e7f46e90c02262177618087c31160a2e1158e331001c1af15dbb383293ca87e",
+      "bytes": 1122258
+    },
+    {
+      "table": "Выпускники_E04_страты",
+      "file": "11_Выпускники_E04_страты.parquet",
+      "rows": 184501,
+      "SHA256": "82568993836a73d54adfc6c4ba1b4581249aa5b7fdbf5807124fa0985495762c",
+      "bytes": 2609868
+    },
+    {
+      "table": "Выпускники_E05_страты",
+      "file": "12_Выпускники_E05_страты.parquet",
+      "rows": 669801,
+      "SHA256": "71dec10d3cbf2f4d2d31d4c2a76cfd4d9ae318ae161ba814e06013a490b308c6",
+      "bytes": 5032691
+    },
+    {
+      "table": "Прогноз_OD_наблюдения",
+      "file": "13_Прогноз_OD_наблюдения.parquet",
+      "rows": 145892,
+      "SHA256": "fa6947427a3a2e7dc4f6c8cd1b6d073388f33c121d2c9bf8d5bd1d86220cc159",
+      "bytes": 874912
+    },
+    {
+      "table": "Занятость_тестовые_прогнозы",
+      "file": "14_Занятость_тестовые_прогнозы.parquet",
+      "rows": 158739,
+      "SHA256": "ba7c5feb9afdaddac22d8095c7f3842e319520d91da48d3c7e83c7988732054d",
+      "bytes": 1476316
+    },
+    {
+      "table": "Сеть_прогноз_наблюдения",
+      "file": "15_Сеть_прогноз_наблюдения.parquet",
+      "rows": 3400,
+      "SHA256": "338c8b160a2ae687f3a7f59af1b80fdf28eedf6d69ad03df60ea3980930bc87c",
+      "bytes": 64837
+    },
+    {
+      "table": "OD_переходы_покрытия",
+      "file": "full_b819d8967ecd.parquet",
+      "rows": 4,
+      "SHA256": "744cb7156e0d4d25921d89fdf0dda79c9429a7abc2435e0102c81b1c6f661350",
+      "bytes": 18492
+    },
+    {
+      "table": "OD_региональные_сдвиги",
+      "file": "full_5e06c91e2a82.parquet",
+      "rows": 85,
+      "SHA256": "b4c447e515848f417d1b4328648e0e0b02223bdddaa7b92326209cd4eea70eb1",
+      "bytes": 39853
+    },
+    {
+      "table": "OD_устойчивость_регионов",
+      "file": "full_2f84ab9a12bb.parquet",
+      "rows": 3,
+      "SHA256": "1bd2981e1ce9a569220b04e086df31ad4db709c799d8e2b92a1e8259db06de8f",
+      "bytes": 7459
+    },
+    {
+      "table": "ВО_динамика_контингента",
+      "file": "full_b5247466080a.parquet",
+      "rows": 87431,
+      "SHA256": "f29a0877fa36e1d4879631732ea532641eb83cdee9aaad37ea5c6ed10afc8eda",
+      "bytes": 682537
+    },
+    {
+      "table": "ВО_структура_регионов",
+      "file": "full_198307ce8822.parquet",
+      "rows": 7470,
+      "SHA256": "31e3197993f1c7fa2a1229a83aa038b93db3b241d6197c92f553b496ed3a8841",
+      "bytes": 100338
+    },
+    {
+      "table": "ВО_структура_охвата",
+      "file": "full_5c5ec6654139.parquet",
+      "rows": 3541,
+      "SHA256": "c1830e41c6e6ad2d150d1d9916930797a5274f1dd2572356f93cfdb6775a2cf0",
+      "bytes": 71160
+    },
+    {
+      "table": "ВПО_разнообразие_профилей",
+      "file": "full_32b2d80ab409.parquet",
+      "rows": 8003,
+      "SHA256": "480d558babc3c7d1972bcc909799c6d452dc0e9fe48f310a8e6ad0f32bda0512",
+      "bytes": 316331
+    },
+    {
+      "table": "ВПО_динамика_кодов",
+      "file": "full_f1d1f97a73e9.parquet",
+      "rows": 8027,
+      "SHA256": "93a1c638cedb35ba6b0f46d51b0f3b31f8556d156420151911e9ef4c94daf937",
+      "bytes": 40109
+    },
+    {
+      "table": "СПО_разнообразие_программ",
+      "file": "full_ceb9b2a3a05a.parquet",
+      "rows": 10864,
+      "SHA256": "f6430fdc8f4190086990a3507c8394df433be5939cde72427903ced809691911",
+      "bytes": 280045
+    },
+    {
+      "table": "E05_зарплаты_по_профилям",
+      "file": "full_8b4c07597332.parquet",
+      "rows": 761,
+      "SHA256": "c1518b0ed2e9d62f780fb2f0950a6ed9090a528ac523b99fa9ce9d4c7f11134f",
+      "bytes": 42361
+    },
+    {
+      "table": "E04_устойчивость_регионов",
+      "file": "full_29690ec57c40.parquet",
+      "rows": 769,
+      "SHA256": "80d9dc2a1f2e08db102fc559351d886c6d2642646c66a34a0babf0b7ab628b46",
+      "bytes": 35157
+    },
+    {
+      "table": "Занятость_сравнение_по_регионам",
+      "file": "full_fb112c340b6a.parquet",
+      "rows": 36,
+      "SHA256": "a4c8a54ce8ab15dbf90ea8603202b13225a77b1c378715a0064ef460dd17103c",
+      "bytes": 5815
+    },
+    {
+      "table": "Сеть_чувствительность",
+      "file": "full_396abeb671ea.parquet",
+      "rows": 10,
+      "SHA256": "d369eeb09765489a3ed921ba0f0a73d3f69f08dd30ab59bd68472b329e751b48",
+      "bytes": 9323
+    },
+    {
+      "table": "Сеть_концентрация_центров",
+      "file": "full_745262f8f1a2.parquet",
+      "rows": 5,
+      "SHA256": "959fa75bc70f8632f0cc02f8ade8a85d64fce1e44ca3ee15ec4cad85aa7805e1",
+      "bytes": 9045
+    },
+    {
+      "table": "Сеть_переходы_центров",
+      "file": "full_aba99d980c43.parquet",
+      "rows": 340,
+      "SHA256": "a7f138ecb6aded2945de3663f0a4c85511ac4d07a406752ba0960242c43e07c4",
+      "bytes": 17645
+    },
+    {
+      "table": "Региональная_ёмкость_и_потоки",
+      "file": "full_e049ac69e3bd.parquet",
+      "rows": 85,
+      "SHA256": "0e14ee111064b75b06e316601d43e7fffd70e398510128f801e7aa4aa6748035",
+      "bytes": 36308
+    },
+    {
+      "table": "Региональная_ёмкость_корреляции",
+      "file": "full_678c48197434.parquet",
+      "rows": 2,
+      "SHA256": "c32fb7b7ca8647e220c19291e199423e9a104b259a04f876654e3c2c18e8eb02",
+      "bytes": 11825
+    },
+    {
+      "table": "Гравитация_метрики",
+      "file": "full_d3e8f3df947c.parquet",
+      "rows": 6,
+      "SHA256": "9489ef2adbb4144f4369152ca490c344ae738437c14d94f99ad8c5f5e9a9e345",
+      "bytes": 6797
+    },
+    {
+      "table": "Гравитация_прогнозы",
+      "file": "full_193d07d79f94.parquet",
+      "rows": 13941,
+      "SHA256": "f3ee692b259e8bcf6a5228cebe20a270709125ca56affbcfda2c9fca2f1471b6",
+      "bytes": 101622
+    },
+    {
+      "table": "Гравитация_replay",
+      "file": "full_8e2f518d70e1.parquet",
+      "rows": 2,
+      "SHA256": "83da38785992967e81fb7f0ffcd23e520b759a78a49d1c0615b51397f2b6f378",
+      "bytes": 3222
+    },
+    {
+      "table": "Занятость_воспроизводимость_метрик",
+      "file": "full_4ecd6179302a.parquet",
+      "rows": 6,
+      "SHA256": "c4c2a4880bc3eadd56e159ac86110d21258d053e4367393671659644e78055f2",
+      "bytes": 4555
+    },
+    {
+      "table": "Региональные_контрольные_сравнения",
+      "file": "full_95ecb0416f14.parquet",
+      "rows": 2,
+      "SHA256": "ee0586e5f9eb066d2601d3cd51badc463acc7fdacbc23f4c73df32aa59131151",
+      "bytes": 5983
+    },
+    {
+      "table": "OD_факторы_и_абляции",
+      "file": "full_b927e748b359.parquet",
+      "rows": 20,
+      "SHA256": "7fc22e5fbbe7ee324ce75dfb150640ed760e3306a8cc0a275c69424472830ad6",
+      "bytes": 7226
+    },
+    {
+      "table": "OD_факторные_прогнозы",
+      "file": "full_de56a4d4dc80.parquet",
+      "rows": 46470,
+      "SHA256": "30a6dacd5acb08e9b8bf5b35c4133e4c3027246d1be83055408ed58c8b2162f6",
+      "bytes": 295368
+    },
+    {
+      "table": "OD_источники_дистанции",
+      "file": "full_d76468d497cb.parquet",
+      "rows": 1,
+      "SHA256": "a366c771eb6844179eeab472de3120195b3505e0128a2b76bee7a1aafac34dce",
+      "bytes": 4414
+    },
+    {
+      "table": "OD_классификация_факторов",
+      "file": "full_23ec259ad1e8.parquet",
+      "rows": 9,
+      "SHA256": "5691d85d30df575da3071752fcc5bf64ec7bfe37875f8cf85c801a595091730d",
+      "bytes": 3359
+    },
+    {
+      "table": "D05_динамика_показателей",
+      "file": "full_16835afa3e18.parquet",
+      "rows": 52,
+      "SHA256": "f9635cf167759b7ab896eb97d324b051e373411b075a52817e081306c085d4a5",
+      "bytes": 10483
+    },
+    {
+      "table": "Муниципальное_образование_регионы",
+      "file": "full_3b7b6a34425d.parquet",
+      "rows": 2973,
+      "SHA256": "c66a3caf2dae4cb8b8acf15c2d8c8fee857a9640781ffea5172abc2757c1e5be",
+      "bytes": 64054
+    },
+    {
+      "table": "Муниципальный_перекрестный_охват",
+      "file": "full_b3d9e921ec40.parquet",
+      "rows": 1,
+      "SHA256": "dc73be211fd5c9d7f19f7331c18d4a6b87797828888702b259a8b4d0540f3d21",
+      "bytes": 6826
+    },
+    {
+      "table": "Парная_статистика_гипотез",
+      "file": "full_79d83d25ab04.parquet",
+      "rows": 21,
+      "SHA256": "d55c04e2616e95ae1e0fb8136d1955f1ae9cef5d9633f8e082890cb941ce85f3",
+      "bytes": 8889
+    },
+    {
+      "table": "Реестр_гипотез_и_доказательств",
+      "file": "full_840b711a5e6f.parquet",
+      "rows": 7,
+      "SHA256": "12478b846afcb279050f550af257f901766789dd4af6d9e80e6aa7190e868593",
+      "bytes": 13567
+    },
+    {
+      "table": "Панели_исследования",
+      "file": "full_c26fb140e4c3.parquet",
+      "rows": 6,
+      "SHA256": "7e277ac13cb5fb566cbcac494e77be017df5635d443d20ca9c03dae7e0d909b2",
+      "bytes": 5215
+    },
+    {
+      "table": "Контроль_покрытия_доказательств",
+      "file": "full_aade9c7f3065.parquet",
+      "rows": 7,
+      "SHA256": "791cdeccc115d999210c959235a6f5aa5b34a2dcd833780aee9dd0efdad3fe1f",
+      "bytes": 4547
+    },
+    {
+      "table": "ВПО_ведущие_направления",
+      "file": "full_19e5766698c9.parquet",
+      "rows": 43243,
+      "SHA256": "8abe9f6b72944f83429ea371fc782cf4765c877dd87b7d5b4c1f0ef411f583e3",
+      "bytes": 570362
+    },
+    {
+      "table": "ВПО_география_специальностей",
+      "file": "full_4c936f930b16.parquet",
+      "rows": 215356,
+      "SHA256": "140b4ac1aedb921580baac6c522d7581be080f42d943a042cef0860fa08980b0",
+      "bytes": 2871160
+    },
+    {
+      "table": "ВО_контингент_страты",
+      "file": "full_73eda44dc250.parquet",
+      "rows": 103034,
+      "SHA256": "6078a0cf3e57f84c9152e2c2d1b30d6fccafc444d4faf8c8945d2d3b48e6fd0c",
+      "bytes": 609320
+    },
+    {
+      "table": "E05_детальные_зарплаты",
+      "file": "full_61801e5b4f48.parquet",
+      "rows": 381312,
+      "SHA256": "9c3e62ea87cc1e9be0c3983f7778f6b0783e0190853ad4e06b3ac7b0a9d0de02",
+      "bytes": 3826936
+    }
+  ],
+  "notebook_file": "ML5_EDUCATION_MIGRATION_V10_2_SINGLE_RUN_FULL_PIPELINE.ipynb",
+  "notebook_sha256": "b6c3c38d39ea363f3034daf94b65fb1daaaae299a2e847aefc919e8e59014015",
+  "excel_file": "ML5_EDUCATION_MIGRATION_RESULTS_V10_2.xlsx",
+  "excel_sha256": "20f5d39e75abd1bf525a42d9deac6011e5f98dd6c0a37736e09e6deb4feabf57",
+  "model_replay": [
+    {
+      "experiment": "E01",
+      "kind": "ridge",
+      "seed": 20261123,
+      "protocol": "TEMPORAL_DEV",
+      "sha256": "de76e60af57683613a5b6858a56cf2bc154636260075ed9f2051c3591fca9b93",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261123,
+      "protocol": "TEMPORAL_DEV",
+      "sha256": "0cd8d386306a4c533e12b34ba61758c6325052d5626550e058a21f9c1bd56f9a",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "ridge",
+      "seed": 20261123,
+      "protocol": "TEMPORAL_TEST",
+      "sha256": "239ec28adb5a47e23703f58fd0812a7a4dd3d77cfa1c4d92c0dd0879c939bcc1",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261123,
+      "protocol": "TEMPORAL_TEST",
+      "sha256": "1ba4e8cf7dd315333c6084f25ac4dbfafd77ab59330a469d1ba376a15d7f47c7",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261124,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "c7512a7aeff38bf4cc54e89edb6c40771a4a6a5bd1d397429b26ca9427d5ca33",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261125,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "e682f9725619769d05c43b52e8bad884e95dd2e29eeecfee237fa5bf640e17c1",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261126,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "b01c83664b142a6c741b7da9a119cc97fff21711843bc2c29e96429779c21298",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261127,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "0283b25fdfe6de5c62c75d5087a0e77554f562ae33fa2b9df70452c272c648f7",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261128,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "389190b61b94fafd60eccc6cf580660074e256a7bccb28f6d9fe2503b0deb039",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261129,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "c3e773daae377feee8659b886cd9fe262969a8ed15ed7453022d4b52ecc85588",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261130,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "4fdaff10c2c9896b11299a6420de37a18b0a178a51cee58591ff98a32224a830",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261131,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "f845a73cebe96d16c6e62088b2f2e699ed785fc16bc495d81aba89bc38550479",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261132,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "4b6390c378db81eb8e3b5d725e01f35df2683470ff5ed2e53bf29dae33ee53f3",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261133,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "bedaa42cd04245c4fd97b60649c64bd63b145d7712db40588ef391be3f2a48c9",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261134,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "c6f4ed4160d56bdb877e9b11a3231bcb0af3c12eccb1b55b10060ca52dcb6f2e",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261135,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "4a39f802858695228840b7de5801b25a3d360d2a487c2621727906f957011d21",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261136,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "785857481f99daf16f4ee90c1a387977ddebc42ec02f3ea8fc61e743b727de53",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261137,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "8990eb0954ef7e2c0532b8d75587c1659c0354fa82475228a5d7cd38223eece5",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261138,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "da5ffbea03908a4a21ff3a0dd2df9bf11b779d3ae657a8e00d815f837184751f",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261139,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "5d15af7758deb38d5427f8000745708e9df3fadb1e7d89a2c227be5cb019a9a9",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261140,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "4eadf0fdd6b3dcb14459606bd397dbe3c1cb7628de679e8c12e5e4a3d63643bb",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261141,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "5f456d1601deacc9d1dc6c16ebc8122eb915cb0f2064596880fb47d251ef1113",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261142,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "89575016b10e0bf8d0d3164aa5bd84400db61dbbb5f5cc5a58c09fb7963dbc85",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261143,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "9fb9b68ac8338d9e493b7418d81df35cda422a4aa36063e74f1b0f25c24bb7d6",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261144,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "9e03c20ab301c35747936496c2178d9fd0d3c7f6044fb8c4d825880ce9041b3a",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261145,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "a47761c18aa99b7240e9b455e10c29a6e91a654316eacb9ed567d2b66d70386f",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261146,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "201f7fee53b190a84d02b251be5dc5ae228e003225c592f427419481e1df17bd",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261147,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "3c58405cff383b5bc8730abca5f3979bc9cfd1771559104eb627b57084680096",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261148,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "196c585b9665e7319eafe762365646f37aaf71949f3fb8acb339c3c6975c9049",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261149,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "cd54d2e1022f821575705520930cb6b6215e400ede53cfb1bad99cbe725e5d32",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261150,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "4a502fb041929291c4bec8331098a15e0211889c987847c5df856b0107df56dd",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261151,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "5a7d1d391637e43ee6ca1da82f72cd1efd76f61d057ebebd139d90ea278d513a",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261152,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "c3e005fe6f692220e677d45cffaaa014582a5f54f1b413270e764c2c72778d34",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261153,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "6dff8ea5dd5eba30abec211fdbe22d7bb085fb9cb702f0371a9917b425df99c0",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261154,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "2ea84410b40e65e3fbb75644d0561fb63a41b25c50d7f8608f653b9b24ac3830",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261155,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "d0117f0d617123d72e5411cd057deee9d6a5978cb553cd194755ea1952ba2b6c",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261156,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "2937b6f0b9af8eeac8c780317deca283e77adec3ec98211549d17ea6e6c10f4e",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261157,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "1851311bb9575ed2f12be5dc18a2c35f655097009e2b6361d40c55c332b56f91",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261158,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "d126ab67c9206e18350f2096d285fd18b821b72567c7e98c143febd261b866d8",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261159,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "8b823a435ea016e86ca75505845b191a4ea007fe73f486fd26ebf5dace7f343b",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261160,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "ff0e562f1935753e45e0d96b0d1ed94c466a4e85474e19a038971a9086f7b398",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261161,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "0ff2656b21665eedede98cb0eb8e9a6f246135b8b56b7cf83d824b7d4ee42d11",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261162,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "79cb24c24092239c12cb7f9641fd3a1b538ffb4627cffa2a6a3e01e0313e2fda",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261163,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "c77831a3b23b8c303873e3c3b32ff1bf83d7018c379315b2413afb46c381f95b",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261164,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "c4e7c6a2f7fa76ebe5cfae39949c635feab9d29adf2c7bb6c92ecd08b3c5ecfe",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261165,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "3aa82f7abf06c5b7a5768495835fbbff37470f9c5a6e8f07600385a19e83ae7f",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261166,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "07d810b20cfe055f64ca888990c69430b3626b6350df3ccc9d6a344364d587dd",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261167,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "ba6629058ff841c78a9e01f7d1e3292fa6da6566df9f7166628c7bafb89750f9",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261168,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "44f870cf36b9f979c2d891bb01b585b77d253d3edd4de631257181a8e1734515",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261169,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "cd95c426f90ec2a62b49079c164a854c0bef864fcfe510cc9088b53d3e72b2dc",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261170,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "d0d79f22c72bb67c73fe1d1cd985362606e03356ee571c727f43a4f29b70d88b",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261171,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "925189be46c91a38130e7cf56be09e7f3970ec4f3c09059a72aa1624a1ecede6",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261172,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "e365e41ce1548bcd501d67165232cde83cece5dfff736d45ad06146b12b2e22c",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261173,
+      "protocol": "TEMPORAL_TEST_stability",
+      "sha256": "d66d2e36597a30532f645534b22ae9dfec47bf77a6e8cd096c9ccfc2bbfc8d82",
+      "predictions_identical": true,
+      "test_rows": 2480
+    },
+    {
+      "experiment": "E01",
+      "kind": "ridge",
+      "seed": 20261123,
+      "protocol": "CROSSED_NEW_ORIGINS",
+      "sha256": "504f3d1857ec52a078c38e21c976081545bc539486490bc696673a6e14c7552e",
+      "predictions_identical": true,
+      "test_rows": 513
+    },
+    {
+      "experiment": "E01",
+      "kind": "random_forest",
+      "seed": 20261123,
+      "protocol": "CROSSED_NEW_ORIGINS",
+      "sha256": "a49981ab600645bb342f654ffc5415329a78b6e54bbe70b282ee0d105eb90f83",
+      "predictions_identical": true,
+      "test_rows": 513
+    }
+  ],
+  "graduate_replay": [
+    {
+      "target": "employed_pct",
+      "model": "ridge",
+      "sha256": "8921439e166cadd62f9c2a2bae21532a3523687ffa12a558ab9b02b6490a695b",
+      "independent_replay": true
+    },
+    {
+      "target": "employed_pct",
+      "model": "random_forest",
+      "sha256": "2e39d9750e97fbf6f629afc2c0eca569d4d4e30b33675f536292c213427dd705",
+      "independent_replay": true
+    },
+    {
+      "target": "salary_median",
+      "model": "ridge",
+      "sha256": "98dde44f4a9949ad3d5cd969758d8a38e434facee134365acd1b1dd993b305c5",
+      "independent_replay": true
+    },
+    {
+      "target": "salary_median",
+      "model": "random_forest",
+      "sha256": "f139e490738c3031fd8cf4a4bfc6184166e3ed64604ce6074ce05f58c242234b",
+      "independent_replay": true
+    }
+  ],
+  "network_replay": [
+    {
+      "target": "pagerank",
+      "model": "ridge",
+      "test_year": 2024,
+      "protocol": "TEMPORAL_DEV",
+      "identical": true,
+      "sha256": "179f9d3a0e12577411cfcd1559883e08e56db5b9007323bdec0c50eae70188e1"
+    },
+    {
+      "target": "pagerank",
+      "model": "random_forest",
+      "test_year": 2024,
+      "protocol": "TEMPORAL_DEV",
+      "identical": true,
+      "sha256": "6a32e8c44f6ff04a9dceffefc6817a62f895205fc2f925442c94558cdb02aacb"
+    },
+    {
+      "target": "pagerank",
+      "model": "ridge",
+      "test_year": 2025,
+      "protocol": "TEMPORAL_TEST",
+      "identical": true,
+      "sha256": "d77a91f3b076d087b31228bf5edb7bebadaf5804df312f3a82e448fec3d0dc7d"
+    },
+    {
+      "target": "pagerank",
+      "model": "random_forest",
+      "test_year": 2025,
+      "protocol": "TEMPORAL_TEST",
+      "identical": true,
+      "sha256": "44de14db4f70be12ccc7072c3f3ee4b115b496c89c3791ab48bb30180e8de126"
+    },
+    {
+      "target": "входящая_сила",
+      "model": "ridge",
+      "test_year": 2024,
+      "protocol": "TEMPORAL_DEV",
+      "identical": true,
+      "sha256": "b2ea59225e2b486729fc624fba737318035c1764efd5a2db39f33a03f943f156"
+    },
+    {
+      "target": "входящая_сила",
+      "model": "random_forest",
+      "test_year": 2024,
+      "protocol": "TEMPORAL_DEV",
+      "identical": true,
+      "sha256": "0c3fdab01593d446be236ae8820946de1c810811531e34c5bb2b41cdc6b2ea2f"
+    },
+    {
+      "target": "входящая_сила",
+      "model": "ridge",
+      "test_year": 2025,
+      "protocol": "TEMPORAL_TEST",
+      "identical": true,
+      "sha256": "1bae339393b747879ce57f153a38512e136e8980721f9325a064adfb8b61eb48"
+    },
+    {
+      "target": "входящая_сила",
+      "model": "random_forest",
+      "test_year": 2025,
+      "protocol": "TEMPORAL_TEST",
+      "identical": true,
+      "sha256": "fc0ed677e20361e4d21d3fa01241b8f74bfe34b510a03b9b5f3afc91c3fba60f"
+    },
+    {
+      "target": "исходящая_сила",
+      "model": "ridge",
+      "test_year": 2024,
+      "protocol": "TEMPORAL_DEV",
+      "identical": true,
+      "sha256": "9a0b8e8302a58a6e2174d257551c856463453dfbddcda7db10b35c58562ec137"
+    },
+    {
+      "target": "исходящая_сила",
+      "model": "random_forest",
+      "test_year": 2024,
+      "protocol": "TEMPORAL_DEV",
+      "identical": true,
+      "sha256": "5c4b2be54c13870856c6db31fe550e5b81bbdfa51f18e73e739f6699094e56d0"
+    },
+    {
+      "target": "исходящая_сила",
+      "model": "ridge",
+      "test_year": 2025,
+      "protocol": "TEMPORAL_TEST",
+      "identical": true,
+      "sha256": "f6cd99ec31b49dbc0523bc8d413e4346106cc71e77c98b258ab35812bfaa9b91"
+    },
+    {
+      "target": "исходящая_сила",
+      "model": "random_forest",
+      "test_year": 2025,
+      "protocol": "TEMPORAL_TEST",
+      "identical": true,
+      "sha256": "f0bea9c13bbb4e2c29ded203ecbce8931c30551abca497e58b5200a7cdd8a8b4"
+    },
+    {
+      "target": "входящих_партнёров",
+      "model": "ridge",
+      "test_year": 2024,
+      "protocol": "TEMPORAL_DEV",
+      "identical": true,
+      "sha256": "68bab206c610f1aa9e86f100b1be8ac70986b2290cb6d8947f62e73011ee4191"
+    },
+    {
+      "target": "входящих_партнёров",
+      "model": "random_forest",
+      "test_year": 2024,
+      "protocol": "TEMPORAL_DEV",
+      "identical": true,
+      "sha256": "815bf0be618dc8d7f332450a19d301beaaaa984af7a4537dfa7d33822519ab88"
+    },
+    {
+      "target": "входящих_партнёров",
+      "model": "ridge",
+      "test_year": 2025,
+      "protocol": "TEMPORAL_TEST",
+      "identical": true,
+      "sha256": "0a8070e68d3574e446e38892b9df56bb4c990ee7fad6a111965dbbd1fa540d54"
+    },
+    {
+      "target": "входящих_партнёров",
+      "model": "random_forest",
+      "test_year": 2025,
+      "protocol": "TEMPORAL_TEST",
+      "identical": true,
+      "sha256": "869231cef24ad43a5a21d37682882e02bfc486e78ff5f9375dc34df6951f46ef"
+    },
+    {
+      "target": "исходящих_партнёров",
+      "model": "ridge",
+      "test_year": 2024,
+      "protocol": "TEMPORAL_DEV",
+      "identical": true,
+      "sha256": "d16a7a387d6f22d53a35e35dd01535114dbfa3a7751331c8d1ff1612d1de6ee6"
+    },
+    {
+      "target": "исходящих_партнёров",
+      "model": "random_forest",
+      "test_year": 2024,
+      "protocol": "TEMPORAL_DEV",
+      "identical": true,
+      "sha256": "a931fa3cb3ac31d2e879656c3cfacc1c7055117ea100ad66837a6c9f24cf5f38"
+    },
+    {
+      "target": "исходящих_партнёров",
+      "model": "ridge",
+      "test_year": 2025,
+      "protocol": "TEMPORAL_TEST",
+      "identical": true,
+      "sha256": "8fc82da8e5c1e071ee378aa96bc9530ac3ef51bc0a476125d6a7168c7f699346"
+    },
+    {
+      "target": "исходящих_партнёров",
+      "model": "random_forest",
+      "test_year": 2025,
+      "protocol": "TEMPORAL_TEST",
+      "identical": true,
+      "sha256": "4a05c614ca03d97ce7dde9958f9f805e84a3feb6c507dad5beb36b441c7b9735"
+    }
+  ],
+  "gravity_replay": [
+    {
+      "universe": "full_observed_fe",
+      "status": "REPLAYED",
+      "sha256": "a757e3d57e6f426694a10bf7c42ae3fdb77648b11f898d1c3e1cb61a7f8f540b",
+      "test": 2480
+    },
+    {
+      "universe": "verified_capital_distance_fe",
+      "status": "REPLAYED",
+      "sha256": "6dbf83738706ac251cdfd41e4aa91dae455d19a705542acdb0f24cc2cb816d81",
+      "test": 2167
+    }
+  ],
+  "prediction_counts": {
+    "OD": 145892,
+    "gravity": 13941,
+    "network": 3400,
+    "graduate": 158739
+  },
+  "table_counts": {
+    "Дымный_тест_согласованности": 9,
+    "Каталог_52": 52,
+    "DATA_GATE_источников": 10,
+    "OD_исходные": 30390,
+    "OD_состав": 13,
+    "OD_охват_по_годам": 5,
+    "OD_постоянные_пары": 12400,
+    "E01_названия_регионов": 89,
+    "Регионы_все_пары": 433,
+    "Регионы_постоянный_охват": 425,
+    "Региональные_профили": 85,
+    "Концентрация_направлений": 835,
+    "Крупнейшие_OD_направления": 30,
+    "Изменение_общих_маршрутов": 2480,
+    "OD_переходы_покрытия": 4,
+    "OD_региональные_сдвиги": 85,
+    "OD_устойчивость_регионов": 3,
+    "Реестр_ВО": 15277,
+    "Реестр_СПО": 45519,
+    "Сеть_организаций_регион": 1782,
+    "ВО_наблюдаемый_контингент": 114892,
+    "ВО_контингент_страты": 103034,
+    "Регион_OD_и_СПО_сеть": 85,
+    "ВО_динамика_контингента": 87431,
+    "ВО_структура_регионов": 7470,
+    "ВО_структура_охвата": 3541,
+    "ВПО_контроль_страт": 20,
+    "ВПО_прием_точные_страты": 215356,
+    "ВПО_ведущие_направления": 43243,
+    "ВПО_география_специальностей": 215356,
+    "СПО_региональные_спец_индикаторы": 189642,
+    "СПО_словарь_программ": 41,
+    "ВПО_разнообразие_профилей": 8003,
+    "ВПО_динамика_кодов": 8027,
+    "СПО_разнообразие_программ": 10864,
+    "Выпускники_E04_страты": 184501,
+    "Выпускники_E05_страты": 669801,
+    "E04_регионы_и_годы": 9185,
+    "E05_программы_итоги": 851,
+    "E05_детальные_зарплаты": 381312,
+    "Занятость_тестовые_прогнозы": 158739,
+    "Занятость_тестовые_метрики": 6,
+    "Занятость_проверка_моделей": 4,
+    "Занятость_воспроизводимость_метрик": 6,
+    "E05_зарплаты_по_профилям": 761,
+    "E04_устойчивость_регионов": 769,
+    "Занятость_сравнение_по_регионам": 36,
+    "Сеть_регионы_по_годам": 858,
+    "Сеть_устойчивость_лет": 10,
+    "Сеть_сообщества": 858,
+    "Образовательные_центры": 50,
+    "Сеть_чувствительность": 10,
+    "Сеть_концентрация_центров": 5,
+    "Сеть_переходы_центров": 340,
+    "Сеть_прогноз_наблюдения": 3400,
+    "Сеть_прогноз_метрики": 40,
+    "Сеть_прогноз_future_canary": 5,
+    "Сеть_прогноз_повторение": 20,
+    "БДМО_образование_профиль": 163,
+    "БДМО_профессиональное_образование": 1,
+    "Муниципалитеты_демография_QA": 14,
+    "D05_труд_доступные_показатели": 180,
+    "Муниципальное_образование_регионы": 2973,
+    "Муниципальный_перекрестный_охват": 1,
+    "D05_региональные_трудовые_ряды": 21748,
+    "D05_точные_сопоставления_с_OD": 7387,
+    "D05_охват_сопоставлений": 89,
+    "Региональные_факторные_связи": 36,
+    "D05_динамика_показателей": 52,
+    "Контекст_ассоциации": 1,
+    "Не_сопоставленные_регионы": 0,
+    "Типология_регионов": 85,
+    "Региональная_ёмкость_и_потоки": 85,
+    "Региональная_ёмкость_корреляции": 2,
+    "Региональные_контрольные_сравнения": 2,
+    "Прогноз_future_canary": 1,
+    "Прогноз_OD_наблюдения": 145892,
+    "Прогноз_метрики": 62,
+    "Прогноз_50_сидов": 50,
+    "Повторные_предсказания": 56,
+    "Контрольное_переобучение": 2,
+    "OD_классификация_факторов": 9,
+    "OD_факторы_и_абляции": 20,
+    "OD_факторные_прогнозы": 46470,
+    "OD_источники_дистанции": 1,
+    "Гравитация_метрики": 6,
+    "Гравитация_прогнозы": 13941,
+    "Гравитация_replay": 2,
+    "Прогноз_независимые_метрики": 62,
+    "Сравнения_с_Holm": 2,
+    "Прогноз_ошибки_по_стратам": 6,
+    "Парная_статистика_гипотез": 21,
+    "QA_построчные_прогнозы": 4,
+    "Исследовательские_выводы": 20,
+    "Семь_исследовательских_задач": 7,
+    "Ограничения_и_ошибки": 1,
+    "Паспорт_исследования": 13,
+    "Реестр_гипотез_и_доказательств": 7,
+    "Панели_исследования": 6,
+    "Контроль_покрытия_доказательств": 7,
+    "Реестр_выходных_Parquet": 53,
+    "Проверенные_источники": 11,
+    "Приёмка_семи_модулей": 7,
+    "Научная_QA_матрица": 12,
+    "Техническая_QA": 45,
+    "Контракт_QA_стадий": 9
+  },
+  "figures": [
+    "01_покрытие_OD.png",
+    "02_наблюдаемые_значения.png",
+    "03_центры_СПО.png",
+    "04_исходящие_СПО.png",
+    "05_баланс_СПО.png",
+    "06_сетевые_рёбра.png",
+    "07_устойчивость_сообществ.png",
+    "08_сетевые_центры.png",
+    "09_профиль_специальностей.png",
+    "10_зарплаты_выпускников.png",
+    "11_проверка_прогнозов.png",
+    "12_сетевой_прогноз_против_инерции.png"
+  ],
+  "scientific_status": "LOCAL_ALL_FEASIBLE_RESEARCH_PASS_PENDING_EXTERNAL_REVIEW",
+  "scientific_blockers": [],
+  "technical_status": "PASS",
+  "external_independent_audit": "NOT_YET_PERFORMED",
+  "publication_policy": "One FULL Run all: mandatory private prerelease, immediate readback, then article pack",
+  "source_vintage": "Stage I 2026 snapshot: retrospective, not historical ex ante",
+  "seven_modules": [
+    {
+      "модуль": "ML-5.1",
+      "исходное_требование": "E01, OD с действительными кодами",
+      "исполнено_на_доступных_данных": true,
+      "статус": "COMPUTED_PENDING_SCIENTIFIC_REVIEW",
+      "проверяемая_таблица": "OD_охват_по_годам"
+    },
+    {
+      "модуль": "ML-5.2",
+      "исходное_требование": "Реестры ВО/СПО; реальный приём не подтверждён",
+      "исполнено_на_доступных_данных": true,
+      "статус": "PARTIAL_OBSERVED",
+      "проверяемая_таблица": "Реестр_ВО"
+    },
+    {
+      "модуль": "ML-5.3",
+      "исходное_требование": "Отток и баланс по единой OD-совокупности",
+      "исполнено_на_доступных_данных": true,
+      "статус": "COMPUTED_PENDING_SCIENTIFIC_REVIEW",
+      "проверяемая_таблица": "Регионы_постоянный_охват"
+    },
+    {
+      "модуль": "ML-5.4",
+      "исходное_требование": "Наблюдаемая география программ ВПО/СПО",
+      "исполнено_на_доступных_данных": true,
+      "статус": "PARTIAL_OBSERVED",
+      "проверяемая_таблица": "ВПО_прием_точные_страты"
+    },
+    {
+      "модуль": "ML-5.5",
+      "исходное_требование": "Наблюдаемые занятость и зарплата без retention",
+      "исполнено_на_доступных_данных": true,
+      "статус": "COMPUTED_PENDING_SCIENTIFIC_REVIEW",
+      "проверяемая_таблица": "Занятость_тестовые_метрики"
+    },
+    {
+      "модуль": "ML-5.6",
+      "исходное_требование": "Образовательная сеть, устойчивость и прогноз её метрик",
+      "исполнено_на_доступных_данных": true,
+      "статус": "COMPUTED_PENDING_SCIENTIFIC_REVIEW",
+      "проверяемая_таблица": "Сеть_прогноз_метрики"
+    },
+    {
+      "модуль": "ML-5.7",
+      "исходное_требование": "Муниципальный аудит; кампусный E0/E1 недоступен",
+      "исполнено_на_доступных_данных": true,
+      "статус": "NOT_FEASIBLE_E0_E1_WITH_VERIFIED_AUDIT",
+      "проверяемая_таблица": "БДМО_профессиональное_образование"
+    }
+  ],
+  "evidence_matrix": [
+    {
+      "модуль": "ML-5.1",
+      "гипотеза": "Географические, образовательные и экономические факторы потоков",
+      "реальные_источники": "E01; SPO; TRANSPORT если сопоставим",
+      "доказательственные_таблицы": "OD_переходы_покрытия | OD_факторы_и_абляции | Гравитация_метрики | Парная_статистика_гипотез | Прогноз_метрики",
+      "отсутствующие_результаты": "",
+      "что_реально_проверено": "Реальные OD, изменчивость их наблюдаемого охвата, прогнозы на общих маршрутах, добавочная ценность наблюдаемых признаков",
+      "границы_вывода": "Не наблюдаемое постоянное место жительства; ретроспективная проверка; абсолютный приём ВО без OD неизвестен",
+      "статус": "RETROSPECTIVELY_TESTED_NOT_CAUSAL"
+    },
+    {
+      "модуль": "ML-5.2",
+      "гипотеза": "Привлекательность конкретных организаций и характеристик приёма",
+      "реальные_источники": "E02; SPO registry",
+      "доказательственные_таблицы": "ВО_динамика_контингента | ВО_структура_регионов | Сеть_организаций_регион",
+      "отсутствующие_результаты": "",
+      "что_реально_проверено": "Изменение контингента одной организации в одной страте, пространственная сеть организаций, концентрация",
+      "границы_вывода": "Контингент не равен приёму; происхождение поступивших по отдельным организациям отсутствует",
+      "статус": "NOT_FEASIBLE_CORE_ADMISSIONS"
+    },
+    {
+      "модуль": "ML-5.3",
+      "гипотеза": "Неравномерный отток и территориальные возможности",
+      "реальные_источники": "E01; SPO registry; D05",
+      "доказательственные_таблицы": "OD_региональные_сдвиги | OD_устойчивость_регионов | Типология_регионов | Региональные_факторные_связи | Региональная_ёмкость_и_потоки | Региональная_ёмкость_корреляции | Региональные_контрольные_сравнения",
+      "отсутствующие_результаты": "",
+      "что_реально_проверено": "Потоки по регионам, устойчивость доноров и центров и контекстные региональные сопоставления",
+      "границы_вывода": "Нет полного знаменателя всех поступивших, нет доказанного причинного эффекта",
+      "статус": "RETROSPECTIVELY_TESTED_NOT_CAUSAL"
+    },
+    {
+      "модуль": "ML-5.4",
+      "гипотеза": "Региональная неоднородность структуры направлений подготовки",
+      "реальные_источники": "VPO_2_1_1; E01 SPO regional specialties",
+      "доказательственные_таблицы": "ВПО_разнообразие_профилей | ВПО_динамика_кодов | СПО_разнообразие_программ",
+      "отсутствующие_результаты": "",
+      "что_реально_проверено": "Различия профессиональной структуры по точным кодам, формам, типам, годам",
+      "границы_вывода": "Нет OD×специальность; нет доказанного универсального исторического crosswalk",
+      "статус": "OBSERVATIONAL_PROGRAM_STRUCTURE_OD_NOT_FEASIBLE"
+    },
+    {
+      "модуль": "ML-5.5",
+      "гипотеза": "Связь профиля обучения с занятостью и заработком",
+      "реальные_источники": "E04; E05",
+      "доказательственные_таблицы": "E05_зарплаты_по_профилям | E04_устойчивость_регионов | Занятость_сравнение_по_регионам | Занятость_воспроизводимость_метрик",
+      "отсутствующие_результаты": "",
+      "что_реально_проверено": "Различия отчётных страт, тест переноса на незнакомые регионы",
+      "границы_вывода": "Не наблюдаются место работы и постоянное проживание выпускника",
+      "статус": "RETROSPECTIVELY_TESTED_NOT_CAUSAL"
+    },
+    {
+      "модуль": "ML-5.6",
+      "гипотеза": "Устойчивость сети центров и сообществ во времени",
+      "реальные_источники": "E01",
+      "доказательственные_таблицы": "Сеть_чувствительность | Сеть_концентрация_центров | Сеть_переходы_центров | Сеть_прогноз_метрики",
+      "отсутствующие_результаты": "",
+      "что_реально_проверено": "Центральности, сообщества, динамика и устойчивость к исключению крупнейших маршрутов",
+      "границы_вывода": "Сеть лишь наблюдаемых межрегиональных потоков СПО, изменение покрытий отдельно",
+      "статус": "RETROSPECTIVELY_TESTED_NOT_CAUSAL"
+    },
+    {
+      "модуль": "ML-5.7",
+      "гипотеза": "Добавочная ценность фактического присутствия образовательных кампусов для муниципальной демографии",
+      "реальные_источники": "BDMO education; D01; SPO registry",
+      "доказательственные_таблицы": "БДМО_профессиональное_образование | Муниципалитеты_демография_QA | Муниципальное_образование_регионы | Муниципальный_перекрестный_охват",
+      "отсутствующие_результаты": "",
+      "что_реально_проверено": "Полный аудит муниципальных образовательных наблюдений, качества и демографической базы",
+      "границы_вывода": "Муниципальные E0/E1 не идентифицируются без действительных исторических географий кампусов",
+      "статус": "NOT_FEASIBLE_HYPOTHESIS_WITH_AVAILABLE_DATA"
+    }
+  ],
+  "not_feasible_subtasks": [
+    {
+      "критерий": "NON_OBSERVABLE_ADMISSIONS",
+      "статус": "NOT_FEASIBLE",
+      "основание": "Нет подтверждённого полного приема и происхождения по организациям"
+    },
+    {
+      "критерий": "NON_OBSERVABLE_SPECIALTY_OD",
+      "статус": "NOT_FEASIBLE",
+      "основание": "Нет OD×специальность"
+    },
+    {
+      "критерий": "NON_OBSERVABLE_RETENTION",
+      "статус": "NOT_FEASIBLE",
+      "основание": "Нет подтвержденного региона работы/проживания"
+    },
+    {
+      "критерий": "NON_OBSERVABLE_CAMPUS_E0_E1",
+      "статус": "NOT_FEASIBLE",
+      "основание": "Нет достоверной исторической географии обучения всех кампусов"
+    },
+    {
+      "критерий": "HISTORICAL_EX_ANTE",
+      "статус": "NOT_FEASIBLE",
+      "основание": "Нет архивных информационных vintages"
+    }
+  ],
+  "qa_checks": [
+    {
+      "check": "STAGE_I_CATALOG_52",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "STAGE_I_HANDOFF_FILES",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "PRIVATE_REPOSITORY",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "USED_SOURCE_SHA_AND_SCHEMA",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DATA_GATES",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEVEN_MODULES",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SIX_RESEARCH_PANELS",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "OD_CATEGORIES_EXCLUSIVE",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "OD_REGION_CODES",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "OD_KEYS_UNIQUE",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "OD_FIXED_BY_YEAR",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "OD_BALANCED_FULL",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "OD_BALANCED_STABLE",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "OD_COVERAGE_DECOMPOSITION",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ORGANIZATIONS_SEPARATE_VO_SPO",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SPECIALTY_AGGREGATES_EXCLUDED",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "E04_E05_OBSERVED",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NETWORK_SENSITIVITY",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NETWORK_NODES_UNIQUE",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NETWORK_FUTURE_CANARY",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NETWORK_MODELS_RELOADED",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "OD_FUTURE_CANARY",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "OD_MODELS_RELOADED",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "GRADUATE_MODELS_RELOADED",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "MODEL_REFIT_DETERMINISTIC",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "GRAVITY_FE_PRESENT",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "GRAVITY_RELOADED",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "GRAVITY_SAME_TEST_SUPPORT",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "PREDICTIONS_RECALCULATED_4_FAMILIES",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FORECAST_PROVENANCE_PASSPORT",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SCIENTIFIC_PAIRED_TESTS",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "MUNICIPAL_SOURCE_AUDIT",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "MUNICIPAL_CAMPUS_FABRICATION_ABSENT",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DERIVED_REGISTRY_UNIQUE",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DERIVED_PARQUETS_REOPEN",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "50_SEEDS_RETAINED",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "50_SEEDS_RELOADED",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EXCEL_CREATED",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EXCEL_ZIP_OPEN",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EXCEL_HAS_FINAL_QA",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EXCEL_SHEET_COUNT",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SCIENTIFIC_FIGURES",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ONE_COMPLETE_NOTEBOOK_IN_MEMORY",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SELF_CONTAINED_NOTEBOOK_VALID",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "MODEL_AND_FORECAST_ARTIFACTS",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "contract_stages_before_final_packaging": {
+    "PASS_INPUT": "PASS",
+    "PASS_DATA": "PASS",
+    "PASS_SPLITS": "PASS",
+    "PASS_TRAINING": "PASS",
+    "PASS_VALIDATION": "PASS",
+    "PASS_INTERPRETATION": "PASS",
+    "PASS_OUTPUTS": "PENDING_FINAL_ARCHIVE_QA",
+    "PASS_NOTEBOOK": "PASS",
+    "PASS_GITHUB": "PENDING_PRIVATE_UPLOAD_AND_REDOWNLOAD"
+  },
+  "full_scientific_pass_claimed": false
+}
