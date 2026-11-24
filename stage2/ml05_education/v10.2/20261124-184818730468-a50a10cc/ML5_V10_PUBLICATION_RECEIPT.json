@@ -1,0 +1,278 @@
+{
+  "status": "PUBLISHED_AND_VERIFIED",
+  "url": "https://github.com/AntonDozhdikov/Demograf_sovetnik/releases/tag/untagged-4bc704502ac68b7f3e9b",
+  "tag": "ml5-v102-stage2-20261124-184818730468-a50a10cc",
+  "branch": "ml5-v102-full-20261124-184818730468-a50a10cc",
+  "segment": "stage2/ml05_education/v10.2/20261124-184818730468-a50a10cc",
+  "source_commit": "58473f995440daac295ca32532959f101bfa14ea",
+  "run_id": "20261124T184818730468Z-084bb8d00734",
+  "local_status": "LOCAL_FULL_QA_PASS",
+  "scientific_status": "LOCAL_ALL_FEASIBLE_RESEARCH_PASS_PENDING_EXTERNAL_REVIEW",
+  "external_independent_scientific_review": "PENDING",
+  "evidence_sha256": "a50a10cc6088fcfde3f8d83a223fe17e2511f0c3c97d62c5934a30722726b968",
+  "git_files": [
+    {
+      "path": "stage2/ml05_education/v10.2/20261124-184818730468-a50a10cc/ML5_EDUCATION_MIGRATION_V10_2_SINGLE_RUN_FULL_PIPELINE.ipynb",
+      "commit": "e59c0cfb5e5439dce357a52d1d6812f0cff7e0e9",
+      "sha256": "b6c3c38d39ea363f3034daf94b65fb1daaaae299a2e847aefc919e8e59014015",
+      "readback_verified": true
+    },
+    {
+      "path": "stage2/ml05_education/v10.2/20261124-184818730468-a50a10cc/ML5_EDUCATION_MIGRATION_RESULTS_V10_2.xlsx",
+      "commit": "383de9238c64ff0ec6908f8c9b7e50223a352a05",
+      "sha256": "20f5d39e75abd1bf525a42d9deac6011e5f98dd6c0a37736e09e6deb4feabf57",
+      "readback_verified": true
+    },
+    {
+      "path": "stage2/ml05_education/v10.2/20261124-184818730468-a50a10cc/ML5_RUN_MANIFEST_V10_2.json",
+      "commit": "f8702623703effda6163e69f83d506aa0fe275e8",
+      "sha256": "dd80dafd603a1325428eef1226baf97fad653bc95687c4bca46eeaa84f5faa07",
+      "readback_verified": true
+    }
+  ],
+  "release_assets": [
+    {
+      "name": "ML5_EVIDENCE_V10_2.zip",
+      "size": 47492481,
+      "sha256": "a50a10cc6088fcfde3f8d83a223fe17e2511f0c3c97d62c5934a30722726b968",
+      "asset_id": 788436204,
+      "server_digest": "sha256:a50a10cc6088fcfde3f8d83a223fe17e2511f0c3c97d62c5934a30722726b968",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_FINAL_QA_V10_2.json",
+      "size": 11441,
+      "sha256": "90645ad1acbdfd1544f6a16d52f40760647b4f437ba241a2eaafc28b143504fb",
+      "asset_id": 788436637,
+      "server_digest": "sha256:90645ad1acbdfd1544f6a16d52f40760647b4f437ba241a2eaafc28b143504fb",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_a6994cf94691e4.parquet",
+      "size": 73812,
+      "sha256": "b6cdae0326081976bf325d778682fec66ca5356dd53f198bd4da95d01bf41f8c",
+      "asset_id": 788436780,
+      "server_digest": "sha256:b6cdae0326081976bf325d778682fec66ca5356dd53f198bd4da95d01bf41f8c",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_adc70420e1ee75.parquet",
+      "size": 70799,
+      "sha256": "3629a383dce562d8b918a3fce17c19b9d4a927833a075079cb34eff34a5424c0",
+      "asset_id": 788436896,
+      "server_digest": "sha256:3629a383dce562d8b918a3fce17c19b9d4a927833a075079cb34eff34a5424c0",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_b6c5cddd02037e.parquet",
+      "size": 26376,
+      "sha256": "6354d862e78354fb5595454d545f146df0064e9320c3b7356572d3ce237a8155",
+      "asset_id": 788436974,
+      "server_digest": "sha256:6354d862e78354fb5595454d545f146df0064e9320c3b7356572d3ce237a8155",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_e8e90253d6d47e.parquet",
+      "size": 23182,
+      "sha256": "cbab983f446362d142a967e2059ea47fdd8048e4f69af730661cdd8adfd9338d",
+      "asset_id": 788437056,
+      "server_digest": "sha256:cbab983f446362d142a967e2059ea47fdd8048e4f69af730661cdd8adfd9338d",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_b819d8967ecd83.parquet",
+      "size": 18492,
+      "sha256": "744cb7156e0d4d25921d89fdf0dda79c9429a7abc2435e0102c81b1c6f661350",
+      "asset_id": 788437112,
+      "server_digest": "sha256:744cb7156e0d4d25921d89fdf0dda79c9429a7abc2435e0102c81b1c6f661350",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_5e06c91e2a8270.parquet",
+      "size": 39853,
+      "sha256": "b4c447e515848f417d1b4328648e0e0b02223bdddaa7b92326209cd4eea70eb1",
+      "asset_id": 788437194,
+      "server_digest": "sha256:b4c447e515848f417d1b4328648e0e0b02223bdddaa7b92326209cd4eea70eb1",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_1055caebfb01cf.parquet",
+      "size": 201828,
+      "sha256": "46ba43f0a872790ad3e96e77d6e96e281df09b7d4130b1169658db7fad0eead5",
+      "asset_id": 788437259,
+      "server_digest": "sha256:46ba43f0a872790ad3e96e77d6e96e281df09b7d4130b1169658db7fad0eead5",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_a7399e57d879d5.parquet",
+      "size": 1877139,
+      "sha256": "044ddac61e7e940c5508c77770d9a6898b6f696948c110727505fdc31d4dc9cb",
+      "asset_id": 788437377,
+      "server_digest": "sha256:044ddac61e7e940c5508c77770d9a6898b6f696948c110727505fdc31d4dc9cb",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_b5247466080add.parquet",
+      "size": 682537,
+      "sha256": "f29a0877fa36e1d4879631732ea532641eb83cdee9aaad37ea5c6ed10afc8eda",
+      "asset_id": 788437502,
+      "server_digest": "sha256:f29a0877fa36e1d4879631732ea532641eb83cdee9aaad37ea5c6ed10afc8eda",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_d8571423760e1f.parquet",
+      "size": 1052788,
+      "sha256": "b6b9ea724260e4a93e77b890c1255b9247757b9939acf0b9364889e44bfa45a0",
+      "asset_id": 788437569,
+      "server_digest": "sha256:b6b9ea724260e4a93e77b890c1255b9247757b9939acf0b9364889e44bfa45a0",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_32b2d80ab409ab.parquet",
+      "size": 316331,
+      "sha256": "480d558babc3c7d1972bcc909799c6d452dc0e9fe48f310a8e6ad0f32bda0512",
+      "asset_id": 788437631,
+      "server_digest": "sha256:480d558babc3c7d1972bcc909799c6d452dc0e9fe48f310a8e6ad0f32bda0512",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_ceb9b2a3a05a2b.parquet",
+      "size": 280045,
+      "sha256": "f6430fdc8f4190086990a3507c8394df433be5939cde72427903ced809691911",
+      "asset_id": 788437710,
+      "server_digest": "sha256:f6430fdc8f4190086990a3507c8394df433be5939cde72427903ced809691911",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_8dd2185d5fe626.parquet",
+      "size": 2609868,
+      "sha256": "82568993836a73d54adfc6c4ba1b4581249aa5b7fdbf5807124fa0985495762c",
+      "asset_id": 788437771,
+      "server_digest": "sha256:82568993836a73d54adfc6c4ba1b4581249aa5b7fdbf5807124fa0985495762c",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_7e3c8461d28c88.parquet",
+      "size": 5032691,
+      "sha256": "71dec10d3cbf2f4d2d31d4c2a76cfd4d9ae318ae161ba814e06013a490b308c6",
+      "asset_id": 788437834,
+      "server_digest": "sha256:71dec10d3cbf2f4d2d31d4c2a76cfd4d9ae318ae161ba814e06013a490b308c6",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_f77764f3839d9b.parquet",
+      "size": 1476316,
+      "sha256": "ba7c5feb9afdaddac22d8095c7f3842e319520d91da48d3c7e83c7988732054d",
+      "asset_id": 788437964,
+      "server_digest": "sha256:ba7c5feb9afdaddac22d8095c7f3842e319520d91da48d3c7e83c7988732054d",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_727c5601b1ca15.parquet",
+      "size": 874912,
+      "sha256": "fa6947427a3a2e7dc4f6c8cd1b6d073388f33c121d2c9bf8d5bd1d86220cc159",
+      "asset_id": 788438053,
+      "server_digest": "sha256:fa6947427a3a2e7dc4f6c8cd1b6d073388f33c121d2c9bf8d5bd1d86220cc159",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_193d07d79f943e.parquet",
+      "size": 101622,
+      "sha256": "f3ee692b259e8bcf6a5228cebe20a270709125ca56affbcfda2c9fca2f1471b6",
+      "asset_id": 788438099,
+      "server_digest": "sha256:f3ee692b259e8bcf6a5228cebe20a270709125ca56affbcfda2c9fca2f1471b6",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_d3e8f3df947c8b.parquet",
+      "size": 6797,
+      "sha256": "9489ef2adbb4144f4369152ca490c344ae738437c14d94f99ad8c5f5e9a9e345",
+      "asset_id": 788438135,
+      "server_digest": "sha256:9489ef2adbb4144f4369152ca490c344ae738437c14d94f99ad8c5f5e9a9e345",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_32c66de93526d3.parquet",
+      "size": 30163,
+      "sha256": "9d564139216c6acfcfd97b03aa41016c82c83a5d9d965fc6bca5301ce6d03092",
+      "asset_id": 788438211,
+      "server_digest": "sha256:9d564139216c6acfcfd97b03aa41016c82c83a5d9d965fc6bca5301ce6d03092",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_bdbe799cbd97ea.parquet",
+      "size": 11732,
+      "sha256": "ffd94a42a170778d0ad0db34c75402c8a7f7125de27e6750ddc1be8e061e217e",
+      "asset_id": 788438298,
+      "server_digest": "sha256:ffd94a42a170778d0ad0db34c75402c8a7f7125de27e6750ddc1be8e061e217e",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_396abeb671eaf4.parquet",
+      "size": 9323,
+      "sha256": "d369eeb09765489a3ed921ba0f0a73d3f69f08dd30ab59bd68472b329e751b48",
+      "asset_id": 788438355,
+      "server_digest": "sha256:d369eeb09765489a3ed921ba0f0a73d3f69f08dd30ab59bd68472b329e751b48",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_e806fba784e193.parquet",
+      "size": 64837,
+      "sha256": "338c8b160a2ae687f3a7f59af1b80fdf28eedf6d69ad03df60ea3980930bc87c",
+      "asset_id": 788438423,
+      "server_digest": "sha256:338c8b160a2ae687f3a7f59af1b80fdf28eedf6d69ad03df60ea3980930bc87c",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_3b7b6a34425da6.parquet",
+      "size": 64054,
+      "sha256": "c66a3caf2dae4cb8b8acf15c2d8c8fee857a9640781ffea5172abc2757c1e5be",
+      "asset_id": 788438486,
+      "server_digest": "sha256:c66a3caf2dae4cb8b8acf15c2d8c8fee857a9640781ffea5172abc2757c1e5be",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_b3d9e921ec4085.parquet",
+      "size": 6826,
+      "sha256": "dc73be211fd5c9d7f19f7331c18d4a6b87797828888702b259a8b4d0540f3d21",
+      "asset_id": 788438524,
+      "server_digest": "sha256:dc73be211fd5c9d7f19f7331c18d4a6b87797828888702b259a8b4d0540f3d21",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_79d83d25ab04ed.parquet",
+      "size": 8889,
+      "sha256": "d55c04e2616e95ae1e0fb8136d1955f1ae9cef5d9633f8e082890cb941ce85f3",
+      "asset_id": 788438575,
+      "server_digest": "sha256:d55c04e2616e95ae1e0fb8136d1955f1ae9cef5d9633f8e082890cb941ce85f3",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCI_840b711a5e6fed.parquet",
+      "size": 13567,
+      "sha256": "12478b846afcb279050f550af257f901766789dd4af6d9e80e6aa7190e868593",
+      "asset_id": 788438631,
+      "server_digest": "sha256:12478b846afcb279050f550af257f901766789dd4af6d9e80e6aa7190e868593",
+      "verified_download": true
+    },
+    {
+      "name": "ML5_SCIENCE_DATA_INDEX_V10_2.json",
+      "size": 22374,
+      "sha256": "8b9a8d3aafc79cc2d51e64a67b32ec04ba79d99a3b9308bcdeee60b78796bdaf",
+      "asset_id": 788438687,
+      "server_digest": "sha256:8b9a8d3aafc79cc2d51e64a67b32ec04ba79d99a3b9308bcdeee60b78796bdaf",
+      "verified_download": true
+    }
+  ],
+  "contract_stages_final": {
+    "PASS_INPUT": "PASS",
+    "PASS_DATA": "PASS",
+    "PASS_SPLITS": "PASS",
+    "PASS_TRAINING": "PASS",
+    "PASS_VALIDATION": "PASS",
+    "PASS_INTERPRETATION": "PASS",
+    "PASS_OUTPUTS": "PASS",
+    "PASS_NOTEBOOK": "PASS",
+    "PASS_GITHUB": "PASS"
+  }
+}
