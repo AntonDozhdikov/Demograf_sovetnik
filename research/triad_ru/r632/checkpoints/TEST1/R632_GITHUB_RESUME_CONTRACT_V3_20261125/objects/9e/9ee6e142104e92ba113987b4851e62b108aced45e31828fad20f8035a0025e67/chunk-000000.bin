@@ -1,0 +1,1 @@
+{"component": "TFR", "frozen_state_sha": "0d1440999c7e66c500f23447a57f7402ae35553cfe1aecc02345a01b75c7084d", "horizon": 1, "level": "region", "mae_gain": 0.0, "n_pred": 17, "protocol": "ROLLING_TIME", "regional_blocks": 17, "status": "EXECUTED_INDEPENDENT_ORIGIN_RESELECTION", "train_cutoff": 2011, "year": 2013}
