@@ -1,0 +1,1 @@
+{"cpu_limit": 2, "durable_root": "github://AntonDozhdikov/Demograf_sovetnik/triad-r632-checkpoints/research/triad_ru/r632/checkpoints/TEST1/R632_GITHUB_RESUME_CONTRACT_V3_20261125", "full_ablation": true, "github_visibility": "PUBLIC", "gpu": "Tesla T4", "hpo_per_trial": true, "independent_replay": true, "resume_by_sha": true, "version": "R632_GITHUB_RESUME_CONTRACT_V3_20261125"}
