@@ -1,0 +1,1 @@
+{"component": "BIRTHS", "frozen_state_sha": "e56d5e61e12403b9fd7a7309c08e8dc5bcca50f5c8155eb2b6e9cf9f7c2d186c", "horizon": 1, "level": "municipality", "mae_gain": 1.1666598829469024, "n_pred": 302, "protocol": "TERRITORY_ONLY", "regional_blocks": 11, "status": "EXECUTED_INDEPENDENT_ORIGIN_RESELECTION", "train_cutoff": 2016, "year": 2018}
