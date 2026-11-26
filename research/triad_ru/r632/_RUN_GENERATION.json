@@ -1,1 +1,7 @@
-{"created_utc": "2026-11-25T16:03:18.619314+00:00", "run_id": "ML4_R632_FRESH_2026_11_25_02", "schema": 4, "scope": "research/triad_ru/r632"}
+{
+  "created_utc": "2026-11-26T08:13:01.708323+00:00",
+  "reset_policy": "ONLY research/triad_ru/r632",
+  "run_id": "ML4_R632_GITCLI_V6_2026_11_25_02",
+  "schema": 6,
+  "scope": "research/triad_ru/r632"
+}
