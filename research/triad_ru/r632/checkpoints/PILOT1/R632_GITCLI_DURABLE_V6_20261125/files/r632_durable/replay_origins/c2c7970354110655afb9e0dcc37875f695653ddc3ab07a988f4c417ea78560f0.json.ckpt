@@ -1,0 +1,1 @@
+{"component": "DEATH_RATE", "frozen_state_sha": "5466160f25dd4405fff6f965d3c55723b861e417b86d8975298523ef96e7fcf3", "horizon": 1, "level": "municipality", "mae_gain": 0.0, "n_pred": 245, "protocol": "CROSSED", "regional_blocks": 11, "status": "EXECUTED_INDEPENDENT_ORIGIN_RESELECTION", "train_cutoff": 2016, "year": 2018}
