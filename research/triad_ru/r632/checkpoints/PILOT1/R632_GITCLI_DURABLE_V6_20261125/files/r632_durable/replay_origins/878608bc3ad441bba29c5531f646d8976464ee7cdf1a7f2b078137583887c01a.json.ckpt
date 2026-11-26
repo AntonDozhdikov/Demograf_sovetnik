@@ -1,0 +1,1 @@
+{"component": "BIRTH_RATE", "frozen_state_sha": "e258213cff76d602614fb82658147f429106f0e984a295d58a4312ded9847f5e", "horizon": 1, "level": "municipality", "mae_gain": 0.0, "n_pred": 274, "protocol": "TERRITORY_ONLY", "regional_blocks": 11, "status": "EXECUTED_INDEPENDENT_ORIGIN_RESELECTION", "train_cutoff": 2017, "year": 2019}
