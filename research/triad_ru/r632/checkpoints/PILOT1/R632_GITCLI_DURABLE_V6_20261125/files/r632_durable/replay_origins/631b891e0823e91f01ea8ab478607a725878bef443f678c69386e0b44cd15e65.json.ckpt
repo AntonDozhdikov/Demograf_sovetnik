@@ -1,0 +1,1 @@
+{"component": "NET_MIGRATION", "frozen_state_sha": "cb20d88dffe3c8a14dd704a7a7f597e7d85c8889bd26fb3d9767ea990aecace5", "horizon": 1, "level": "municipality", "mae_gain": 2.023663257334931, "n_pred": 478, "protocol": "ROLLING_TIME", "regional_blocks": 16, "status": "EXECUTED_INDEPENDENT_ORIGIN_RESELECTION", "train_cutoff": 2017, "year": 2019}
