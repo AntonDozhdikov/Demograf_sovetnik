@@ -1,0 +1,1 @@
+{"component": "POP", "frozen_state_sha": "8e01705993da9dc389dea17828a5cbf25ec00449b782d58e22b198198e5ffe96", "horizon": 1, "level": "municipality", "mae_gain": 65.74299941227127, "n_pred": 231, "protocol": "TERRITORY_ONLY", "regional_blocks": 10, "status": "EXECUTED_INDEPENDENT_ORIGIN_RESELECTION", "train_cutoff": 2016, "year": 2018}
