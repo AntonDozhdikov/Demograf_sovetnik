@@ -1,0 +1,1 @@
+{"component": "LE_F", "frozen_state_sha": "c874b9e805eef4d95b3fe7490f980f04c2f2f261268b26b54d31c1590c1a954e", "horizon": 1, "level": "region", "mae_gain": 0.06696191520427416, "n_pred": 12, "protocol": "TERRITORY_ONLY", "regional_blocks": 12, "status": "EXECUTED_INDEPENDENT_ORIGIN_RESELECTION", "train_cutoff": 2014, "year": 2016}
